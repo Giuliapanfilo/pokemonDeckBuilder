@@ -1,0 +1,116 @@
+====================================================
+POKÉMON DECK BUILDER – SISTEMA INTELLIGENTE
+====================================================
+
+Studentessa: Giulia
+Corso: Ingegneria della Conoscenza
+
+----------------------------------------------------
+OBIETTIVO DEL PROGETTO
+----------------------------------------------------
+
+Il progetto consiste nello sviluppo di un sistema intelligente 
+per assistere l'utente nella costruzione di mazzi Pokémon TCG 
+(Trading Card Game), nel formato competitivo Standard.
+
+Il sistema guiderà l'utente attraverso una conversazione in 
+stile chatbot testuale, proponendo tre modalità operative:
+
+  1. Costruzione di un mazzo da zero
+  2. Completamento di un mazzo incompleto
+  3. Ottimizzazione di un mazzo già costruito
+
+L'utente potrà indicare:
+- Tipi di Pokémon desiderati (max 3)
+- Carte obbligatorie da includere
+- Vincoli personalizzati (es. rarità, carte possedute)
+
+----------------------------------------------------
+FUNZIONALITÀ E COMPORTAMENTO
+----------------------------------------------------
+
+- Chatbot testuale in console
+- Interpretazione semplificata del linguaggio naturale
+- Generazione intelligente del mazzo con AI
+- Salvataggio del mazzo in formato CSV o JSON
+
+----------------------------------------------------
+ARCHITETTURA DEL PROGETTO
+----------------------------------------------------
+
+Struttura modulare con i seguenti file principali:
+
+- main.py
+    Gestisce il chatbot e coordina le operazioni.
+- fetch_cards.py
+    Scarica le carte Pokémon dal formato Standard via API.
+- user_input_parser.py
+    Interpreta l'input utente e lo traduce in vincoli.
+- constraints.py
+    Definisce i vincoli di costruzione del mazzo.
+- deck_generator.py
+    Costruisce o completa mazzi rispettando i vincoli.
+- deck_evaluator.py
+    Valuta i mazzi generati in base alla qualità strategica.
+- ml_model.py
+    Modello ML supervisionato per classificare i mazzi.
+- utils.py
+    Funzioni di supporto, salvataggio, visualizzazione, ecc.
+
+----------------------------------------------------
+TECNOLOGIE UTILIZZATE
+----------------------------------------------------
+
+- Python 3
+- pokemon-tcg-sdk-python (API ufficiale)
+- pandas (gestione dati)
+- scikit-learn (modello ML)
+- regex o spaCy (NLP simbolico)
+- Interfaccia testuale stile chatbot (no GUI)
+
+----------------------------------------------------
+ARGOMENTI D'ESAME TRATTATI
+----------------------------------------------------
+
+1. Ricerca informata e non informata  
+   → per generare il mazzo migliore
+
+2. Spazi di stati  
+   → ogni mazzo è uno stato, la costruzione è una ricerca
+
+3. Ragionamento con vincoli  
+   → rispetto dei vincoli di costruzione e preferenze utente
+
+4. Rappresentazione proposizionale  
+   → regole logiche nella struttura del mazzo
+
+5. Rappresentazione relazionale  
+   → relazioni tra carte (evoluzioni, sinergie)
+
+6. Knowledge graph e ontologie (facoltativo)  
+   → mappa tra tipi e carte o strategie
+
+7. Apprendimento supervisionato  
+   → modello ML per classificare la qualità dei mazzi
+
+8. Reti neurali (opzionale)  
+   → possibile uso di una rete MLP leggera
+
+9. Ragionamento su conoscenza incerta  
+   → valutazioni probabilistiche sulle carte
+
+10. Apprendimento e incertezza  
+   → gestione di casi parziali o poco noti
+
+----------------------------------------------------
+CONCLUSIONI
+----------------------------------------------------
+
+Il sistema integra vincoli logici, intelligenza artificiale, 
+machine learning e interazione naturale in un unico progetto 
+completo e modulare. Permette la generazione e ottimizzazione 
+di mazzi Pokémon in modo flessibile e personalizzato.
+
+È pensato per dimostrare padronanza pratica di tutti gli 
+argomenti principali dell'Ingegneria della Conoscenza.
+

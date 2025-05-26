@@ -1,0 +1,797 @@
+[
+  {
+    "tournament_id": "0000161",
+    "player": "Silvana Salas [CL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000161",
+    "player": "alondra belazor\u00f3n",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000161",
+    "player": "Camilo Lopez [CL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000161",
+    "player": "Ian Pincheira [CL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000161",
+    "player": "Daniel Flores [CL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000161",
+    "player": "Guillermo Linares [PE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000161",
+    "player": "Ricardo Parra [CL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000161",
+    "player": "Diego Catal\u00e1n Saldias [CL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000161",
+    "player": "Gianluca Pagano [AR]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000161",
+    "player": "Jose Silva [CL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Paul Str\u00f6mer [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Anas Glesa [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Amin Sulzer [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Constantin Geisb\u00fcsch [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Jonas Rie\u00df [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Rimon Haque [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Wytse de Witte [NL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Anthony Tutu [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Dean Doncos [BE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Christoph Kochseder [AT]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Benjamin Omar [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Michael Reil [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Jaden Berberich [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Simon Fritz [AT]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "David Rosse [FR]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Lukas Striswald [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Thomas Standaert [BE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Torsten Enkelmann [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Shinnosuke Komiya [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Denis Stegemann [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Ludovic Orban [LU]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Mike Davies [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Maurice Dupont [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Anar Guliyev [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Mahdi Eftekhari [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Max Maier [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "ward knuts [BE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Lukas Maier [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Carlos Deniz Cesarano [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Jack Taylor [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Artur Herdt [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Juri Pavlik [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Oliver Schmitz [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Alex Schneider [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Bahadir Oncel [NL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Ryan Edney [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Khanafiya Tuleshov [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Laurent Chhou [FR]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Paul McPherson [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Lukas K\u00f6nig [AT]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Yoshifumi Seki [JP]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Alp Ehliz [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Daniel Brunsch [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Florian Wetzel [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Thomas Heijdemann [NL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Tom Niculae [FR]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Berry Agricola [NL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Aarni Karjala [FI]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Andreas Metz [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Andy Schrijvers [BE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Paulo Weissheimer [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Erik Schetters [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Tom Boom [NL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Thomas Junk [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Alex Andreichuk [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Youri van der Lans [NL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Fabia Slaughter [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Tim Nowak [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Will Christensen [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Marian Kalischer [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Rabah Zibouche [FR]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Robin Schrijvers [BE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Saravanan Oumabady [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Steffen Hoffmann [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Heiko Meier [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Tobias Pr\u00fc\u00df [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Nicolas von Alven [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Marvin H\u00e4\u00dfler [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Maxim Princen [BE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "James Baker [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Sebastian Lehmann [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Thomas De Jong [NL]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Antoine Betti [FR]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Justus Jarofka [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Manuel Graef [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Yu-San Chan [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Sven Kallert [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Alexander Simons [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Gary Kimmelman [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Mahjoubi Amir [FR]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Jan Kruse [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Jimmy Thurtle [FR]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Florian Lehnen [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Lars Claessens [BE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Andreas Hillebrand [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Thomas GERAUNON [FR]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Aysenur Yikilmazsoy [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Manuel Wiechert [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Volker R\u00f6sner [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Hugues moine [FR]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Deniz Beck [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Spencer Baker [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Geronimo Th\u00f6nies [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Thomas Clemett [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Marcel Edlinger [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Rene M\u00fcller [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Alexander Schlemmer [DE]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Liam Dolecki [UK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Sean Calhoun [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000163",
+    "player": "Jakob Wagner [DK]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000159",
+    "player": "Edward Jin [CA]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000159",
+    "player": "Ruby Ricci [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000159",
+    "player": "Yoshii Ma [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000159",
+    "player": "Prince Mehta [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000159",
+    "player": "Jay Medeiros [CA]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000159",
+    "player": "Andrew Kennett [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000159",
+    "player": "David Reis [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000159",
+    "player": "Joshua McRae [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000159",
+    "player": "Jack Allaire [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000159",
+    "player": "Devyn Campbell [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Jose Casarez",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Jose Lule",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Josu\u00e9 Pantaleon",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Saide Burgos Burad",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Arturo Mendez",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Alex Muraira [MX]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Alejandro** Ram\u00edrez [MX]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Daniel Alejandro Lerma Olazaran",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Manuel Gomez",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Sergio Perez",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Jos\u00e9 Antonio Maldonado Vizcarra [MX]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Oscar Alfaro [MX]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Eduardo Jahaziel Santamaria Bollas [MX]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Luis Zamora [MX]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Antonio Hernandez [MX]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Jose Julian Moreno Vidal [MX]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "Jeison Adonis Chavez Torres [MX]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000156",
+    "player": "RUFINO OREGON [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Yoshi Ma [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Alex Alvarez [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Maliq Bell [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Owen Dalgard [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Jesus Barajas [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Brandon Baughn [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Gabriel Ismail [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Peyton Fearing [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Will Christensen [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Matthew Huinker [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Cody Lacy [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Jose Medina [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Tim Eure [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Desiree Dioquino [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Austin Pulmano [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000155",
+    "player": "Haley Speich [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000154",
+    "player": "Alex Alvarez [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000154",
+    "player": "Zheng Wei Gerrard Ng [SG]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000154",
+    "player": "Harry Shallcrass [NZ]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000153",
+    "player": "alex Alvarez [US]",
+    "decklist_raw": ""
+  },
+  {
+    "tournament_id": "0000153",
+    "player": "Adam Marshall [UK]",
+    "decklist_raw": ""
+  }
+]
