@@ -11,8 +11,8 @@ def run_script(command):
 
 def run_all():
     run_script("python3 fetch_championships.py")
-    run_script("python3 clean_tournament_decks.py")
-    run_script("python3 import_to_sqlite.py")
+    run_script("python3 fetch_cards.py")
+    run_script("python3 fetch_stes.py")
     print("🎉 Tutto completato!")
 
 if __name__ == "__main__":
