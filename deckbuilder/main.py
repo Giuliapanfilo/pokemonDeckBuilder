@@ -62,7 +62,7 @@ while is_working:
 
     elif scelta == "3":
         print("\n📊 Avvio download tornei...\n")
-        import fetch_championships
+        import archiviati.fetch_championships as fetch_championships
         fetch_championships.main()
 
     elif scelta == "4":
