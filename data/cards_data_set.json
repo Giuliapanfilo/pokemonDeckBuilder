@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Yanma",
+        "id": "swsh45-1",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": "Pok\u00e9mon",
+        "types": [
+            "Grass"
+        ],
+        "hp": 80,
+        "evolvesFrom": null,
+        "set": "Shining Fates",
+        "setCode": "swsh45",
+        "setNumber": "1",
+        "rarity": "Common"
+    },
+    {
+        "name": "Weepinbell",
+        "id": "swsh5-2",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": "Pok\u00e9mon",
+        "types": [
+            "Grass"
+        ],
+        "hp": 80,
+        "evolvesFrom": "Bellsprout",
+        "set": "Battle Styles",
+        "setCode": "swsh5",
+        "setNumber": "2",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Crushing Hammer",
+        "id": "xy0-34",
+        "supertype": "Trainer",
+        "subtypes": "Trainer",
+        "types": [],
+        "hp": null,
+        "evolvesFrom": null,
+        "set": "Kalos Starter Set",
+        "setCode": "xy0",
+        "setNumber": "34",
+        "rarity": null
+    },
+    {
+        "name": "Lightning Energy",
+        "id": "base1-100",
+        "supertype": "Energy",
+        "subtypes": "Energy",
+        "types": [],
+        "hp": null,
+        "evolvesFrom": null,
+        "set": "Base",
+        "setCode": "base1",
+        "setNumber": "100",
+        "rarity": null
+    },
+    {
+        "name": "Weedle",
+        "id": "base4-100",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": "Pok\u00e9mon",
+        "types": [
+            "Grass"
+        ],
+        "hp": 40,
+        "evolvesFrom": null,
+        "set": "Base Set 2",
+        "setCode": "base4",
+        "setNumber": "100",
+        "rarity": "Common"
+    },
+    {
+        "name": "Chikorita",
+        "id": "ecard1-100",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": "Pok\u00e9mon",
+        "types": [
+            "Grass"
+        ],
+        "hp": 50,
+        "evolvesFrom": null,
+        "set": "Expedition Base Set",
+        "setCode": "ecard1",
+        "setNumber": "100",
+        "rarity": "Common"
+    }
+]
