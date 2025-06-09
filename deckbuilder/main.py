@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import time
+import archiviati.fetch_cards as fetch_cards
 
 # Path alla cartella principale (che contiene 'deckbuilder' e 'data')
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -30,7 +31,7 @@ while is_working:
 
     if scelta == "1":
         print("\n📦 Avvio download set...\n")
-        from fetch_sets import fetch_all_sets, fetch_set_details
+        from archiviati.fetch_sets import fetch_all_sets, fetch_set_details
 
         all_sets_data = []
         sets_list = fetch_all_sets()
@@ -50,7 +51,7 @@ while is_working:
 
     elif scelta == "2":
         print("\n🃏 Avvio download carte legali...\n")
-        from fetch_cards import fetch_cards
+        from archiviati.fetch_cards import fetch_cards
 
         all_cards = []
         for stype in ["Pokémon", "Trainer", "Energy"]:
