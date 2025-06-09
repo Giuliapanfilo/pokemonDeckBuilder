@@ -1,0 +1,6107 @@
+[
+  [
+    "wigglytuff",
+    "jungle",
+    "16"
+  ],
+  [
+    "jigglypuff",
+    "jungle",
+    "54"
+  ],
+  [
+    "hitmonchan",
+    "base set",
+    "7"
+  ],
+  [
+    "electabuzz",
+    "base set",
+    "20"
+  ],
+  [
+    "scyther",
+    "jungle",
+    "10"
+  ],
+  [
+    "professor oak",
+    "base set",
+    "88"
+  ],
+  [
+    "bill",
+    "base set",
+    "91"
+  ],
+  [
+    "pluspower",
+    "base set",
+    "84"
+  ],
+  [
+    "computer search",
+    "base set",
+    "71"
+  ],
+  [
+    "gust of wind",
+    "base set",
+    "93"
+  ],
+  [
+    "item finder",
+    "base set",
+    "74"
+  ],
+  [
+    "energy removal",
+    "base set",
+    "92"
+  ],
+  [
+    "energy retrieval",
+    "base set",
+    "81"
+  ],
+  [
+    "super energy removal",
+    "base set",
+    "79"
+  ],
+  [
+    "lass",
+    "base set",
+    "75"
+  ],
+  [
+    "switch",
+    "base set",
+    "95"
+  ],
+  [
+    "double colorless energy",
+    "base set",
+    "96"
+  ],
+  [
+    "fighting energy",
+    "base set",
+    "97"
+  ],
+  [
+    "lightning energy",
+    "base set",
+    "100"
+  ],
+  [
+    "grass energy",
+    "base set",
+    "99"
+  ],
+  [
+    "scoop up",
+    "base set",
+    "78"
+  ],
+  [
+    "blastoise",
+    "base set",
+    "2"
+  ],
+  [
+    "wartortle",
+    "base set",
+    "42"
+  ],
+  [
+    "squirtle",
+    "base set",
+    "63"
+  ],
+  [
+    "articuno",
+    "fossil",
+    "2"
+  ],
+  [
+    "pokémon breeder",
+    "base set",
+    "76"
+  ],
+  [
+    "maintenance",
+    "base set",
+    "83"
+  ],
+  [
+    "super potion",
+    "base set",
+    "90"
+  ],
+  [
+    "water energy",
+    "base set",
+    "102"
+  ],
+  [
+    "totodile",
+    "neo genesis",
+    "81"
+  ],
+  [
+    "croconaw",
+    "neo genesis",
+    "32"
+  ],
+  [
+    "feraligatr",
+    "neo genesis",
+    "5"
+  ],
+  [
+    "elekid",
+    "neo genesis",
+    "22"
+  ],
+  [
+    "pichu",
+    "neo genesis",
+    "12"
+  ],
+  [
+    "cleffa",
+    "neo genesis",
+    "20"
+  ],
+  [
+    "trash exchange",
+    "gym heroes",
+    "126"
+  ],
+  [
+    "professor elm",
+    "neo genesis",
+    "96"
+  ],
+  [
+    "misty's wrath",
+    "gym heroes",
+    "114"
+  ],
+  [
+    "focus band",
+    "neo genesis",
+    "86"
+  ],
+  [
+    "secret mission",
+    "gym heroes",
+    "118"
+  ],
+  [
+    "time capsule",
+    "neo genesis",
+    "90"
+  ],
+  [
+    "pokémon trader",
+    "base set",
+    "77"
+  ],
+  [
+    "narrow gym",
+    "gym heroes",
+    "124"
+  ],
+  [
+    "water energy",
+    "tcg",
+    null
+  ],
+  [
+    "erika's jigglypuff",
+    "gym challenge",
+    "69"
+  ],
+  [
+    "wigglytuff",
+    "pokémon jungle",
+    null
+  ],
+  [
+    "mankey",
+    "jungle",
+    "55"
+  ],
+  [
+    "rattata",
+    "base set",
+    "61"
+  ],
+  [
+    "item finder",
+    "expansion pack",
+    null
+  ],
+  [
+    "professor oak",
+    "expansion pack",
+    null
+  ],
+  [
+    "erika",
+    "gym heroes",
+    "16"
+  ],
+  [
+    "nightly garbage run",
+    "team rocket",
+    "77"
+  ],
+  [
+    "the rocket's trap",
+    "gym heroes",
+    "19"
+  ],
+  [
+    "rocket's sneak attack",
+    "rocket gang",
+    null
+  ],
+  [
+    "imposter oak's revenge",
+    "team rocket",
+    "76"
+  ],
+  [
+    "no removal gym",
+    "gym heroes",
+    "103"
+  ],
+  [
+    "full heal energy",
+    "team rocket",
+    "81"
+  ],
+  [
+    "abra",
+    "team rocket",
+    "49"
+  ],
+  [
+    "dark kadabra",
+    "team rocket",
+    "39"
+  ],
+  [
+    "dark alakazam",
+    "team rocket",
+    "1"
+  ],
+  [
+    "oddish",
+    "team rocket",
+    "63"
+  ],
+  [
+    "dark gloom",
+    "team rocket",
+    "36"
+  ],
+  [
+    "dark vileplume",
+    "team rocket",
+    "13"
+  ],
+  [
+    "phanpy",
+    "neo genesis",
+    "43"
+  ],
+  [
+    "donphan",
+    "neo genesis",
+    "21"
+  ],
+  [
+    "the boss's way",
+    "team rocket",
+    "73"
+  ],
+  [
+    "rocket's hideout",
+    "neo revelation",
+    "63"
+  ],
+  [
+    "chaos gym",
+    "gym challenge",
+    "102"
+  ],
+  [
+    "rainbow energy",
+    "team rocket",
+    "80"
+  ],
+  [
+    "psychic energy",
+    "base set",
+    "101"
+  ],
+  [
+    "sneasel",
+    "neo genesis",
+    "25"
+  ],
+  [
+    "slowpoke",
+    "neo genesis",
+    "73"
+  ],
+  [
+    "slowking",
+    "neo genesis",
+    "14"
+  ],
+  [
+    "murkrow",
+    "neo genesis",
+    "24"
+  ],
+  [
+    "ecogym",
+    "neo genesis",
+    "84"
+  ],
+  [
+    "energy charge",
+    "neo genesis",
+    "85"
+  ],
+  [
+    "darkness energy",
+    "neo genesis",
+    "104"
+  ],
+  [
+    "psychic energy",
+    "tcg",
+    null
+  ],
+  [
+    "dark ampharos",
+    "neo destiny",
+    "1"
+  ],
+  [
+    "dark flaaffy",
+    "neo destiny",
+    "34"
+  ],
+  [
+    "mareep",
+    "neo destiny",
+    "75"
+  ],
+  [
+    "blaine's charmander",
+    "gym heroes",
+    "61"
+  ],
+  [
+    "energy removal",
+    "tcg",
+    null
+  ],
+  [
+    "computer search",
+    "tcg",
+    null
+  ],
+  [
+    "item finder",
+    "tcg",
+    null
+  ],
+  [
+    "bill",
+    "tcg",
+    null
+  ],
+  [
+    "pokémon trader",
+    "tcg",
+    null
+  ],
+  [
+    "pokémon breeder",
+    "tcg",
+    null
+  ],
+  [
+    "professor oak",
+    "tcg",
+    null
+  ],
+  [
+    "warp point",
+    "tcg",
+    null
+  ],
+  [
+    "super energy removal",
+    "tcg",
+    null
+  ],
+  [
+    "gust of wind",
+    "tcg",
+    null
+  ],
+  [
+    "lightning energy",
+    "tcg",
+    null
+  ],
+  [
+    "fire energy",
+    "tcg",
+    null
+  ],
+  [
+    "scizor",
+    "aquapolis h",
+    "21"
+  ],
+  [
+    "scyther",
+    "aquapolis",
+    "106"
+  ],
+  [
+    "furret",
+    "aquapolis",
+    "48"
+  ],
+  [
+    "sentret",
+    "aquapolis",
+    "107"
+  ],
+  [
+    "muk",
+    "fossil",
+    "13"
+  ],
+  [
+    "grimer",
+    "fossil",
+    "48"
+  ],
+  [
+    "suicune",
+    "neo revelation",
+    "27"
+  ],
+  [
+    "mantine",
+    "neo destiny",
+    "74"
+  ],
+  [
+    "copycat",
+    "expedition",
+    "138"
+  ],
+  [
+    "professor oak's research",
+    "expedition",
+    "149"
+  ],
+  [
+    "pokémon fan club",
+    "aquapolis",
+    "130"
+  ],
+  [
+    "town volunteers",
+    "aquapolis",
+    "136"
+  ],
+  [
+    "pokémon trader",
+    "legendary collection",
+    "103"
+  ],
+  [
+    "double gust",
+    "neo genesis",
+    "100"
+  ],
+  [
+    "gold berry",
+    "neo genesis",
+    "93"
+  ],
+  [
+    "switch",
+    "expedition",
+    "157"
+  ],
+  [
+    "rainbow energy",
+    "aquapolis",
+    "144"
+  ],
+  [
+    "metal energy",
+    "aquapolis",
+    "143"
+  ],
+  [
+    "grass energy",
+    "tcg",
+    null
+  ],
+  [
+    "crobat",
+    "ex hidden legends",
+    "3"
+  ],
+  [
+    "golbat",
+    "ex hidden legends",
+    "36"
+  ],
+  [
+    "zubat",
+    "ex hidden legends",
+    "83"
+  ],
+  [
+    "gorebyss",
+    "ex hidden legends",
+    "18"
+  ],
+  [
+    "clamperl",
+    "ex hidden legends",
+    "58"
+  ],
+  [
+    "dunsparce",
+    "ex sandstorm",
+    "60"
+  ],
+  [
+    "desert shaman",
+    "tcg",
+    null
+  ],
+  [
+    "steven's advice",
+    "tcg",
+    null
+  ],
+  [
+    "copycat",
+    "tcg",
+    null
+  ],
+  [
+    "pokémon reversal",
+    "tcg",
+    null
+  ],
+  [
+    "fast ball",
+    "tcg",
+    null
+  ],
+  [
+    "rare candy",
+    "tcg",
+    null
+  ],
+  [
+    "desert ruins",
+    "tcg",
+    null
+  ],
+  [
+    "double rainbow energy",
+    "tcg",
+    null
+  ],
+  [
+    "rainbow energy",
+    "tcg",
+    null
+  ],
+  [
+    "metagross",
+    "ex hidden legends",
+    "11"
+  ],
+  [
+    "metang",
+    "ex hidden legends",
+    "44"
+  ],
+  [
+    "beldum",
+    "ex hidden legends",
+    "54"
+  ],
+  [
+    "beldum",
+    "ex hidden legends",
+    "29"
+  ],
+  [
+    "jirachi",
+    "ex hidden legends",
+    "8"
+  ],
+  [
+    "professor birch",
+    "tcg",
+    null
+  ],
+  [
+    "professor elm's training method",
+    "tcg",
+    null
+  ],
+  [
+    "switch",
+    "tcg",
+    null
+  ],
+  [
+    "ancient technical machine rock",
+    "ex hidden legends",
+    "85"
+  ],
+  [
+    "metal energy",
+    "neo genesis",
+    "19"
+  ],
+  [
+    "blaziken",
+    "ex ruby & sapphire",
+    "3"
+  ],
+  [
+    "blaziken ex",
+    "ex team magma vs team aqua",
+    "89"
+  ],
+  [
+    "combusken",
+    "ex ruby & sapphire",
+    "27"
+  ],
+  [
+    "torchic",
+    "ex ruby & sapphire",
+    "74"
+  ],
+  [
+    "delcatty",
+    "ex ruby & sapphire",
+    "5"
+  ],
+  [
+    "skitty",
+    "ex ruby & sapphire",
+    "44"
+  ],
+  [
+    "team aqua's manectric",
+    "ex team magma vs team aqua",
+    "4"
+  ],
+  [
+    "team aqua's electrike",
+    "ex team magma vs team aqua",
+    "53"
+  ],
+  [
+    "rayquaza ex",
+    "ex dragon",
+    "97"
+  ],
+  [
+    "oracle",
+    "tcg",
+    null
+  ],
+  [
+    "tv reporter",
+    "tcg",
+    null
+  ],
+  [
+    "high pressure system",
+    "tcg",
+    null
+  ],
+  [
+    "multi energy",
+    "tcg",
+    null
+  ],
+  [
+    "sceptile ex",
+    "ex team magma vs team aqua",
+    "93"
+  ],
+  [
+    "sceptile",
+    "ex ruby & sapphire",
+    "20"
+  ],
+  [
+    "grovyle",
+    "ex ruby & sapphire",
+    "32"
+  ],
+  [
+    "treecko",
+    "ex dragon",
+    "80"
+  ],
+  [
+    "muk ex",
+    "ex dragon",
+    "96"
+  ],
+  [
+    "grimer",
+    "ex dragon",
+    "57"
+  ],
+  [
+    "wurmple",
+    "ex dragon",
+    "81"
+  ],
+  [
+    "professor oak's research",
+    "tcg",
+    null
+  ],
+  [
+    "pokémon nurse",
+    "tcg",
+    null
+  ],
+  [
+    "town volunteers",
+    "tcg",
+    null
+  ],
+  [
+    "low pressure system",
+    "tcg",
+    null
+  ],
+  [
+    "boost energy",
+    "tcg",
+    null
+  ],
+  [
+    "team magma's aggron",
+    "ex team magma vs team aqua",
+    "7"
+  ],
+  [
+    "team magma's groudon",
+    "ex team magma vs team aqua",
+    "9"
+  ],
+  [
+    "team magma's claydol",
+    "ex team magma vs team aqua",
+    "33"
+  ],
+  [
+    "team magma's houndoom",
+    "ex team magma vs team aqua",
+    "34"
+  ],
+  [
+    "team magma's lairon",
+    "ex team magma vs team aqua",
+    "36"
+  ],
+  [
+    "team magma's aron",
+    "ex team magma vs team aqua",
+    "58"
+  ],
+  [
+    "team magma's baltoy",
+    "ex team magma vs team aqua",
+    "60"
+  ],
+  [
+    "team magma's houndour",
+    "ex team magma vs team aqua",
+    "62"
+  ],
+  [
+    "team magma's rhyhorn",
+    "ex team magma vs team aqua",
+    "68"
+  ],
+  [
+    "energy search",
+    "ex ruby & sapphire",
+    "90"
+  ],
+  [
+    "potion",
+    "ex ruby & sapphire",
+    "91"
+  ],
+  [
+    "team magma schemer",
+    "ex team magma vs team aqua",
+    "70"
+  ],
+  [
+    "team magma ball",
+    "ex team magma vs team aqua",
+    "80"
+  ],
+  [
+    "team magma conspirator",
+    "ex team magma vs team aqua",
+    "82"
+  ],
+  [
+    "team magma hideout",
+    "ex team magma vs team aqua",
+    "83"
+  ],
+  [
+    "fighting energy",
+    "ex ruby & sapphire",
+    "105"
+  ],
+  [
+    "fire energy",
+    "ex ruby & sapphire",
+    "108"
+  ],
+  [
+    "walrein",
+    "ex hidden legends",
+    "15"
+  ],
+  [
+    "sealeo",
+    "ex hidden legends",
+    "47"
+  ],
+  [
+    "spheal",
+    "ex hidden legends",
+    "74"
+  ],
+  [
+    "milotic",
+    "ex hidden legends",
+    "12"
+  ],
+  [
+    "feebas",
+    "ex hidden legends",
+    "61"
+  ],
+  [
+    "mr. briney's compassion",
+    "tcg",
+    null
+  ],
+  [
+    "crystal shard",
+    "tcg",
+    null
+  ],
+  [
+    "wailord ex",
+    "ex sandstorm",
+    "100"
+  ],
+  [
+    "wailmer",
+    "ex sandstorm",
+    "83"
+  ],
+  [
+    "bellossom",
+    "ex hidden legends",
+    "16"
+  ],
+  [
+    "gloom",
+    "aquapolis",
+    "49"
+  ],
+  [
+    "gloom",
+    "ex hidden legends",
+    "35"
+  ],
+  [
+    "oddish",
+    "ex hidden legends",
+    "68"
+  ],
+  [
+    "vileplume ex",
+    "ex hidden legends",
+    "100"
+  ],
+  [
+    "claw fossil",
+    "tcg",
+    null
+  ],
+  [
+    "root fossil",
+    "tcg",
+    null
+  ],
+  [
+    "mysterious fossil",
+    "tcg",
+    null
+  ],
+  [
+    "mystery zone",
+    "tcg",
+    null
+  ],
+  [
+    "island cave",
+    "tcg",
+    null
+  ],
+  [
+    "lotad",
+    "ex sandstorm",
+    "66"
+  ],
+  [
+    "lotad",
+    "ex deoxys",
+    "63"
+  ],
+  [
+    "lombre",
+    "ex sandstorm",
+    "45"
+  ],
+  [
+    "ludicolo",
+    "ex deoxys",
+    "10"
+  ],
+  [
+    "slugma",
+    "ex deoxys",
+    "74"
+  ],
+  [
+    "magcargo",
+    "ex deoxys",
+    "20"
+  ],
+  [
+    "rhyhorn",
+    "ex hidden legends",
+    "70"
+  ],
+  [
+    "rhydon",
+    "ex hidden legends",
+    "46"
+  ],
+  [
+    "jirachi",
+    "ex deoxys",
+    "9"
+  ],
+  [
+    "celio's network",
+    "ex firered & leafgreen",
+    "88"
+  ],
+  [
+    "copycat",
+    "ex team rocket returns",
+    "83"
+  ],
+  [
+    "crystal shard",
+    "ex deoxys",
+    "85"
+  ],
+  [
+    "desert ruins",
+    "ex hidden legends",
+    "88"
+  ],
+  [
+    "pokémon reversal",
+    "ex firered & leafgreen",
+    "97"
+  ],
+  [
+    "rare candy",
+    "ex emerald",
+    "83"
+  ],
+  [
+    "rocket's admin.",
+    "ex team rocket returns",
+    "86"
+  ],
+  [
+    "steven's advice",
+    "ex hidden legends",
+    "92"
+  ],
+  [
+    "strength charm",
+    "ex deoxys",
+    "92"
+  ],
+  [
+    "swoop! teleporter",
+    "ex team rocket returns",
+    "92"
+  ],
+  [
+    "heal energy",
+    "ex deoxys",
+    "94"
+  ],
+  [
+    "double rainbow energy",
+    "ex emerald",
+    "87"
+  ],
+  [
+    "scramble energy",
+    "ex deoxys",
+    "95"
+  ],
+  [
+    "meditite",
+    "ex emerald",
+    "55"
+  ],
+  [
+    "medicham ex",
+    "ex emerald",
+    "95"
+  ],
+  [
+    "wobbuffet",
+    "ex sandstorm",
+    "26"
+  ],
+  [
+    "energy removal 2",
+    "ex firered & leafgreen",
+    "89"
+  ],
+  [
+    "island cave",
+    "ex hidden legends",
+    "89"
+  ],
+  [
+    "pow! hand extension",
+    "ex team rocket returns",
+    "85"
+  ],
+  [
+    "scott",
+    "ex emerald",
+    "84"
+  ],
+  [
+    "team aqua hideout",
+    "ex team magma vs team aqua",
+    "78"
+  ],
+  [
+    "tv reporter",
+    "ex dragon",
+    "88"
+  ],
+  [
+    "wally's training",
+    "ex emerald",
+    "85"
+  ],
+  [
+    "metal energy",
+    "ex emerald",
+    "88"
+  ],
+  [
+    "fighting energy",
+    "tcg",
+    null
+  ],
+  [
+    "nidoran♀",
+    "ex firered & leafgreen",
+    "70"
+  ],
+  [
+    "nidorina",
+    "ex firered & leafgreen",
+    "40"
+  ],
+  [
+    "nidoqueen",
+    "ex firered & leafgreen",
+    "9"
+  ],
+  [
+    "pidgey",
+    "ex firered & leafgreen",
+    "73"
+  ],
+  [
+    "pidgeotto",
+    "ex firered & leafgreen",
+    "45"
+  ],
+  [
+    "pidgeot",
+    "ex firered & leafgreen",
+    "10"
+  ],
+  [
+    "great ball",
+    "ex firered & leafgreen",
+    "92"
+  ],
+  [
+    "mr. briney's compassion",
+    "ex dragon",
+    "87"
+  ],
+  [
+    "lugia ex",
+    "ex unseen forces",
+    "105"
+  ],
+  [
+    "blastoise ex",
+    "ex firered & leafgreen",
+    "104"
+  ],
+  [
+    "wartortle",
+    "ex firered & leafgreen",
+    "50"
+  ],
+  [
+    "squirtle",
+    "ex firered & leafgreen",
+    "83"
+  ],
+  [
+    "steelix ex",
+    "ex unseen forces",
+    "109"
+  ],
+  [
+    "onix",
+    "ex team rocket returns",
+    "69"
+  ],
+  [
+    "latias ☆",
+    "ex deoxys",
+    "105"
+  ],
+  [
+    "plusle",
+    "ex deoxys",
+    "44"
+  ],
+  [
+    "holon's electrode",
+    "ex delta species",
+    "21"
+  ],
+  [
+    "holon's magneton",
+    "ex delta species",
+    "22"
+  ],
+  [
+    "pokémon retriever",
+    "ex team rocket returns",
+    "84"
+  ],
+  [
+    "power tree",
+    "ex legend maker",
+    "76"
+  ],
+  [
+    "professor elm's training method",
+    "ex unseen forces",
+    "89"
+  ],
+  [
+    "rare candy",
+    "ex holon phantoms",
+    "90"
+  ],
+  [
+    "warp point",
+    "ex unseen forces",
+    "93"
+  ],
+  [
+    "lunatone",
+    "ex deoxys",
+    "36"
+  ],
+  [
+    "lunatone",
+    "ex legend maker",
+    "20"
+  ],
+  [
+    "solrock",
+    "ex deoxys",
+    "47"
+  ],
+  [
+    "solrock",
+    "ex legend maker",
+    "25"
+  ],
+  [
+    "girafarig",
+    "ex legend maker",
+    "16"
+  ],
+  [
+    "cursed stone",
+    "ex legend maker",
+    "72"
+  ],
+  [
+    "energy removal 2",
+    "ex unseen forces",
+    "82"
+  ],
+  [
+    "energy root",
+    "ex unseen forces",
+    "83"
+  ],
+  [
+    "great ball",
+    "ex delta species",
+    "90"
+  ],
+  [
+    "holon adventurer",
+    "ex holon phantoms",
+    "85"
+  ],
+  [
+    "holon farmer",
+    "ex delta species",
+    "91"
+  ],
+  [
+    "holon mentor",
+    "ex delta species",
+    "93"
+  ],
+  [
+    "holon scientist",
+    "ex delta species",
+    "97"
+  ],
+  [
+    "holon transceiver",
+    "ex delta species",
+    "98"
+  ],
+  [
+    "mary's request",
+    "ex unseen forces",
+    "86"
+  ],
+  [
+    "pokémon reversal",
+    "ex unseen forces",
+    "88"
+  ],
+  [
+    "holon energy ff",
+    "ex delta species",
+    "104"
+  ],
+  [
+    "multi energy",
+    "ex holon phantoms",
+    "96"
+  ],
+  [
+    "metagross δ",
+    "ex delta species",
+    "11"
+  ],
+  [
+    "metagross",
+    "ex deoxys",
+    "11"
+  ],
+  [
+    "metang δ",
+    "ex delta species",
+    "49"
+  ],
+  [
+    "beldum δ",
+    "ex delta species",
+    "59"
+  ],
+  [
+    "dragonite δ",
+    "ex delta species",
+    "3"
+  ],
+  [
+    "dragonair δ",
+    "ex delta species",
+    "41"
+  ],
+  [
+    "dratini δ",
+    "ex delta species",
+    "65"
+  ],
+  [
+    "holon's castform",
+    "ex holon phantoms",
+    "44"
+  ],
+  [
+    "latios ☆",
+    "ex deoxys",
+    "106"
+  ],
+  [
+    "holon researcher",
+    "ex delta species",
+    "95"
+  ],
+  [
+    "switch",
+    "ex delta species",
+    "102"
+  ],
+  [
+    "windstorm",
+    "ex crystal guardians",
+    "85"
+  ],
+  [
+    "holon ruins",
+    "ex delta species",
+    "96"
+  ],
+  [
+    "metal energy",
+    "ex holon phantoms",
+    "95"
+  ],
+  [
+    "mew ex",
+    "ex legend maker",
+    "88"
+  ],
+  [
+    "electrike",
+    "ex deoxys",
+    "60"
+  ],
+  [
+    "manectric ex",
+    "ex deoxys",
+    "101"
+  ],
+  [
+    "roselia",
+    "ex legend maker",
+    "42"
+  ],
+  [
+    "regirock ex",
+    "ex hidden legends",
+    "98"
+  ],
+  [
+    "deoxys ex",
+    "ex emerald",
+    "93"
+  ],
+  [
+    "tv reporter",
+    "pop series 2",
+    "11"
+  ],
+  [
+    "dual ball",
+    "ex delta species",
+    "89"
+  ],
+  [
+    "battle frontier",
+    "ex emerald",
+    "75"
+  ],
+  [
+    "holon's magnemite",
+    "ex delta species",
+    "70"
+  ],
+  [
+    "exeggcute δ",
+    "ex holon phantoms",
+    "65"
+  ],
+  [
+    "exeggutor δ",
+    "ex holon phantoms",
+    "41"
+  ],
+  [
+    "pikachu δ",
+    "ex holon phantoms",
+    "79"
+  ],
+  [
+    "raichu δ",
+    "ex holon phantoms",
+    "15"
+  ],
+  [
+    "holon mentor",
+    "ex dragon frontiers",
+    "75"
+  ],
+  [
+    "cessation crystal",
+    "ex crystal guardians",
+    "74"
+  ],
+  [
+    "castaway",
+    "ex crystal guardians",
+    "72"
+  ],
+  [
+    "solid rage",
+    "ex unseen forces",
+    "92"
+  ],
+  [
+    "double rainbow energy",
+    "ex crystal guardians",
+    "88"
+  ],
+  [
+    "scramble energy",
+    "ex dragon frontiers",
+    "89"
+  ],
+  [
+    "flygon ex δ",
+    "ex dragon frontiers",
+    "92"
+  ],
+  [
+    "flygon δ",
+    "ex holon phantoms",
+    "7"
+  ],
+  [
+    "vibrava δ",
+    "ex dragon frontiers",
+    "42"
+  ],
+  [
+    "trapinch δ",
+    "ex holon phantoms",
+    "84"
+  ],
+  [
+    "jolteon ex",
+    "ex delta species",
+    "109"
+  ],
+  [
+    "vaporeon ex",
+    "ex delta species",
+    "110"
+  ],
+  [
+    "eevee δ",
+    "ex delta species",
+    "68"
+  ],
+  [
+    "absol ex",
+    "ex power keepers",
+    "92"
+  ],
+  [
+    "budew",
+    "diamond & pearl",
+    "43"
+  ],
+  [
+    "fearow δ",
+    "ex crystal guardians",
+    "18"
+  ],
+  [
+    "spearow",
+    "ex crystal guardians",
+    "61"
+  ],
+  [
+    "holon's voltorb",
+    "ex delta species",
+    "71"
+  ],
+  [
+    "fieldworker",
+    "ex legend maker",
+    "73"
+  ],
+  [
+    "copycat",
+    "ex dragon frontiers",
+    "73"
+  ],
+  [
+    "professor elm's training method",
+    "ex dragon frontiers",
+    "79"
+  ],
+  [
+    "warp point",
+    "diamond & pearl",
+    "116"
+  ],
+  [
+    "crystal shard",
+    "ex crystal guardians",
+    "76"
+  ],
+  [
+    "empoleon",
+    "diamond & pearl",
+    "4"
+  ],
+  [
+    "prinplup",
+    "diamond & pearl",
+    "58"
+  ],
+  [
+    "piplup",
+    "diamond & pearl",
+    "93"
+  ],
+  [
+    "corsola",
+    "ex unseen forces",
+    "37"
+  ],
+  [
+    "celio's network",
+    "ex crystal guardians",
+    "73"
+  ],
+  [
+    "steven's advice",
+    "ex power keepers",
+    "83"
+  ],
+  [
+    "chimchar",
+    "diamond & pearl",
+    "76"
+  ],
+  [
+    "monferno",
+    "diamond & pearl",
+    "56"
+  ],
+  [
+    "infernape",
+    "diamond & pearl",
+    "5"
+  ],
+  [
+    "infernape lv.x",
+    "diamond & pearl",
+    "121"
+  ],
+  [
+    "skitty",
+    "ex power keepers",
+    "62"
+  ],
+  [
+    "delcatty",
+    "ex power keepers",
+    "8"
+  ],
+  [
+    "delcatty ex",
+    "ex crystal guardians",
+    "91"
+  ],
+  [
+    "pluspower",
+    "diamond & pearl",
+    "109"
+  ],
+  [
+    "holon lass",
+    "ex delta species",
+    "92"
+  ],
+  [
+    "warp point",
+    "ex crystal guardians",
+    "84"
+  ],
+  [
+    "strength charm",
+    "ex dragon frontiers",
+    "81"
+  ],
+  [
+    "chatot",
+    "majestic dawn",
+    "55"
+  ],
+  [
+    "blissey",
+    "mysterious treasures",
+    "5"
+  ],
+  [
+    "chansey",
+    "mysterious treasures",
+    "76"
+  ],
+  [
+    "warp point",
+    "majestic dawn",
+    "88"
+  ],
+  [
+    "pokédex handy910is",
+    "diamond & pearl",
+    "111"
+  ],
+  [
+    "pluspower",
+    "secret wonders",
+    "121"
+  ],
+  [
+    "time-space distortion",
+    "mysterious treasures",
+    "124"
+  ],
+  [
+    "roseanne's research",
+    "secret wonders",
+    "125"
+  ],
+  [
+    "scott",
+    "ex power keepers",
+    "81"
+  ],
+  [
+    "team galactic's wager",
+    "mysterious treasures",
+    "115"
+  ],
+  [
+    "energy removal 2",
+    "ex power keepers",
+    "74"
+  ],
+  [
+    "crystal beach",
+    "ex crystal guardians",
+    "75"
+  ],
+  [
+    "tv reporter",
+    "ex dragon frontiers",
+    "82"
+  ],
+  [
+    "holon energy ff",
+    "ex dragon frontiers",
+    "84"
+  ],
+  [
+    "magmortar lv.x",
+    "mysterious treasures",
+    "123"
+  ],
+  [
+    "magmortar",
+    "secret wonders",
+    "31"
+  ],
+  [
+    "magmar",
+    "mysterious treasures",
+    "54"
+  ],
+  [
+    "claydol",
+    "great encounters",
+    "15"
+  ],
+  [
+    "baltoy",
+    "great encounters",
+    "60"
+  ],
+  [
+    "pachirisu",
+    "great encounters",
+    "5"
+  ],
+  [
+    "leftovers",
+    "great encounters",
+    "99"
+  ],
+  [
+    "night maintenance",
+    "secret wonders",
+    "120"
+  ],
+  [
+    "poké ball",
+    "diamond & pearl",
+    "110"
+  ],
+  [
+    "great ball",
+    "ex power keepers",
+    "77"
+  ],
+  [
+    "pokénav",
+    "ex crystal guardians",
+    "83"
+  ],
+  [
+    "kricketune",
+    "mysterious treasures",
+    "27"
+  ],
+  [
+    "kricketot",
+    "mysterious treasures",
+    "86"
+  ],
+  [
+    "quick ball",
+    "mysterious treasures",
+    "114"
+  ],
+  [
+    "master ball",
+    "ex power keepers",
+    "78"
+  ],
+  [
+    "gible",
+    "mysterious treasures",
+    "85"
+  ],
+  [
+    "gabite",
+    "mysterious treasures",
+    "48"
+  ],
+  [
+    "garchomp",
+    "mysterious treasures",
+    "9"
+  ],
+  [
+    "garchomp lv.x",
+    "majestic dawn",
+    "97"
+  ],
+  [
+    "togepi",
+    "great encounters",
+    "88"
+  ],
+  [
+    "togetic",
+    "great encounters",
+    "55"
+  ],
+  [
+    "togekiss",
+    "great encounters",
+    "11"
+  ],
+  [
+    "ho-oh",
+    "secret wonders",
+    "10"
+  ],
+  [
+    "rare candy",
+    "great encounters",
+    "102"
+  ],
+  [
+    "premier ball",
+    "great encounters",
+    "101"
+  ],
+  [
+    "ralts",
+    "secret wonders",
+    "102"
+  ],
+  [
+    "ralts",
+    "pop series 7",
+    "15"
+  ],
+  [
+    "kirlia",
+    "pop series 7",
+    "8"
+  ],
+  [
+    "gardevoir",
+    "secret wonders",
+    "7"
+  ],
+  [
+    "gardevoir lv.x",
+    "secret wonders",
+    "131"
+  ],
+  [
+    "gallade",
+    "pop series 7",
+    "2"
+  ],
+  [
+    "duskull",
+    "diamond & pearl",
+    "80"
+  ],
+  [
+    "dusknoir",
+    "diamond & pearl",
+    "2"
+  ],
+  [
+    "jolteon ☆",
+    "ex power keepers",
+    "101"
+  ],
+  [
+    "jirachi ex",
+    "ex crystal guardians",
+    "94"
+  ],
+  [
+    "bebe's search",
+    "secret wonders",
+    "119"
+  ],
+  [
+    "lake boundary",
+    "mysterious treasures",
+    "112"
+  ],
+  [
+    "call energy",
+    "majestic dawn",
+    "92"
+  ],
+  [
+    "cyclone energy",
+    "ex power keepers",
+    "90"
+  ],
+  [
+    "empoleon",
+    "majestic dawn",
+    "17"
+  ],
+  [
+    "prinplup",
+    "majestic dawn",
+    "44"
+  ],
+  [
+    "piplup",
+    "pop series 6",
+    "15"
+  ],
+  [
+    "piplup",
+    "majestic dawn",
+    "72"
+  ],
+  [
+    "piplup",
+    "dp promo",
+    "3"
+  ],
+  [
+    "tauros",
+    "ex crystal guardians",
+    "12"
+  ],
+  [
+    "mew ☆ δ",
+    "ex dragon frontiers",
+    "101"
+  ],
+  [
+    "croagunk",
+    "majestic dawn",
+    "60"
+  ],
+  [
+    "toxicroak",
+    "majestic dawn",
+    "31"
+  ],
+  [
+    "scyther",
+    "majestic dawn",
+    "46"
+  ],
+  [
+    "scizor",
+    "majestic dawn",
+    "29"
+  ],
+  [
+    "voltorb",
+    "secret wonders",
+    "117"
+  ],
+  [
+    "electrode",
+    "secret wonders",
+    "26"
+  ],
+  [
+    "sableye",
+    "ex crystal guardians",
+    "10"
+  ],
+  [
+    "metal energy",
+    "secret wonders",
+    "130"
+  ],
+  [
+    "multi energy",
+    "mysterious treasures",
+    "118"
+  ],
+  [
+    "metal energy",
+    "tcg",
+    null
+  ],
+  [
+    "azelf",
+    "mysterious treasures",
+    "4"
+  ],
+  [
+    "azelf",
+    "legends awakened",
+    "19"
+  ],
+  [
+    "azelf lv.x",
+    "legends awakened",
+    "140"
+  ],
+  [
+    "mesprit",
+    "mysterious treasures",
+    "14"
+  ],
+  [
+    "mesprit",
+    "legends awakened",
+    "34"
+  ],
+  [
+    "mesprit lv.x",
+    "legends awakened",
+    "143"
+  ],
+  [
+    "uxie",
+    "legends awakened",
+    "43"
+  ],
+  [
+    "uxie lv.x",
+    "legends awakened",
+    "146"
+  ],
+  [
+    "snowpoint temple",
+    "legends awakened",
+    "134"
+  ],
+  [
+    "energy switch",
+    "aquapolis",
+    "120"
+  ],
+  [
+    "cynthia's feelings",
+    "legends awakened",
+    "131"
+  ],
+  [
+    "energy pickup",
+    "legends awakened",
+    "132"
+  ],
+  [
+    "looker's investigation",
+    "platinum",
+    "109"
+  ],
+  [
+    "luxury ball",
+    "stormfront",
+    "86"
+  ],
+  [
+    "poké drawer +",
+    "stormfront",
+    "89"
+  ],
+  [
+    "warp point",
+    "gym challenge",
+    "126"
+  ],
+  [
+    "gengar",
+    "arceus",
+    "16"
+  ],
+  [
+    "gengar",
+    "stormfront",
+    "18"
+  ],
+  [
+    "haunter",
+    "stormfront",
+    "40"
+  ],
+  [
+    "gastly",
+    "stormfront",
+    "62"
+  ],
+  [
+    "spiritomb",
+    "arceus",
+    "32"
+  ],
+  [
+    "unown q",
+    "majestic dawn",
+    "49"
+  ],
+  [
+    "unown g",
+    "great encounters",
+    "57"
+  ],
+  [
+    "judge",
+    "tcg",
+    null
+  ],
+  [
+    "bebe's search",
+    "tcg",
+    null
+  ],
+  [
+    "pokémon collector",
+    "tcg",
+    null
+  ],
+  [
+    "roseanne's research",
+    "tcg",
+    null
+  ],
+  [
+    "team galactic's wager",
+    "tcg",
+    null
+  ],
+  [
+    "palmer's contribution",
+    "tcg",
+    null
+  ],
+  [
+    "night maintenance",
+    "tcg",
+    null
+  ],
+  [
+    "luxury ball",
+    "tcg",
+    null
+  ],
+  [
+    "pokémon communication",
+    "tcg",
+    null
+  ],
+  [
+    "expert belt",
+    "tcg",
+    null
+  ],
+  [
+    "moonlight stadium",
+    "tcg",
+    null
+  ],
+  [
+    "broken time-space",
+    "tcg",
+    null
+  ],
+  [
+    "call energy",
+    "tcg",
+    null
+  ],
+  [
+    "gallade",
+    "secret wonders",
+    "6"
+  ],
+  [
+    "kirlia",
+    "secret wonders",
+    "53"
+  ],
+  [
+    "celio's network",
+    "tcg",
+    null
+  ],
+  [
+    "castaway",
+    "tcg",
+    null
+  ],
+  [
+    "scott",
+    "tcg",
+    null
+  ],
+  [
+    "dusk ball",
+    "tcg",
+    null
+  ],
+  [
+    "battle frontier",
+    "tcg",
+    null
+  ],
+  [
+    "scramble energy",
+    "tcg",
+    null
+  ],
+  [
+    "kingdra",
+    "unleashed",
+    "85"
+  ],
+  [
+    "kingdra",
+    "legends awakened",
+    "7"
+  ],
+  [
+    "seadra",
+    "legends awakened",
+    "70"
+  ],
+  [
+    "horsea",
+    "legends awakened",
+    "102"
+  ],
+  [
+    "ditto",
+    "legends awakened",
+    "27"
+  ],
+  [
+    "professor oak's new theory",
+    "tcg",
+    null
+  ],
+  [
+    "poké drawer +",
+    "tcg",
+    null
+  ],
+  [
+    "luxray gl lv.x",
+    "rising rivals",
+    "109"
+  ],
+  [
+    "luxray gl",
+    "rising rivals",
+    "9"
+  ],
+  [
+    "infernape 4 lv.x",
+    "rising rivals",
+    "108"
+  ],
+  [
+    "infernape 4",
+    "rising rivals",
+    "43"
+  ],
+  [
+    "lucario gl",
+    "rising rivals",
+    "8"
+  ],
+  [
+    "crobat g",
+    "platinum",
+    "47"
+  ],
+  [
+    "bronzong g",
+    "platinum",
+    "41"
+  ],
+  [
+    "ninetales",
+    "platinum",
+    "36"
+  ],
+  [
+    "vulpix",
+    "platinum sh",
+    "6"
+  ],
+  [
+    "toxicroak g",
+    "dp promo",
+    "41"
+  ],
+  [
+    "cyrus's conspiracy",
+    "tcg",
+    null
+  ],
+  [
+    "aaron's collection",
+    "tcg",
+    null
+  ],
+  [
+    "professor oak's visit",
+    "tcg",
+    null
+  ],
+  [
+    "team galactic's invention g-105 poké turn",
+    "tcg",
+    null
+  ],
+  [
+    "team galactic's invention g-103 power spray",
+    "tcg",
+    null
+  ],
+  [
+    "team galactic's invention g-101 energy gain",
+    "tcg",
+    null
+  ],
+  [
+    "team galactic's invention g-109 sp radar",
+    "tcg",
+    null
+  ],
+  [
+    "sp energy",
+    "tcg",
+    null
+  ],
+  [
+    "jumpluff",
+    "heartgold & soulsilver",
+    "6"
+  ],
+  [
+    "skiploom",
+    "secret wonders",
+    "65"
+  ],
+  [
+    "hoppip",
+    "secret wonders",
+    "90"
+  ],
+  [
+    "flygon lv.x",
+    "rising rivals",
+    "105"
+  ],
+  [
+    "flygon",
+    "rising rivals",
+    "5"
+  ],
+  [
+    "vibrava",
+    "rising rivals",
+    "53"
+  ],
+  [
+    "trapinch",
+    "secret wonders",
+    "115"
+  ],
+  [
+    "nidoqueen",
+    "rising rivals",
+    "30"
+  ],
+  [
+    "nidorina",
+    "rising rivals",
+    "73"
+  ],
+  [
+    "nidoran♀",
+    "rising rivals",
+    "71"
+  ],
+  [
+    "bebe's search",
+    "rising rivals",
+    "89"
+  ],
+  [
+    "palmer's contribution",
+    "supreme victors",
+    "139"
+  ],
+  [
+    "rare candy",
+    "unleashed",
+    "82"
+  ],
+  [
+    "pokémon communication",
+    "heartgold & soulsilver",
+    "98"
+  ],
+  [
+    "expert belt",
+    "arceus",
+    "87"
+  ],
+  [
+    "premier ball",
+    "stormfront",
+    "91"
+  ],
+  [
+    "broken time-space",
+    "platinum",
+    "104"
+  ],
+  [
+    "double colorless energy",
+    "heartgold & soulsilver",
+    "103"
+  ],
+  [
+    "looker's investigation",
+    "tcg",
+    null
+  ],
+  [
+    "super scoop up",
+    "tcg",
+    null
+  ],
+  [
+    "scizor",
+    "stormfront",
+    "25"
+  ],
+  [
+    "scyther",
+    "stormfront",
+    "49"
+  ],
+  [
+    "cherrim",
+    "stormfront",
+    "14"
+  ],
+  [
+    "cherubi",
+    "supreme victors",
+    "96"
+  ],
+  [
+    "unown r",
+    "legends awakened",
+    "77"
+  ],
+  [
+    "cynthia's feelings",
+    "tcg",
+    null
+  ],
+  [
+    "quick ball",
+    "tcg",
+    null
+  ],
+  [
+    "shuppet",
+    "platinum",
+    "92"
+  ],
+  [
+    "banette",
+    "platinum",
+    "19"
+  ],
+  [
+    "pokémon collector",
+    "heartgold & soulsilver",
+    "97"
+  ],
+  [
+    "department store girl",
+    "arceus",
+    "85"
+  ],
+  [
+    "memory berry",
+    "platinum",
+    "110"
+  ],
+  [
+    "super scoop up",
+    "ex delta species",
+    "100"
+  ],
+  [
+    "team galactic's invention g-105 poké turn",
+    "platinum",
+    "118"
+  ],
+  [
+    "pluspower",
+    "platinum",
+    "112"
+  ],
+  [
+    "galactic hq",
+    "platinum",
+    "106"
+  ],
+  [
+    "beedrill",
+    "great encounters",
+    "13"
+  ],
+  [
+    "beedrill",
+    "rising rivals",
+    "15"
+  ],
+  [
+    "kakuna",
+    "rising rivals",
+    "66"
+  ],
+  [
+    "weedle",
+    "great encounters",
+    "93"
+  ],
+  [
+    "professor oak's visit",
+    "secret wonders",
+    "122"
+  ],
+  [
+    "dusk ball",
+    "majestic dawn",
+    "80"
+  ],
+  [
+    "toxicroak g",
+    "platinum",
+    "40"
+  ],
+  [
+    "skuntank g",
+    "platinum",
+    "94"
+  ],
+  [
+    "honchkrow g",
+    "platinum",
+    "77"
+  ],
+  [
+    "weavile g",
+    "platinum",
+    "17"
+  ],
+  [
+    "galactic hq",
+    "tcg",
+    null
+  ],
+  [
+    "miasma valley",
+    "tcg",
+    null
+  ],
+  [
+    "darkness energy",
+    "basic",
+    null
+  ],
+  [
+    "charizard",
+    "arceus",
+    "1"
+  ],
+  [
+    "charmeleon",
+    "arceus",
+    "35"
+  ],
+  [
+    "charmander",
+    "arceus",
+    "59"
+  ],
+  [
+    "typhlosion",
+    "heartgold & soulsilver",
+    "110"
+  ],
+  [
+    "quilava",
+    "heartgold & soulsilver",
+    "49"
+  ],
+  [
+    "cyndaquil",
+    "heartgold & soulsilver",
+    "61"
+  ],
+  [
+    "ninetales",
+    "heartgold & soulsilver",
+    "7"
+  ],
+  [
+    "dialga g lv.x",
+    "platinum",
+    "122"
+  ],
+  [
+    "dialga g",
+    "platinum",
+    "7"
+  ],
+  [
+    "garchomp c lv.x",
+    "supreme victors",
+    "145"
+  ],
+  [
+    "garchomp c",
+    "supreme victors",
+    "60"
+  ],
+  [
+    "smeargle",
+    "undaunted",
+    "8"
+  ],
+  [
+    "double colorless energy",
+    "tcg",
+    null
+  ],
+  [
+    "metal energy",
+    "special",
+    null
+  ],
+  [
+    "warp energy",
+    "tcg",
+    null
+  ],
+  [
+    "metal energy",
+    "basic",
+    null
+  ],
+  [
+    "gyarados",
+    "stormfront",
+    "19"
+  ],
+  [
+    "magikarp",
+    "stormfront",
+    "65"
+  ],
+  [
+    "sableye",
+    "stormfront",
+    "48"
+  ],
+  [
+    "combee",
+    "stormfront",
+    "57"
+  ],
+  [
+    "regice",
+    "legends awakened",
+    "36"
+  ],
+  [
+    "volkner's philosophy",
+    "tcg",
+    null
+  ],
+  [
+    "seeker",
+    "tcg",
+    null
+  ],
+  [
+    "twins",
+    "tcg",
+    null
+  ],
+  [
+    "junk arm",
+    "tcg",
+    null
+  ],
+  [
+    "pokémon rescue",
+    "tcg",
+    null
+  ],
+  [
+    "rescue energy",
+    "tcg",
+    null
+  ],
+  [
+    "cyclone energy",
+    "tcg",
+    null
+  ],
+  [
+    "gengar lv.x",
+    "arceus",
+    "97"
+  ],
+  [
+    "gengar",
+    "triumphant",
+    "94"
+  ],
+  [
+    "palkia g lv.x",
+    "platinum",
+    "125"
+  ],
+  [
+    "palkia g",
+    "platinum",
+    "12"
+  ],
+  [
+    "mime jr.",
+    "call of legends",
+    "47"
+  ],
+  [
+    "chatot g",
+    "supreme victors",
+    "54"
+  ],
+  [
+    "lost world",
+    "tcg",
+    null
+  ],
+  [
+    "snowpoint temple",
+    "tcg",
+    null
+  ],
+  [
+    "machamp",
+    "triumphant",
+    "95"
+  ],
+  [
+    "machamp",
+    "stormfront",
+    "20"
+  ],
+  [
+    "machoke",
+    "stormfront",
+    "41"
+  ],
+  [
+    "machop",
+    "stormfront",
+    "64"
+  ],
+  [
+    "vs seeker",
+    "tcg",
+    null
+  ],
+  [
+    "magnezone",
+    "triumphant",
+    "96"
+  ],
+  [
+    "magnezone",
+    "stormfront",
+    "6"
+  ],
+  [
+    "magneton",
+    "stormfront",
+    "42"
+  ],
+  [
+    "magnemite",
+    "stormfront",
+    "66"
+  ],
+  [
+    "regirock",
+    "legends awakened",
+    "38"
+  ],
+  [
+    "engineer's adjustments",
+    "tcg",
+    null
+  ],
+  [
+    "honchkrow",
+    "supreme victors",
+    "29"
+  ],
+  [
+    "murkrow",
+    "supreme victors",
+    "72"
+  ],
+  [
+    "giratina",
+    "platinum",
+    "9"
+  ],
+  [
+    "cyrus's initiative",
+    "tcg",
+    null
+  ],
+  [
+    "darkness energy",
+    "special",
+    null
+  ],
+  [
+    "vileplume",
+    "undaunted",
+    "24"
+  ],
+  [
+    "gloom",
+    "undaunted",
+    "27"
+  ],
+  [
+    "oddish",
+    "undaunted",
+    "60"
+  ],
+  [
+    "celebi",
+    "triumphant",
+    "92"
+  ],
+  [
+    "mewtwo-ex",
+    "next destinies",
+    "54"
+  ],
+  [
+    "tornadus",
+    "emerging powers",
+    "89"
+  ],
+  [
+    "regigigas-ex",
+    "next destinies",
+    "82"
+  ],
+  [
+    "professor juniper",
+    "tcg",
+    null
+  ],
+  [
+    "n",
+    "tcg",
+    null
+  ],
+  [
+    "pokémon catcher",
+    "tcg",
+    null
+  ],
+  [
+    "dual ball",
+    "tcg",
+    null
+  ],
+  [
+    "pluspower",
+    "tcg",
+    null
+  ],
+  [
+    "pokégear 3.0",
+    "tcg",
+    null
+  ],
+  [
+    "skyarrow bridge",
+    "tcg",
+    null
+  ],
+  [
+    "darkrai-ex",
+    "dark explorers",
+    "63"
+  ],
+  [
+    "sableye",
+    "dark explorers",
+    "62"
+  ],
+  [
+    "keldeo-ex",
+    "boundaries crossed",
+    "49"
+  ],
+  [
+    "mr. mime",
+    "plasma freeze",
+    "47"
+  ],
+  [
+    "bicycle",
+    "plasma storm",
+    "117"
+  ],
+  [
+    "computer search",
+    "boundaries crossed",
+    "137"
+  ],
+  [
+    "dark patch",
+    "dark explorers",
+    "93"
+  ],
+  [
+    "energy search",
+    "black & white",
+    "93"
+  ],
+  [
+    "energy switch",
+    "black & white",
+    "94"
+  ],
+  [
+    "enhanced hammer",
+    "dark explorers",
+    "94"
+  ],
+  [
+    "hypnotoxic laser",
+    "plasma storm",
+    "123"
+  ],
+  [
+    "pokémon catcher",
+    "emerging powers",
+    "95"
+  ],
+  [
+    "random receiver",
+    "plasma storm",
+    "138"
+  ],
+  [
+    "tool scrapper",
+    "dragons exalted",
+    "116"
+  ],
+  [
+    "ultra ball",
+    "plasma blast",
+    "90"
+  ],
+  [
+    "dark claw",
+    "dark explorers",
+    "92"
+  ],
+  [
+    "virbank city gym",
+    "plasma storm",
+    "126"
+  ],
+  [
+    "n",
+    "dark explorers",
+    "96"
+  ],
+  [
+    "professor juniper",
+    "dark explorers",
+    "98"
+  ],
+  [
+    "darkness energy",
+    "black & white",
+    "111"
+  ],
+  [
+    "durant",
+    "noble victories",
+    "83"
+  ],
+  [
+    "rotom",
+    "undaunted",
+    "20"
+  ],
+  [
+    "pichu",
+    "heartgold & soulsilver",
+    "28"
+  ],
+  [
+    "revive",
+    "base set",
+    "89"
+  ],
+  [
+    "alph lithograph",
+    "triumphant four",
+    null
+  ],
+  [
+    "junk arm",
+    "triumphant",
+    "87"
+  ],
+  [
+    "lost remover",
+    "call of legends",
+    "80"
+  ],
+  [
+    "crushing hammer",
+    "emerging powers",
+    "92"
+  ],
+  [
+    "eviolite",
+    "noble victories",
+    "91"
+  ],
+  [
+    "twins",
+    "triumphant",
+    "89"
+  ],
+  [
+    "flower shop lady",
+    "undaunted",
+    "74"
+  ],
+  [
+    "professor oak's new theory",
+    "heartgold & soulsilver",
+    "101"
+  ],
+  [
+    "n",
+    "noble victories",
+    "92"
+  ],
+  [
+    "rescue energy",
+    "triumphant",
+    "90"
+  ],
+  [
+    "reshiram",
+    "black & white",
+    "26"
+  ],
+  [
+    "tepig",
+    "black & white",
+    "15"
+  ],
+  [
+    "pignite",
+    "black & white",
+    "17"
+  ],
+  [
+    "emboar",
+    "black & white",
+    "20"
+  ],
+  [
+    "vulpix",
+    "heartgold & soulsilver",
+    "87"
+  ],
+  [
+    "rayquaza & deoxys legend",
+    "undaunted",
+    "89"
+  ],
+  [
+    "rayquaza & deoxys legend",
+    "undaunted",
+    "90"
+  ],
+  [
+    "cleffa",
+    "call of legends",
+    "24"
+  ],
+  [
+    "tyrogue",
+    "call of legends",
+    "36"
+  ],
+  [
+    "pokémon communication",
+    "black & white",
+    "99"
+  ],
+  [
+    "fisherman",
+    "skyridge",
+    "125"
+  ],
+  [
+    "reuniclus",
+    "black & white",
+    "57"
+  ],
+  [
+    "duosion",
+    "black & white",
+    "56"
+  ],
+  [
+    "solosis",
+    "black & white",
+    "55"
+  ],
+  [
+    "donphan",
+    "heartgold & soulsilver",
+    "107"
+  ],
+  [
+    "phanpy",
+    "heartgold & soulsilver",
+    "77"
+  ],
+  [
+    "blissey",
+    "heartgold & soulsilver",
+    "106"
+  ],
+  [
+    "chansey",
+    "heartgold & soulsilver",
+    "58"
+  ],
+  [
+    "zekrom",
+    "black & white",
+    "47"
+  ],
+  [
+    "suicune & entei legend",
+    "unleashed",
+    "94"
+  ],
+  [
+    "suicune & entei legend",
+    "unleashed",
+    "95"
+  ],
+  [
+    "sage's training",
+    "call of legends",
+    "85"
+  ],
+  [
+    "professor oak's new theory",
+    "call of legends",
+    "83"
+  ],
+  [
+    "copycat",
+    "call of legends",
+    "77"
+  ],
+  [
+    "seeker",
+    "triumphant",
+    "88"
+  ],
+  [
+    "tropical beach",
+    "bw promo",
+    "28"
+  ],
+  [
+    "fire energy",
+    "black & white",
+    "106"
+  ],
+  [
+    "fighting energy",
+    "black & white",
+    "110"
+  ],
+  [
+    "rainbow energy",
+    "heartgold & soulsilver",
+    "104"
+  ],
+  [
+    "vulpix",
+    "unleashed",
+    "68"
+  ],
+  [
+    "cleffa",
+    "heartgold & soulsilver",
+    "17"
+  ],
+  [
+    "rare candy",
+    "ex sandstorm",
+    "88"
+  ],
+  [
+    "sage's training",
+    "undaunted",
+    "77"
+  ],
+  [
+    "professor juniper",
+    "black & white",
+    "101"
+  ],
+  [
+    "pachirisu",
+    "call of legends",
+    "18"
+  ],
+  [
+    "shaymin",
+    "unleashed",
+    "8"
+  ],
+  [
+    "magby",
+    "triumphant",
+    "41"
+  ],
+  [
+    "pokégear 3.0",
+    "heartgold & soulsilver",
+    "96"
+  ],
+  [
+    "xtransceiver",
+    "noble victories",
+    "96"
+  ],
+  [
+    "rocky helmet",
+    "noble victories",
+    "94"
+  ],
+  [
+    "blastoise",
+    "boundaries crossed",
+    "31"
+  ],
+  [
+    "wartortle",
+    "boundaries crossed",
+    "30"
+  ],
+  [
+    "squirtle",
+    "boundaries crossed",
+    "29"
+  ],
+  [
+    "black kyurem-ex",
+    "plasma storm",
+    "95"
+  ],
+  [
+    "electrode",
+    "plasma freeze",
+    "33"
+  ],
+  [
+    "voltorb",
+    "plasma freeze",
+    "32"
+  ],
+  [
+    "dowsing machine",
+    "plasma storm",
+    "128"
+  ],
+  [
+    "level ball",
+    "next destinies",
+    "89"
+  ],
+  [
+    "max potion",
+    "emerging powers",
+    "94"
+  ],
+  [
+    "professor's letter",
+    "xy",
+    "123"
+  ],
+  [
+    "rare candy",
+    "plasma blast",
+    "85"
+  ],
+  [
+    "startling megaphone",
+    "flashfire",
+    "97"
+  ],
+  [
+    "superior energy retrieval",
+    "plasma freeze",
+    "103"
+  ],
+  [
+    "colress",
+    "plasma storm",
+    "118"
+  ],
+  [
+    "skyla",
+    "boundaries crossed",
+    "134"
+  ],
+  [
+    "mew-ex",
+    "dragons exalted",
+    "46"
+  ],
+  [
+    "shelmet",
+    "dark explorers",
+    "10"
+  ],
+  [
+    "accelgor",
+    "dark explorers",
+    "11"
+  ],
+  [
+    "gothita",
+    "emerging powers",
+    "43"
+  ],
+  [
+    "gothorita",
+    "emerging powers",
+    "46"
+  ],
+  [
+    "gothitelle",
+    "emerging powers",
+    "47"
+  ],
+  [
+    "munna",
+    "black & white",
+    "48"
+  ],
+  [
+    "musharna",
+    "next destinies",
+    "59"
+  ],
+  [
+    "duskull",
+    "boundaries crossed",
+    "61"
+  ],
+  [
+    "dusknoir",
+    "boundaries crossed",
+    "63"
+  ],
+  [
+    "float stone",
+    "plasma freeze",
+    "99"
+  ],
+  [
+    "rare candy",
+    "dark explorers",
+    "100"
+  ],
+  [
+    "super rod",
+    "dragon vault",
+    "20"
+  ],
+  [
+    "town map",
+    "boundaries crossed",
+    "136"
+  ],
+  [
+    "tropical beach",
+    "bw promo",
+    "50"
+  ],
+  [
+    "double colorless energy",
+    "next destinies",
+    "92"
+  ],
+  [
+    "shelmet",
+    "plasma blast",
+    "7"
+  ],
+  [
+    "duskull",
+    "flashfire",
+    "38"
+  ],
+  [
+    "dusclops",
+    "flashfire",
+    "39"
+  ],
+  [
+    "phantump",
+    "xy",
+    "54"
+  ],
+  [
+    "trevenant",
+    "xy",
+    "55"
+  ],
+  [
+    "evosoda",
+    "xy",
+    "116"
+  ],
+  [
+    "muscle band",
+    "xy",
+    "121"
+  ],
+  [
+    "pokémon catcher",
+    "plasma blast",
+    "83"
+  ],
+  [
+    "sacred ash",
+    "flashfire",
+    "96"
+  ],
+  [
+    "ultra ball",
+    "flashfire",
+    "99"
+  ],
+  [
+    "double colorless energy",
+    "xy",
+    "130"
+  ],
+  [
+    "tynamo",
+    "noble victories",
+    "38"
+  ],
+  [
+    "eelektrik",
+    "noble victories",
+    "40"
+  ],
+  [
+    "rayquaza-ex",
+    "dragons exalted",
+    "85"
+  ],
+  [
+    "raikou-ex",
+    "dark explorers",
+    "38"
+  ],
+  [
+    "victini",
+    "noble victories",
+    "15"
+  ],
+  [
+    "lightning energy",
+    "black & white",
+    "108"
+  ],
+  [
+    "thundurus-ex",
+    "plasma freeze",
+    "38"
+  ],
+  [
+    "deoxys-ex",
+    "plasma freeze",
+    "53"
+  ],
+  [
+    "kyurem",
+    "plasma freeze",
+    "31"
+  ],
+  [
+    "colress machine",
+    "plasma storm",
+    "119"
+  ],
+  [
+    "switch",
+    "black & white",
+    "104"
+  ],
+  [
+    "team plasma ball",
+    "plasma freeze",
+    "105"
+  ],
+  [
+    "bianca",
+    "emerging powers",
+    "90"
+  ],
+  [
+    "water energy",
+    "black & white",
+    "107"
+  ],
+  [
+    "prism energy",
+    "next destinies",
+    "93"
+  ],
+  [
+    "plasma energy",
+    "plasma storm",
+    "127"
+  ],
+  [
+    "latias-ex",
+    "plasma freeze",
+    "85"
+  ],
+  [
+    "scramble switch",
+    "plasma storm",
+    "129"
+  ],
+  [
+    "switch",
+    "boundaries crossed",
+    "135"
+  ],
+  [
+    "lysandre",
+    "flashfire",
+    "90"
+  ],
+  [
+    "professor sycamore",
+    "xy",
+    "122"
+  ],
+  [
+    "blend energy wlfm",
+    "dragons exalted",
+    "118"
+  ],
+  [
+    "plasma energy",
+    "plasma blast",
+    "91"
+  ],
+  [
+    "rainbow energy",
+    "xy",
+    "131"
+  ],
+  [
+    "genesect-ex",
+    "plasma blast",
+    "11"
+  ],
+  [
+    "jirachi-ex",
+    "plasma blast",
+    "60"
+  ],
+  [
+    "virizion-ex",
+    "plasma blast",
+    "9"
+  ],
+  [
+    "energy switch",
+    "legendary treasures",
+    "112"
+  ],
+  [
+    "g booster",
+    "plasma blast",
+    "92"
+  ],
+  [
+    "shadow triad",
+    "plasma freeze",
+    "102"
+  ],
+  [
+    "skyarrow bridge",
+    "next destinies",
+    "91"
+  ],
+  [
+    "aromatisse",
+    "xy",
+    "93"
+  ],
+  [
+    "spritzee",
+    "xy",
+    "92"
+  ],
+  [
+    "xerneas",
+    "xy",
+    "96"
+  ],
+  [
+    "xerneas-ex",
+    "xy",
+    "97"
+  ],
+  [
+    "m kangaskhan-ex",
+    "flashfire",
+    "79"
+  ],
+  [
+    "kangaskhan-ex",
+    "flashfire",
+    "78"
+  ],
+  [
+    "suicune",
+    "plasma blast",
+    "20"
+  ],
+  [
+    "heavy ball",
+    "next destinies",
+    "88"
+  ],
+  [
+    "super rod",
+    "noble victories",
+    "95"
+  ],
+  [
+    "ultra ball",
+    "dark explorers",
+    "102"
+  ],
+  [
+    "fairy garden",
+    "xy",
+    "117"
+  ],
+  [
+    "n",
+    "fates collide",
+    "105"
+  ],
+  [
+    "professor sycamore",
+    "breakpoint",
+    "107"
+  ],
+  [
+    "shauna",
+    "xy",
+    "127"
+  ],
+  [
+    "fairy energy",
+    "tcg",
+    null
+  ],
+  [
+    "spritzee",
+    "flashfire",
+    "67"
+  ],
+  [
+    "m manectric-ex",
+    "phantom forces",
+    "24"
+  ],
+  [
+    "manectric-ex",
+    "phantom forces",
+    "23"
+  ],
+  [
+    "charizard-ex",
+    "flashfire",
+    "11"
+  ],
+  [
+    "malamar-ex",
+    "phantom forces",
+    "58"
+  ],
+  [
+    "seismitoad-ex",
+    "furious fists",
+    "20"
+  ],
+  [
+    "trevenant-ex",
+    "primal clash",
+    "19"
+  ],
+  [
+    "cobalion-ex",
+    "plasma storm",
+    "93"
+  ],
+  [
+    "vs seeker",
+    "phantom forces",
+    "109"
+  ],
+  [
+    "az",
+    "phantom forces",
+    "91"
+  ],
+  [
+    "pokémon fan club",
+    "flashfire",
+    "94"
+  ],
+  [
+    "xerosic",
+    "phantom forces",
+    "110"
+  ],
+  [
+    "phanpy",
+    "plasma storm",
+    "71"
+  ],
+  [
+    "donphan",
+    "plasma storm",
+    "72"
+  ],
+  [
+    "hawlucha",
+    "furious fists",
+    "63"
+  ],
+  [
+    "bunnelby",
+    "primal clash",
+    "121"
+  ],
+  [
+    "repeat ball",
+    "primal clash",
+    "136"
+  ],
+  [
+    "revive",
+    "roaring skies",
+    "88"
+  ],
+  [
+    "robo substitute",
+    "phantom forces",
+    "102"
+  ],
+  [
+    "vs seeker",
+    "ex firered & leafgreen",
+    "100"
+  ],
+  [
+    "focus sash",
+    "furious fists",
+    "91"
+  ],
+  [
+    "silver bangle",
+    "plasma blast",
+    "88"
+  ],
+  [
+    "fighting stadium",
+    "furious fists",
+    "90"
+  ],
+  [
+    "silent lab",
+    "primal clash",
+    "140"
+  ],
+  [
+    "korrina",
+    "furious fists",
+    "95"
+  ],
+  [
+    "strong energy",
+    "furious fists",
+    "104"
+  ],
+  [
+    "landorus-ex",
+    "boundaries crossed",
+    "144"
+  ],
+  [
+    "lucario-ex",
+    "furious fists",
+    "107"
+  ],
+  [
+    "crobat",
+    "phantom forces",
+    "33"
+  ],
+  [
+    "golbat",
+    "phantom forces",
+    "32"
+  ],
+  [
+    "zubat",
+    "plasma storm",
+    "53"
+  ],
+  [
+    "shaymin-ex",
+    "roaring skies",
+    "106"
+  ],
+  [
+    "scoop up cyclone",
+    "plasma blast",
+    "95"
+  ],
+  [
+    "super scoop up",
+    "furious fists",
+    "100"
+  ],
+  [
+    "fighting energy",
+    "xy",
+    "137"
+  ],
+  [
+    "zapdos",
+    "roaring skies",
+    "23"
+  ],
+  [
+    "shaymin-ex",
+    "roaring skies",
+    "77"
+  ],
+  [
+    "enhanced hammer",
+    "phantom forces",
+    "94"
+  ],
+  [
+    "escape rope",
+    "plasma storm",
+    "120"
+  ],
+  [
+    "manectric spirit link",
+    "phantom forces",
+    "100"
+  ],
+  [
+    "rough seas",
+    "primal clash",
+    "137"
+  ],
+  [
+    "m rayquaza-ex",
+    "roaring skies",
+    "76"
+  ],
+  [
+    "rayquaza-ex",
+    "roaring skies",
+    "75"
+  ],
+  [
+    "rayquaza-ex",
+    "roaring skies",
+    "60"
+  ],
+  [
+    "hoopa-ex",
+    "ancient origins",
+    "36"
+  ],
+  [
+    "jolteon-ex",
+    "generations",
+    "28"
+  ],
+  [
+    "jirachi",
+    "xy promo",
+    "67"
+  ],
+  [
+    "battle compressor",
+    "phantom forces",
+    "92"
+  ],
+  [
+    "mega turbo",
+    "roaring skies",
+    "86"
+  ],
+  [
+    "puzzle of time",
+    "breakpoint",
+    "109"
+  ],
+  [
+    "super rod",
+    "breakthrough",
+    "149"
+  ],
+  [
+    "trainers' mail",
+    "roaring skies",
+    "92"
+  ],
+  [
+    "rayquaza spirit link",
+    "roaring skies",
+    "87"
+  ],
+  [
+    "sky field",
+    "roaring skies",
+    "89"
+  ],
+  [
+    "hex maniac",
+    "ancient origins",
+    "75"
+  ],
+  [
+    "joltik",
+    "phantom forces",
+    "26"
+  ],
+  [
+    "pumpkaboo",
+    "phantom forces",
+    "44"
+  ],
+  [
+    "lampent",
+    "phantom forces",
+    "42"
+  ],
+  [
+    "mew",
+    "fates collide",
+    "29"
+  ],
+  [
+    "field blower",
+    "guardians rising",
+    "125"
+  ],
+  [
+    "special charge",
+    "steam siege",
+    "105"
+  ],
+  [
+    "target whistle",
+    "phantom forces",
+    "106"
+  ],
+  [
+    "ultra ball",
+    "sun & moon",
+    "135"
+  ],
+  [
+    "fighting fury belt",
+    "breakpoint",
+    "99"
+  ],
+  [
+    "dimension valley",
+    "phantom forces",
+    "93"
+  ],
+  [
+    "pokémon ranger",
+    "steam siege",
+    "104"
+  ],
+  [
+    "teammates",
+    "primal clash",
+    "141"
+  ],
+  [
+    "double colorless energy",
+    "",
+    ""
+  ],
+  [
+    "marshadow-gx",
+    "burning shadows",
+    "80"
+  ],
+  [
+    "tapu lele-gx",
+    "guardians rising",
+    "60"
+  ],
+  [
+    "oranguru",
+    "sun & moon",
+    "113"
+  ],
+  [
+    "marshadow",
+    "shining legends",
+    "45"
+  ],
+  [
+    "electropower",
+    "lost thunder",
+    "172"
+  ],
+  [
+    "order pad",
+    "ultra prism",
+    "131"
+  ],
+  [
+    "rescue stretcher",
+    "guardians rising",
+    "130"
+  ],
+  [
+    "choice band",
+    "guardians rising",
+    "121"
+  ],
+  [
+    "parallel city",
+    "breakthrough",
+    "145"
+  ],
+  [
+    "guzma",
+    "burning shadows",
+    "115"
+  ],
+  [
+    "primal groudon-ex",
+    "primal clash",
+    "86"
+  ],
+  [
+    "groudon-ex",
+    "primal clash",
+    "85"
+  ],
+  [
+    "wobbuffet",
+    "phantom forces",
+    "36"
+  ],
+  [
+    "pokémon center lady",
+    "flashfire",
+    "93"
+  ],
+  [
+    "hard charm",
+    "xy",
+    "119"
+  ],
+  [
+    "escape rope",
+    "primal clash",
+    "127"
+  ],
+  [
+    "shrine of memories",
+    "primal clash",
+    "139"
+  ],
+  [
+    "ultra ball",
+    "roaring skies",
+    "93"
+  ],
+  [
+    "head ringer",
+    "phantom forces",
+    "97"
+  ],
+  [
+    "rock guard",
+    "plasma freeze",
+    "108"
+  ],
+  [
+    "professor juniper",
+    "plasma blast",
+    "84"
+  ],
+  [
+    "lightning energy",
+    "xy",
+    "135"
+  ],
+  [
+    "double colorless energy",
+    "phantom forces",
+    "111"
+  ],
+  [
+    "giratina-ex",
+    "ancient origins",
+    "57"
+  ],
+  [
+    "latios-ex",
+    "roaring skies",
+    "58"
+  ],
+  [
+    "crushing hammer",
+    "kalos starter set",
+    "34"
+  ],
+  [
+    "float stone",
+    "breakthrough",
+    "137"
+  ],
+  [
+    "team aqua's secret base",
+    "double crisis",
+    "28"
+  ],
+  [
+    "giovanni's scheme",
+    "breakthrough",
+    "138"
+  ],
+  [
+    "skyla",
+    "breakthrough",
+    "148"
+  ],
+  [
+    "team flare grunt",
+    "xy",
+    "129"
+  ],
+  [
+    "double dragon energy",
+    "roaring skies",
+    "97"
+  ],
+  [
+    "wailord-ex",
+    "primal clash",
+    "38"
+  ],
+  [
+    "trick shovel",
+    "flashfire",
+    "98"
+  ],
+  [
+    "cassius",
+    "xy",
+    "115"
+  ],
+  [
+    "hugh",
+    "boundaries crossed",
+    "130"
+  ],
+  [
+    "greninja break",
+    "breakpoint",
+    "41"
+  ],
+  [
+    "greninja",
+    "breakpoint",
+    "40"
+  ],
+  [
+    "greninja",
+    "xy",
+    "41"
+  ],
+  [
+    "frogadier",
+    "breakpoint",
+    "39"
+  ],
+  [
+    "froakie",
+    "breakpoint",
+    "38"
+  ],
+  [
+    "talonflame",
+    "steam siege",
+    "96"
+  ],
+  [
+    "ace trainer",
+    "ancient origins",
+    "69"
+  ],
+  [
+    "bursting balloon",
+    "breakpoint",
+    "97"
+  ],
+  [
+    "dive ball",
+    "primal clash",
+    "125"
+  ],
+  [
+    "fisherman",
+    "breakthrough",
+    "136"
+  ],
+  [
+    "level ball",
+    "ancient origins",
+    "76"
+  ],
+  [
+    "splash energy",
+    "breakpoint",
+    "113"
+  ],
+  [
+    "water energy",
+    "generations",
+    "77"
+  ],
+  [
+    "octillery",
+    "breakthrough",
+    "33"
+  ],
+  [
+    "remoraid",
+    "breakthrough",
+    "32"
+  ],
+  [
+    "espeon-ex",
+    "breakpoint",
+    "52"
+  ],
+  [
+    "brooklet hill",
+    "guardians rising",
+    "120"
+  ],
+  [
+    "audino-ex",
+    "fates collide",
+    "84"
+  ],
+  [
+    "m audino-ex",
+    "fates collide",
+    "85"
+  ],
+  [
+    "magearna-ex",
+    "steam siege",
+    "75"
+  ],
+  [
+    "cobalion",
+    "steam siege",
+    "74"
+  ],
+  [
+    "absol",
+    "roaring skies",
+    "40"
+  ],
+  [
+    "ultra ball",
+    "fates collide",
+    "113"
+  ],
+  [
+    "audino spirit link",
+    "fates collide",
+    "92"
+  ],
+  [
+    "lysandre",
+    "ancient origins",
+    "78"
+  ],
+  [
+    "pokémon center lady",
+    "generations",
+    "68"
+  ],
+  [
+    "metal energy",
+    "generations",
+    "82"
+  ],
+  [
+    "double colorless energy",
+    "fates collide",
+    "114"
+  ],
+  [
+    "phantump",
+    "breakpoint",
+    "64"
+  ],
+  [
+    "trevenant break",
+    "breakpoint",
+    "66"
+  ],
+  [
+    "red card",
+    "xy",
+    "124"
+  ],
+  [
+    "wally",
+    "roaring skies",
+    "94"
+  ],
+  [
+    "tapu lele",
+    "sm promo",
+    "45"
+  ],
+  [
+    "ditto ♢",
+    "lost thunder",
+    "154"
+  ],
+  [
+    "counter catcher",
+    "crimson invasion",
+    "91"
+  ],
+  [
+    "mysterious treasure",
+    "forbidden light",
+    "113"
+  ],
+  [
+    "rescue scarf",
+    "dragons exalted",
+    "115"
+  ],
+  [
+    "brigette",
+    "breakthrough",
+    "134"
+  ],
+  [
+    "cynthia",
+    "ultra prism",
+    "119"
+  ],
+  [
+    "faba",
+    "lost thunder",
+    "173"
+  ],
+  [
+    "mystery energy",
+    "phantom forces",
+    "112"
+  ],
+  [
+    "vespiquen",
+    "ancient origins",
+    "10"
+  ],
+  [
+    "combee",
+    "ancient origins",
+    "9"
+  ],
+  [
+    "vileplume",
+    "ancient origins",
+    "3"
+  ],
+  [
+    "gloom",
+    "ancient origins",
+    "2"
+  ],
+  [
+    "oddish",
+    "ancient origins",
+    "1"
+  ],
+  [
+    "unown",
+    "ancient origins",
+    "30"
+  ],
+  [
+    "acro bike",
+    "primal clash",
+    "122"
+  ],
+  [
+    "forest of giant plants",
+    "ancient origins",
+    "74"
+  ],
+  [
+    "judge",
+    "breakthrough",
+    "143"
+  ],
+  [
+    "misty's determination",
+    "breakpoint",
+    "104"
+  ],
+  [
+    "flareon",
+    "plasma freeze",
+    "12"
+  ],
+  [
+    "eevee",
+    "plasma freeze",
+    "90"
+  ],
+  [
+    "exeggcute",
+    "plasma freeze",
+    "4"
+  ],
+  [
+    "oricorio",
+    "guardians rising",
+    "56"
+  ],
+  [
+    "mr. mime",
+    "breakthrough",
+    "97"
+  ],
+  [
+    "giratina",
+    "xy promo",
+    "184"
+  ],
+  [
+    "volcanion-ex",
+    "steam siege",
+    "26"
+  ],
+  [
+    "volcanion",
+    "steam siege",
+    "25"
+  ],
+  [
+    "turtonator-gx",
+    "guardians rising",
+    "18"
+  ],
+  [
+    "lillie",
+    "sun & moon",
+    "122"
+  ],
+  [
+    "max elixir",
+    "breakpoint",
+    "102"
+  ],
+  [
+    "fire energy",
+    "generations",
+    "76"
+  ],
+  [
+    "drampa-gx",
+    "guardians rising",
+    "115"
+  ],
+  [
+    "trubbish",
+    "breakpoint",
+    "56"
+  ],
+  [
+    "garbodor",
+    "guardians rising",
+    "51"
+  ],
+  [
+    "garbodor",
+    "breakpoint",
+    "57"
+  ],
+  [
+    "acerola",
+    "burning shadows",
+    "112"
+  ],
+  [
+    "plumeria",
+    "burning shadows",
+    "120"
+  ],
+  [
+    "rayquaza-gx",
+    "celestial storm",
+    "109"
+  ],
+  [
+    "xurkitree-gx",
+    "sm promo",
+    "68"
+  ],
+  [
+    "acro bike",
+    "celestial storm",
+    "123"
+  ],
+  [
+    "escape rope",
+    "burning shadows",
+    "114"
+  ],
+  [
+    "lillie",
+    "ultra prism",
+    "125"
+  ],
+  [
+    "sylveon-gx",
+    "guardians rising",
+    "92"
+  ],
+  [
+    "eevee",
+    "sun & moon",
+    "101"
+  ],
+  [
+    "crushing hammer",
+    "sun & moon",
+    "115"
+  ],
+  [
+    "enhanced hammer",
+    "guardians rising",
+    "124"
+  ],
+  [
+    "max potion",
+    "guardians rising",
+    "128"
+  ],
+  [
+    "nest ball",
+    "sun & moon",
+    "123"
+  ],
+  [
+    "pal pad",
+    "ultra prism",
+    "132"
+  ],
+  [
+    "bodybuilding dumbbells",
+    "burning shadows",
+    "113"
+  ],
+  [
+    "gladion",
+    "crimson invasion",
+    "95"
+  ],
+  [
+    "judge",
+    "forbidden light",
+    "108"
+  ],
+  [
+    "lusamine",
+    "crimson invasion",
+    "96"
+  ],
+  [
+    "mars",
+    "ultra prism",
+    "128"
+  ],
+  [
+    "professor kukui",
+    "sun & moon",
+    "128"
+  ],
+  [
+    "team skull grunt",
+    "sun & moon",
+    "133"
+  ],
+  [
+    "lysandre labs",
+    "forbidden light",
+    "111"
+  ],
+  [
+    "mount lanakila",
+    "burning shadows",
+    "118"
+  ],
+  [
+    "blacephalon",
+    "unbroken bonds",
+    "32"
+  ],
+  [
+    "blacephalon-gx",
+    "lost thunder",
+    "52"
+  ],
+  [
+    "victini ♢",
+    "dragon majesty",
+    "7"
+  ],
+  [
+    "beast ring",
+    "forbidden light",
+    "102"
+  ],
+  [
+    "cherish ball",
+    "unified minds",
+    "191"
+  ],
+  [
+    "custom catcher",
+    "lost thunder",
+    "171"
+  ],
+  [
+    "fiery flint",
+    "dragon majesty",
+    "60"
+  ],
+  [
+    "fire crystal",
+    "unbroken bonds",
+    "173"
+  ],
+  [
+    "pokégear 3.0",
+    "unbroken bonds",
+    "182"
+  ],
+  [
+    "reset stamp",
+    "unified minds",
+    "206"
+  ],
+  [
+    "switch",
+    "sword & shield",
+    "183"
+  ],
+  [
+    "heat factory ♢",
+    "lost thunder",
+    "178"
+  ],
+  [
+    "ultra space",
+    "forbidden light",
+    "115"
+  ],
+  [
+    "green's exploration",
+    "unbroken bonds",
+    "175"
+  ],
+  [
+    "rosa",
+    "cosmic eclipse",
+    "204"
+  ],
+  [
+    "welder",
+    "unbroken bonds",
+    "189"
+  ],
+  [
+    "jirachi",
+    "team up",
+    "99"
+  ],
+  [
+    "reshiram & charizard-gx",
+    "unbroken bonds",
+    "20"
+  ],
+  [
+    "cramorant v",
+    "sword & shield",
+    "155"
+  ],
+  [
+    "oricorio-gx",
+    "cosmic eclipse",
+    "95"
+  ],
+  [
+    "dedenne-gx",
+    "unbroken bonds",
+    "57"
+  ],
+  [
+    "crobat v",
+    "darkness ablaze",
+    "104"
+  ],
+  [
+    "mewtwo",
+    "unbroken bonds",
+    "75"
+  ],
+  [
+    "galarian zigzagoon",
+    "sword & shield",
+    "117"
+  ],
+  [
+    "quick ball",
+    "sword & shield",
+    "179"
+  ],
+  [
+    "scoop up net",
+    "rebel clash",
+    "165"
+  ],
+  [
+    "energy spinner",
+    "unbroken bonds",
+    "170"
+  ],
+  [
+    "giant hearth",
+    "unified minds",
+    "197"
+  ],
+  [
+    "boss's orders",
+    "rebel clash",
+    "154"
+  ],
+  [
+    "poipole",
+    "forbidden light",
+    "55"
+  ],
+  [
+    "naganadel",
+    "lost thunder",
+    "108"
+  ],
+  [
+    "alolan grimer",
+    "sun & moon",
+    "57"
+  ],
+  [
+    "alolan muk",
+    "sun & moon",
+    "58"
+  ],
+  [
+    "erika's hospitality",
+    "team up",
+    "140"
+  ],
+  [
+    "beast energy ♢",
+    "forbidden light",
+    "117"
+  ],
+  [
+    "poipole",
+    "lost thunder",
+    "107"
+  ],
+  [
+    "naganadel-gx",
+    "unified minds",
+    "160"
+  ],
+  [
+    "heatran-gx",
+    "unified minds",
+    "25"
+  ],
+  [
+    "mew",
+    "unbroken bonds",
+    "76"
+  ],
+  [
+    "hapu",
+    "unified minds",
+    "200"
+  ],
+  [
+    "buzzwole",
+    "forbidden light",
+    "77"
+  ],
+  [
+    "trubbish",
+    "guardians rising",
+    "50"
+  ],
+  [
+    "slugma",
+    "celestial storm",
+    "23"
+  ],
+  [
+    "magcargo",
+    "celestial storm",
+    "24"
+  ],
+  [
+    "diancie ♢",
+    "forbidden light",
+    "74"
+  ],
+  [
+    "sudowoodo",
+    "guardians rising",
+    "66"
+  ],
+  [
+    "shrine of punishment",
+    "celestial storm",
+    "143"
+  ],
+  [
+    "tate & liza",
+    "celestial storm",
+    "148"
+  ],
+  [
+    "rainbow energy",
+    "sun & moon",
+    "137"
+  ],
+  [
+    "granbull",
+    "lost thunder",
+    "138"
+  ],
+  [
+    "snubbull",
+    "lost thunder",
+    "137"
+  ],
+  [
+    "zebstrika",
+    "lost thunder",
+    "82"
+  ],
+  [
+    "blitzle",
+    "lost thunder",
+    "81"
+  ],
+  [
+    "great ball",
+    "shining legends",
+    "60"
+  ],
+  [
+    "pokémon catcher",
+    "shining legends",
+    "64"
+  ],
+  [
+    "switch",
+    "celestial storm",
+    "147"
+  ],
+  [
+    "ultra ball",
+    "shining legends",
+    "68"
+  ],
+  [
+    "apricorn maker",
+    "celestial storm",
+    "124"
+  ],
+  [
+    "diantha",
+    "forbidden light",
+    "105"
+  ],
+  [
+    "arceus & dialga & palkia-gx",
+    "cosmic eclipse",
+    "156"
+  ],
+  [
+    "zacian v",
+    "sword & shield",
+    "138"
+  ],
+  [
+    "mawile-gx",
+    "unified minds",
+    "141"
+  ],
+  [
+    "aegislash v",
+    "vivid voltage",
+    "126"
+  ],
+  [
+    "eldegoss v",
+    "rebel clash",
+    "19"
+  ],
+  [
+    "crushing hammer",
+    "sword & shield",
+    "159"
+  ],
+  [
+    "great catcher",
+    "cosmic eclipse",
+    "192"
+  ],
+  [
+    "metal saucer",
+    "sword & shield",
+    "170"
+  ],
+  [
+    "air balloon",
+    "sword & shield",
+    "156"
+  ],
+  [
+    "big charm",
+    "sword & shield",
+    "158"
+  ],
+  [
+    "chaotic swell",
+    "cosmic eclipse",
+    "187"
+  ],
+  [
+    "leon",
+    "vivid voltage",
+    "154"
+  ],
+  [
+    "marnie",
+    "sword & shield",
+    "169"
+  ],
+  [
+    "professor's research",
+    "sword & shield",
+    "178"
+  ],
+  [
+    "galarian moltres v",
+    "chilling reign",
+    "97"
+  ],
+  [
+    "galarian zapdos v",
+    "chilling reign",
+    "80"
+  ],
+  [
+    "cobalion-gx",
+    "team up",
+    "106"
+  ],
+  [
+    "marshadow",
+    "unbroken bonds",
+    "81"
+  ],
+  [
+    "viridian forest",
+    "team up",
+    "156"
+  ],
+  [
+    "darkness energy",
+    "tcg",
+    null
+  ],
+  [
+    "aurora energy",
+    "sword & shield",
+    "186"
+  ],
+  [
+    "eternatus vmax",
+    "darkness ablaze",
+    "117"
+  ],
+  [
+    "eternatus v",
+    "darkness ablaze",
+    "116"
+  ],
+  [
+    "hoopa",
+    "darkness ablaze",
+    "111"
+  ],
+  [
+    "hoopa",
+    "unified minds",
+    "140"
+  ],
+  [
+    "great ball",
+    "sword & shield",
+    "164"
+  ],
+  [
+    "pokémon communication",
+    "team up",
+    "152"
+  ],
+  [
+    "turbo patch",
+    "darkness ablaze",
+    "172"
+  ],
+  [
+    "black market ♢",
+    "team up",
+    "134"
+  ],
+  [
+    "capture energy",
+    "rebel clash",
+    "171"
+  ],
+  [
+    "drapion v",
+    "lost origin",
+    "118"
+  ],
+  [
+    "galarian weezing",
+    "rebel clash",
+    "113"
+  ],
+  [
+    "koffing",
+    "shining fates",
+    "41"
+  ],
+  [
+    "radiant hisuian sneasler",
+    "lost origin",
+    "123"
+  ],
+  [
+    "crobat v",
+    "shining fates",
+    "44"
+  ],
+  [
+    "boost shake",
+    "evolving skies",
+    "142"
+  ],
+  [
+    "dark patch",
+    "astral radiance",
+    "139"
+  ],
+  [
+    "echoing horn",
+    "chilling reign",
+    "136"
+  ],
+  [
+    "escape rope",
+    "battle styles",
+    "125"
+  ],
+  [
+    "quick ball",
+    "fusion strike",
+    "237"
+  ],
+  [
+    "switch",
+    "crown zenith",
+    "144"
+  ],
+  [
+    "ultra ball",
+    "crown zenith",
+    "146"
+  ],
+  [
+    "big parasol",
+    "darkness ablaze",
+    "157"
+  ],
+  [
+    "forest seal stone",
+    "silver tempest",
+    "156"
+  ],
+  [
+    "temple of sinnoh",
+    "astral radiance",
+    "155"
+  ],
+  [
+    "boss's orders",
+    "brilliant stars",
+    "132"
+  ],
+  [
+    "judge",
+    "fusion strike",
+    "235"
+  ],
+  [
+    "serena",
+    "silver tempest",
+    "164"
+  ],
+  [
+    "hiding d energy",
+    "darkness ablaze",
+    "175"
+  ],
+  [
+    "spiritomb",
+    "unbroken bonds",
+    "112"
+  ],
+  [
+    "honchkrow-gx",
+    "unbroken bonds",
+    "109"
+  ],
+  [
+    "murkrow",
+    "guardians rising",
+    "78"
+  ],
+  [
+    "stunfisk",
+    "unbroken bonds",
+    "56"
+  ],
+  [
+    "absol",
+    "team up",
+    "88"
+  ],
+  [
+    "kartana-gx",
+    "crimson invasion",
+    "70"
+  ],
+  [
+    "damage mover",
+    "shining legends",
+    "58"
+  ],
+  [
+    "energy loto",
+    "guardians rising",
+    "122"
+  ],
+  [
+    "escape board",
+    "ultra prism",
+    "122"
+  ],
+  [
+    "rainbow energy",
+    "celestial storm",
+    "151"
+  ],
+  [
+    "double colorless energy",
+    "shining legends",
+    "69"
+  ],
+  [
+    "jynx",
+    "unified minds",
+    "76"
+  ],
+  [
+    "level ball",
+    "battle styles",
+    "129"
+  ],
+  [
+    "ordinary rod",
+    "sword & shield",
+    "171"
+  ],
+  [
+    "cape of toughness",
+    "darkness ablaze",
+    "160"
+  ],
+  [
+    "spikemuth",
+    "darkness ablaze",
+    "170"
+  ],
+  [
+    "bird keeper",
+    "darkness ablaze",
+    "159"
+  ],
+  [
+    "boss's orders",
+    "shining fates",
+    "58"
+  ],
+  [
+    "professor's research",
+    "shining fates",
+    "60"
+  ],
+  [
+    "origin forme palkia vstar",
+    "astral radiance",
+    "40"
+  ],
+  [
+    "origin forme palkia v",
+    "astral radiance",
+    "39"
+  ],
+  [
+    "inteleon",
+    "sword & shield",
+    "58"
+  ],
+  [
+    "drizzile",
+    "sword & shield",
+    "56"
+  ],
+  [
+    "sobble",
+    "chilling reign",
+    "41"
+  ],
+  [
+    "ice rider calyrex vmax",
+    "chilling reign",
+    "46"
+  ],
+  [
+    "ice rider calyrex v",
+    "chilling reign",
+    "45"
+  ],
+  [
+    "radiant greninja",
+    "astral radiance",
+    "46"
+  ],
+  [
+    "manaphy",
+    "brilliant stars",
+    "41"
+  ],
+  [
+    "irida",
+    "astral radiance",
+    "147"
+  ],
+  [
+    "melony",
+    "chilling reign",
+    "146"
+  ],
+  [
+    "professor's research",
+    "brilliant stars",
+    "147"
+  ],
+  [
+    "roxanne",
+    "astral radiance",
+    "150"
+  ],
+  [
+    "path to the peak",
+    "chilling reign",
+    "148"
+  ],
+  [
+    "training court",
+    "rebel clash",
+    "169"
+  ],
+  [
+    "evolution incense",
+    "sword & shield",
+    "163"
+  ],
+  [
+    "capacious bucket",
+    "rebel clash",
+    "156"
+  ],
+  [
+    "battle vip pass",
+    "fusion strike",
+    "225"
+  ],
+  [
+    "pal pad",
+    "sword & shield",
+    "172"
+  ],
+  [
+    "rare candy",
+    "sword & shield",
+    "180"
+  ],
+  [
+    "ultra ball",
+    "brilliant stars",
+    "150"
+  ],
+  [
+    "choice belt",
+    "brilliant stars",
+    "135"
+  ],
+  [
+    "charmander",
+    "151",
+    "4"
+  ],
+  [
+    "charmander",
+    "obsidian flames",
+    "26"
+  ],
+  [
+    "charmeleon",
+    "obsidian flames",
+    "27"
+  ],
+  [
+    "charizard ex",
+    "obsidian flames",
+    "125"
+  ],
+  [
+    "pidgey",
+    "151",
+    "16"
+  ],
+  [
+    "pidgeot ex",
+    "obsidian flames",
+    "164"
+  ],
+  [
+    "rotom v",
+    "lost origin",
+    "58"
+  ],
+  [
+    "lumineon v",
+    "brilliant stars",
+    "40"
+  ],
+  [
+    "mew",
+    "celebrations",
+    "11"
+  ],
+  [
+    "jirachi",
+    "paradox rift",
+    "126"
+  ],
+  [
+    "lost vacuum",
+    "lost origin",
+    "162"
+  ],
+  [
+    "super rod",
+    "paldea evolved",
+    "188"
+  ],
+  [
+    "justified gloves",
+    "chilling reign",
+    "143"
+  ],
+  [
+    "vitality band",
+    "sword & shield",
+    "185"
+  ],
+  [
+    "arven",
+    "scarlet & violet",
+    "166"
+  ],
+  [
+    "iono",
+    "paldea evolved",
+    "185"
+  ],
+  [
+    "artazon",
+    "paldea evolved",
+    "171"
+  ],
+  [
+    "collapsed stadium",
+    "brilliant stars",
+    "137"
+  ],
+  [
+    "lost city",
+    "lost origin",
+    "161"
+  ],
+  [
+    "charmeleon",
+    "paldean fates",
+    "8"
+  ],
+  [
+    "radiant charizard",
+    "pokémon go",
+    "11"
+  ],
+  [
+    "bidoof",
+    "crown zenith",
+    "111"
+  ],
+  [
+    "bibarel",
+    "brilliant stars",
+    "121"
+  ],
+  [
+    "cleffa",
+    "obsidian flames",
+    "80"
+  ],
+  [
+    "buddy-buddy poffin",
+    "temporal forces",
+    "144"
+  ],
+  [
+    "prime catcher",
+    "temporal forces",
+    "157"
+  ],
+  [
+    "defiance band",
+    "scarlet & violet",
+    "169"
+  ],
+  [
+    "professor turo's scenario",
+    "paradox rift",
+    "171"
+  ],
+  [
+    "team yell's cheer",
+    "brilliant stars",
+    "149"
+  ],
+  [
+    "snorlax",
+    "pokémon go",
+    "55"
+  ],
+  [
+    "mimikyu",
+    "paldea evolved",
+    "97"
+  ],
+  [
+    "sandshrew",
+    "151",
+    "27"
+  ],
+  [
+    "mantine",
+    "astral radiance",
+    "34"
+  ],
+  [
+    "chi-yu ex",
+    "paldea evolved",
+    "40"
+  ],
+  [
+    "pidgeot v",
+    "lost origin",
+    "137"
+  ],
+  [
+    "pokégear 3.0",
+    "scarlet & violet",
+    "186"
+  ],
+  [
+    "nest ball",
+    "scarlet & violet",
+    "181"
+  ],
+  [
+    "counter catcher",
+    "paradox rift",
+    "160"
+  ],
+  [
+    "pal pad",
+    "scarlet & violet",
+    "182"
+  ],
+  [
+    "hisuian heavy ball",
+    "astral radiance",
+    "146"
+  ],
+  [
+    "switch cart",
+    "astral radiance",
+    "154"
+  ],
+  [
+    "earthen vessel",
+    "paradox rift",
+    "163"
+  ],
+  [
+    "defiance vest",
+    "paradox rift",
+    "162"
+  ],
+  [
+    "bravery charm",
+    "paldea evolved",
+    "173"
+  ],
+  [
+    "hero's cape",
+    "temporal forces",
+    "152"
+  ],
+  [
+    "penny",
+    "scarlet & violet",
+    "183"
+  ],
+  [
+    "erika's invitation",
+    "151",
+    "160"
+  ],
+  [
+    "eri",
+    "temporal forces",
+    "146"
+  ],
+  [
+    "miss fortune sisters",
+    "lost origin",
+    "164"
+  ],
+  [
+    "boss's orders",
+    "paldea evolved",
+    "172"
+  ],
+  [
+    "cyllene",
+    "astral radiance",
+    "138"
+  ],
+  [
+    "ultra ball",
+    "scarlet & violet",
+    "196"
+  ],
+  [
+    "luxurious cape",
+    "paradox rift",
+    "166"
+  ],
+  [
+    "avery",
+    "chilling reign",
+    "130"
+  ],
+  [
+    "peonia",
+    "chilling reign",
+    "149"
+  ],
+  [
+    "sidney",
+    "fusion strike",
+    "241"
+  ],
+  [
+    "giacomo",
+    "paldea evolved",
+    "182"
+  ],
+  [
+    "bounsweet",
+    "obsidian flames",
+    "16"
+  ],
+  [
+    "steenee",
+    "paradox rift",
+    "9"
+  ],
+  [
+    "tsareena ex",
+    "paradox rift",
+    "46"
+  ],
+  [
+    "vanillite",
+    "paradox rift",
+    "43"
+  ],
+  [
+    "vanilluxe",
+    "paradox rift",
+    "45"
+  ],
+  [
+    "rufflet",
+    "astral radiance",
+    "131"
+  ],
+  [
+    "hisuian braviary",
+    "silver tempest",
+    "149"
+  ],
+  [
+    "rare candy",
+    "scarlet & violet",
+    "191"
+  ],
+  [
+    "pokémon league headquarters",
+    "obsidian flames",
+    "192"
+  ],
+  [
+    "dyna tree hill",
+    "chilling reign",
+    "135"
+  ],
+  [
+    "thorton",
+    "lost origin",
+    "167"
+  ],
+  [
+    "panic mask",
+    "lost origin",
+    "165"
+  ],
+  [
+    "regidrago v",
+    "silver tempest",
+    "135"
+  ],
+  [
+    "regidrago vstar",
+    "silver tempest",
+    "136"
+  ],
+  [
+    "teal mask ogerpon ex",
+    "twilight masquerade",
+    "25"
+  ],
+  [
+    "dragapult ex",
+    "twilight masquerade",
+    "130"
+  ],
+  [
+    "mew ex",
+    "151",
+    "151"
+  ],
+  [
+    "squawkabilly ex",
+    "paldea evolved",
+    "169"
+  ],
+  [
+    "giratina vstar",
+    "lost origin",
+    "131"
+  ],
+  [
+    "hisuian goodra vstar",
+    "lost origin",
+    "136"
+  ],
+  [
+    "fezandipiti ex",
+    "shrouded fable",
+    "38"
+  ],
+  [
+    "hawlucha",
+    "scarlet & violet",
+    "118"
+  ],
+  [
+    "kyurem",
+    "shrouded fable",
+    "47"
+  ],
+  [
+    "energy switch",
+    "scarlet & violet",
+    "173"
+  ],
+  [
+    "superior energy retrieval",
+    "paldea evolved",
+    "189"
+  ],
+  [
+    "canceling cologne",
+    "astral radiance",
+    "136"
+  ],
+  [
+    "professor's research",
+    "scarlet & violet",
+    "189"
+  ],
+  [
+    "alolan exeggutor ex",
+    "surging sparks",
+    "133"
+  ],
+  [
+    "switch",
+    "scarlet & violet",
+    "194"
+  ],
+  [
+    "tera orb",
+    "surging sparks",
+    "189"
+  ],
+  [
+    "pokéstop",
+    "pokémon go",
+    "68"
+  ],
+  [
+    "pheromosa-gx",
+    "sm promo",
+    "66"
+  ],
+  [
+    "duskull",
+    "cosmic eclipse",
+    "83"
+  ],
+  [
+    "dusclops",
+    "shrouded fable",
+    "19"
+  ],
+  [
+    "dragonite-ex",
+    "evolutions",
+    "72"
+  ],
+  [
+    "rescue carrier",
+    "evolving skies",
+    "154"
+  ],
+  [
+    "lana's fishing rod",
+    "cosmic eclipse",
+    "195"
+  ],
+  [
+    "adventure bag",
+    "lost thunder",
+    "167"
+  ],
+  [
+    "life dew",
+    "plasma freeze",
+    "107"
+  ],
+  [
+    "carmine",
+    "twilight masquerade",
+    "145"
+  ],
+  [
+    "wartortle",
+    "unleashed",
+    "42"
+  ],
+  [
+    "pineco",
+    "undaunted",
+    "62"
+  ],
+  [
+    "forretress",
+    "legends awakened",
+    "28"
+  ],
+  [
+    "porygon",
+    "team rocket",
+    "48"
+  ],
+  [
+    "porygon2",
+    "great encounters",
+    "49"
+  ],
+  [
+    "rattata",
+    "team rocket",
+    "66"
+  ],
+  [
+    "eevee",
+    "wizards promo",
+    "11"
+  ],
+  [
+    "leafeon",
+    "rising rivals",
+    "45"
+  ],
+  [
+    "espeon",
+    "aquapolis h",
+    "9"
+  ],
+  [
+    "shuckle",
+    "hgss promo",
+    "15"
+  ],
+  [
+    "lysandre's trump card",
+    "phantom forces",
+    "99"
+  ],
+  [
+    "drifloon",
+    "majestic dawn",
+    "61"
+  ],
+  [
+    "drifblim",
+    "undaunted",
+    "12"
+  ],
+  [
+    "ditto",
+    "ex firered & leafgreen",
+    "4"
+  ],
+  [
+    "devolution spray",
+    "dragons exalted",
+    "113"
+  ],
+  [
+    "boost energy",
+    "aquapolis",
+    "145"
+  ],
+  [
+    "shiftry",
+    "next destinies",
+    "72"
+  ],
+  [
+    "nuzleaf",
+    "flashfire",
+    "6"
+  ],
+  [
+    "seedot",
+    "flashfire",
+    "5"
+  ],
+  [
+    "devolution spray",
+    "base set",
+    "72"
+  ],
+  [
+    "recycle",
+    "emerging powers",
+    "96"
+  ],
+  [
+    "nuzleaf",
+    "celestial storm",
+    "13"
+  ],
+  [
+    "seedot",
+    "celestial storm",
+    "12"
+  ]
+]
