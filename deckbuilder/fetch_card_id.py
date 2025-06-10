@@ -1,20 +1,18 @@
 import json
 
-with open("data/archetypeDecks.json", "r", encoding="utf-8") as f:
-    mazzi = json.load(f)
-
-carte_uniche = set()
-#carte_uniche  = []
-
 def setIdByName(setnome):
     setnome = setnome.strip().lower()
     aliases = {
-        "base1": ["base set", "tcg", "expansion pack"],
+        "base1": ["base set", "tcg", "expansion pack", "basic", "special", ""],
         "base2": ["pokémon jungle"],
         "base5": ["rocket gang"],
         "ecard2":["aquapolis h", "aquapolis"],
         "ecard1": ["expedition", "skyridge"], #sky suggerito da copilot
-        "basep" : ["wizards promo"], 
+        "basep" : ["wizards promo"],
+        "hgss2" : ["unleashed"],
+        "hgss4" : ["triumphant"],
+        "pl1" : ["platinum sh"],
+        "hgss3" : ["undaunted"],
         # "ex5": ["ex hidden legends", "hidden legends"],
         # "ex2": ["ex sandstorm", "sandstorm"],
         # "ex3": ["ex dragon", "dragon"],
@@ -52,7 +50,15 @@ def setIdByName(setnome):
     # se non trova l'id, solleva un'eccezione
     raise ValueError(f"Set '{setnome}' non trovato.")
 
-def cardIdByDict(nome, setId, setNumero):
+
+def cardIdByDict(nome, setesteso, setNumero):
+
+    try:
+        setId = setIdByName(setesteso)
+    except ValueError as e:
+        print(f"Errore: {e}")
+        return None
+
     if not setNumero:
         with open(f"data/cards/en/{setId}.json", "r", encoding="utf-8") as f:
             cards = json.load(f)
@@ -61,18 +67,3 @@ def cardIdByDict(nome, setId, setNumero):
                 return card["id"]
     else:
         return f"{setId}-{setNumero}"    
-
-for deck, liste in mazzi.items():
-    for lista in liste:
-        for carta in lista:
-            carte_uniche.add(
-                cardIdByDict(
-                    carta["nome"], 
-                    setIdByName(carta["setesteso"]), 
-                    carta["setnumero"])
-            )
-
-print(f"Carte uniche trovate: {len(carte_uniche)}")
-
-with open("data/archetypesCardsById.json", "w", encoding="utf-8") as f:
-    json.dump(carte_uniche, f, indent=2, ensure_ascii=False)

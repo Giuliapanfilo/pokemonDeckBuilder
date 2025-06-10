@@ -5041,7 +5041,7 @@
         "quantità": 1,
         "nome": "Vulpix",
         "setesteso": "Platinum SH",
-        "setnumero": "6"
+        "setnumero": "SH6"
       },
       {
         "quantità": 1,
@@ -6297,7 +6297,7 @@
         "quantità": 3,
         "nome": "Vulpix",
         "setesteso": "Platinum SH",
-        "setnumero": "6"
+        "setnumero": "SH6"
       },
       {
         "quantità": 1,
@@ -7900,8 +7900,8 @@
       {
         "quantità": 1,
         "nome": "Alph Lithograph",
-        "setesteso": "Triumphant FOUR",
-        "setnumero": null
+        "setesteso": "Triumphant",
+        "setnumero": "FOUR"
       },
       {
         "quantità": 4,
