@@ -908,7 +908,7 @@
       {
         "quantità": 2,
         "nome": "Warp Point",
-        "setesteso": "Diamond & Pearl",
+        "setesteso": "dp1",
         "setnumero": "116"
       },
       {
@@ -1138,50 +1138,50 @@
       {
         "quantità": 3,
         "nome": "Copycat",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Pokémon Reversal",
-        "setesteso": "Unseen Forces",
-        "setnumero": "ex10"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Fast Ball",
-        "setesteso": "Skyridge",
-        "setnumero": "ecard3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Desert Ruins",
-        "setesteso": "Hidden Legends",
-        "setnumero": "ex5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Double Rainbow Energy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Rainbow Energy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
@@ -1256,44 +1256,44 @@
       {
         "quantità": 4,
         "nome": "Steven's Advice",
-        "setesteso": "Power Keepers",
-        "setnumero": "ex16"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Copycat",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Professor Birch",
-        "setesteso": "Emerald",
-        "setnumero": "ex9"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Professor Elm's Training Method",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Reversal",
-        "setesteso": "Unseen Forces",
-        "setnumero": "ex10"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
@@ -1310,20 +1310,20 @@
       {
         "quantità": 2,
         "nome": "Desert Ruins",
-        "setesteso": "Hidden Legends",
-        "setnumero": "ex5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Double Rainbow Energy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Rainbow Energy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
@@ -1404,38 +1404,38 @@
       {
         "quantità": 4,
         "nome": "Oracle",
-        "setesteso": "Skyridge",
-        "setnumero": "ecard3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Steven's Advice",
-        "setesteso": "Power Keepers",
-        "setnumero": "ex16"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Copycat",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "TV Reporter",
-        "setesteso": "POP Series 2",
-        "setnumero": "pop2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
@@ -1452,14 +1452,14 @@
       {
         "quantità": 1,
         "nome": "High Pressure System",
-        "setesteso": "POP Series 3",
-        "setnumero": "pop3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Multi Energy",
-        "setesteso": "Emerald",
-        "setnumero": "ex9"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 11,
@@ -1522,50 +1522,50 @@
       {
         "quantità": 3,
         "nome": "Professor Oak's Research",
-        "setesteso": "Dragon Frontiers",
-        "setnumero": "ex15"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "TV Reporter",
-        "setesteso": "POP Series 2",
-        "setnumero": "pop2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Steven's Advice",
-        "setesteso": "Power Keepers",
-        "setnumero": "ex16"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Professor Elm's Training Method",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Oracle",
-        "setesteso": "Skyridge",
-        "setnumero": "ecard3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Nurse",
-        "setesteso": "Expedition Base Set",
-        "setnumero": "ecard1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Town Volunteers",
-        "setesteso": "Aquapolis",
-        "setnumero": "ecard2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
@@ -1576,20 +1576,20 @@
       {
         "quantità": 2,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Low Pressure System",
-        "setesteso": "POP Series 3",
-        "setnumero": "pop3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Boost Energy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 14,
@@ -1746,56 +1746,56 @@
       {
         "quantità": 4,
         "nome": "Oracle",
-        "setesteso": "Skyridge",
-        "setnumero": "ecard3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Copycat",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "TV Reporter",
-        "setesteso": "POP Series 2",
-        "setnumero": "pop2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Steven's Advice",
-        "setesteso": "Power Keepers",
-        "setnumero": "ex16"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Mr. Briney's Compassion",
-        "setesteso": "POP Series 2",
-        "setnumero": "pop2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Town Volunteers",
-        "setesteso": "Aquapolis",
-        "setnumero": "ecard2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Crystal Shard",
-        "setesteso": "Crystal Guardians",
-        "setnumero": "ex14"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
@@ -1806,20 +1806,20 @@
       {
         "quantità": 1,
         "nome": "Fast Ball",
-        "setesteso": "Skyridge",
-        "setnumero": "ecard3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Desert Ruins",
-        "setesteso": "Hidden Legends",
-        "setnumero": "ex5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Double Rainbow Energy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 14,
@@ -1876,56 +1876,56 @@
       {
         "quantità": 3,
         "nome": "Steven's Advice",
-        "setesteso": "Power Keepers",
-        "setnumero": "ex16"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Oracle",
-        "setesteso": "Skyridge",
-        "setnumero": "ecard3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Copycat",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Professor Oak's Research",
-        "setesteso": "Dragon Frontiers",
-        "setnumero": "ex15"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Professor Elm's Training Method",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Desert Shaman",
-        "setesteso": "Skyridge",
-        "setnumero": "ecard3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Claw Fossil",
-        "setesteso": "Legend Maker",
-        "setnumero": "ex12"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Root Fossil",
-        "setesteso": "Legend Maker",
-        "setnumero": "ex12"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Mysterious Fossil",
-        "setesteso": "Fossil",
-        "setnumero": "base3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
@@ -1942,20 +1942,20 @@
       {
         "quantità": 2,
         "nome": "Mystery Zone",
-        "setesteso": "Skyridge",
-        "setnumero": "ecard3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Island Cave",
-        "setesteso": "Hidden Legends",
-        "setnumero": "ex5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Multi Energy",
-        "setesteso": "Emerald",
-        "setnumero": "ex9"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 12,
@@ -4402,8 +4402,8 @@
       {
         "quantità": 3,
         "nome": "Metal Energy",
-        "setesteso": "Neo Genesis",
-        "setnumero": "neo1"
+        "setesteso": "TCG",
+        "setnumero": null
       }
     ]
   ],
@@ -4608,86 +4608,86 @@
       {
         "quantità": 4,
         "nome": "Judge",
-        "setesteso": "HS—Unleashed",
-        "setnumero": "hgss2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Roseanne's Research",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Team Galactic's Wager",
-        "setesteso": "Mysterious Treasures",
-        "setnumero": "dp2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Palmer's Contribution",
-        "setesteso": "Supreme Victors",
-        "setnumero": "pl3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Night Maintenance",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Communication",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Expert Belt",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Moonlight Stadium",
-        "setesteso": "Great Encounters",
-        "setnumero": "dp4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Broken Time-Space",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Call Energy",
-        "setesteso": "Majestic Dawn",
-        "setnumero": "dp5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 7,
@@ -4762,38 +4762,38 @@
       {
         "quantità": 4,
         "nome": "Roseanne's Research",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Celio's Network",
-        "setesteso": "Crystal Guardians",
-        "setnumero": "ex14"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Castaway",
-        "setesteso": "Crystal Guardians",
-        "setnumero": "ex14"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Scott",
-        "setesteso": "Emerald",
-        "setnumero": "ex9"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "TV Reporter",
-        "setesteso": "POP Series 2",
-        "setnumero": "pop2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
@@ -4804,38 +4804,38 @@
       {
         "quantità": 1,
         "nome": "Crystal Shard",
-        "setesteso": "Crystal Guardians",
-        "setnumero": "ex14"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Dusk Ball",
-        "setesteso": "Majestic Dawn",
-        "setnumero": "dp5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Night Maintenance",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Battle Frontier",
-        "setesteso": "Emerald",
-        "setnumero": "ex9"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Double Rainbow Energy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Scramble Energy",
-        "setesteso": "POP Series 4",
-        "setnumero": "pop4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
@@ -4910,74 +4910,74 @@
       {
         "quantità": 4,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Roseanne's Research",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Professor Oak's New Theory",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Palmer's Contribution",
-        "setesteso": "Supreme Victors",
-        "setnumero": "pl3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Pokémon Communication",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Expert Belt",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Poké Drawer +",
-        "setesteso": "Stormfront",
-        "setnumero": "89"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Broken Time-Space",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Multi Energy",
-        "setesteso": "Emerald",
-        "setnumero": "ex9"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 8,
@@ -5082,74 +5082,74 @@
       {
         "quantità": 4,
         "nome": "Cyrus's Conspiracy",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Roseanne's Research",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Aaron's Collection",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Professor Oak's Visit",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Team Galactic's Invention G-105 Poké Turn",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Team Galactic's Invention G-103 Power Spray",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Team Galactic's Invention G-101 Energy Gain",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Team Galactic's Invention G-109 SP Radar",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Night Maintenance",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "SP Energy",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
@@ -5242,92 +5242,92 @@
       {
         "quantità": 4,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Cyrus's Conspiracy",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Roseanne's Research",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Night Maintenance",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Team Galactic's Invention G-109 SP Radar",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Team Galactic's Invention G-105 Poké Turn",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Team Galactic's Invention G-101 Energy Gain",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Pokémon Communication",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Expert Belt",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Broken Time-Space",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Multi Energy",
-        "setesteso": "Emerald",
-        "setnumero": "ex9"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
@@ -5568,86 +5568,86 @@
       {
         "quantità": 4,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Roseanne's Research",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Looker's Investigation",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Night Maintenance",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Team Galactic's Invention G-105 Poké Turn",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Super Scoop Up",
-        "setesteso": "Shining Legends",
-        "setnumero": "sm35"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Expert Belt",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Moonlight Stadium",
-        "setesteso": "Great Encounters",
-        "setnumero": "dp4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Broken Time-Space",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Call Energy",
-        "setesteso": "Majestic Dawn",
-        "setnumero": "dp5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 7,
@@ -5704,74 +5704,74 @@
       {
         "quantità": 4,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Roseanne's Research",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Cynthia's Feelings",
-        "setesteso": "Legends Awakened",
-        "setnumero": "dp6"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Professor Oak's New Theory",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Poké Drawer +",
-        "setesteso": "Stormfront",
-        "setnumero": "89"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Communication",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Quick Ball",
-        "setesteso": "Majestic Dawn",
-        "setnumero": "dp5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Night Maintenance",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Expert Belt",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Broken Time-Space",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 12,
@@ -6154,86 +6154,86 @@
       {
         "quantità": 4,
         "nome": "Cyrus's Conspiracy",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Roseanne's Research",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Aaron's Collection",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Team Galactic's Invention G-105 Poké Turn",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Team Galactic's Invention G-103 Power Spray",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Team Galactic's Invention G-101 Energy Gain",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Team Galactic's Invention G-109 SP Radar",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Night Maintenance",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Galactic HQ",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Moonlight Stadium",
-        "setesteso": "Great Encounters",
-        "setnumero": "dp4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Miasma Valley",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 6,
@@ -6244,8 +6244,8 @@
       {
         "quantità": 3,
         "nome": "Darkness Energy",
-        "setesteso": "HS—Undaunted",
-        "setnumero": "hgss3"
+        "setesteso": "Basic",
+        "setnumero": null
       }
     ]
   ],
@@ -6314,62 +6314,62 @@
       {
         "quantità": 3,
         "nome": "Roseanne's Research",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Professor Oak's New Theory",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Communication",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Expert Belt",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Night Maintenance",
-        "setesteso": "POP Series 8",
-        "setnumero": "pop8"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Broken Time-Space",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 12,
@@ -6456,80 +6456,80 @@
       {
         "quantità": 4,
         "nome": "Cyrus's Conspiracy",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Palmer's Contribution",
-        "setesteso": "Supreme Victors",
-        "setnumero": "pl3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Professor Oak's New Theory",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Team Galactic's Invention G-105 Poké Turn",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Team Galactic's Invention G-103 Power Spray",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Team Galactic's Invention G-101 Energy Gain",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Team Galactic's Invention G-109 SP Radar",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Pokémon Communication",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Expert Belt",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
@@ -6540,20 +6540,20 @@
       {
         "quantità": 4,
         "nome": "Metal Energy",
-        "setesteso": "Neo Genesis",
-        "setnumero": "neo1"
+        "setesteso": "Special",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Warp Energy",
-        "setesteso": "Shining Legends",
-        "setnumero": "sm35"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Metal Energy",
-        "setesteso": "Neo Genesis",
-        "setnumero": "neo1"
+        "setesteso": "Basic",
+        "setnumero": null
       },
       {
         "quantità": 2,
@@ -6628,104 +6628,104 @@
       {
         "quantità": 2,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Professor Oak's New Theory",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Volkner's Philosophy",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Seeker",
-        "setesteso": "HS—Triumphant",
-        "setnumero": "hgss4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Twins",
-        "setesteso": "HS—Triumphant",
-        "setnumero": "hgss4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Team Galactic's Invention G-105 Poké Turn",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Junk Arm",
-        "setesteso": "HS—Triumphant",
-        "setnumero": "hgss4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Communication",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Expert Belt",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Pokémon Rescue",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Broken Time-Space",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Rescue Energy",
-        "setesteso": "HS—Triumphant",
-        "setnumero": "hgss4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Cyclone Energy",
-        "setesteso": "Unseen Forces",
-        "setnumero": "ex10"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Warp Energy",
-        "setesteso": "Shining Legends",
-        "setnumero": "sm35"
+        "setesteso": "TCG",
+        "setnumero": null
       }
     ]
   ],
@@ -6800,74 +6800,74 @@
       {
         "quantità": 2,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Cyrus's Conspiracy",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Seeker",
-        "setesteso": "HS—Triumphant",
-        "setnumero": "hgss4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Twins",
-        "setesteso": "HS—Triumphant",
-        "setnumero": "hgss4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Palmer's Contribution",
-        "setesteso": "Supreme Victors",
-        "setnumero": "pl3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Team Galactic's Invention G-105 Poké Turn",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Team Galactic's Invention G-109 SP Radar",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Lost World",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Broken Time-Space",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 9,
@@ -6954,86 +6954,86 @@
       {
         "quantità": 4,
         "nome": "Cyrus's Conspiracy",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Palmer's Contribution",
-        "setesteso": "Supreme Victors",
-        "setnumero": "pl3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Professor Oak's New Theory",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Team Galactic's Invention G-105 Poké Turn",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Team Galactic's Invention G-103 Power Spray",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Team Galactic's Invention G-101 Energy Gain",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Team Galactic's Invention G-109 SP Radar",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Communication",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Expert Belt",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Snowpoint Temple",
-        "setesteso": "Legends Awakened",
-        "setnumero": "dp6"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Galactic HQ",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
@@ -7056,14 +7056,14 @@
       {
         "quantità": 1,
         "nome": "SP Energy",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Warp Energy",
-        "setesteso": "Shining Legends",
-        "setnumero": "sm35"
+        "setesteso": "TCG",
+        "setnumero": null
       }
     ]
   ],
@@ -7120,74 +7120,74 @@
       {
         "quantità": 3,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Seeker",
-        "setesteso": "HS—Triumphant",
-        "setnumero": "hgss4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Palmer's Contribution",
-        "setesteso": "Supreme Victors",
-        "setnumero": "pl3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Communication",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "VS Seeker",
-        "setesteso": "FireRed & LeafGreen",
-        "setnumero": "ex6"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Poké Drawer +",
-        "setesteso": "Stormfront",
-        "setnumero": "89"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Warp Point",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Broken Time-Space",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Call Energy",
-        "setesteso": "Majestic Dawn",
-        "setnumero": "dp5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
@@ -7262,56 +7262,56 @@
       {
         "quantità": 4,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Engineer's Adjustments",
-        "setesteso": "HS—Unleashed",
-        "setnumero": "hgss2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Judge",
-        "setesteso": "HS—Unleashed",
-        "setnumero": "hgss2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Communication",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Expert Belt",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Broken Time-Space",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 8,
@@ -7328,14 +7328,14 @@
       {
         "quantità": 2,
         "nome": "Warp Energy",
-        "setesteso": "Shining Legends",
-        "setnumero": "sm35"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Rescue Energy",
-        "setesteso": "HS—Triumphant",
-        "setnumero": "hgss4"
+        "setesteso": "TCG",
+        "setnumero": null
       }
     ]
   ],
@@ -7416,80 +7416,80 @@
       {
         "quantità": 4,
         "nome": "Cyrus's Conspiracy",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Cyrus's Initiative",
-        "setesteso": "Supreme Victors",
-        "setnumero": "pl3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Judge",
-        "setesteso": "HS—Unleashed",
-        "setnumero": "hgss2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Palmer's Contribution",
-        "setesteso": "Supreme Victors",
-        "setnumero": "pl3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Team Galactic's Invention G-105 Poké Turn",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Team Galactic's Invention G-103 Power Spray",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Team Galactic's Invention G-101 Energy Gain",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Team Galactic's Invention G-109 SP Radar",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Expert Belt",
-        "setesteso": "Arceus",
-        "setnumero": "pl4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "VS Seeker",
-        "setesteso": "FireRed & LeafGreen",
-        "setnumero": "ex6"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
@@ -7500,14 +7500,14 @@
       {
         "quantità": 4,
         "nome": "Darkness Energy",
-        "setesteso": "HS—Undaunted",
-        "setnumero": "hgss3"
+        "setesteso": "Special",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Darkness Energy",
-        "setesteso": "HS—Undaunted",
-        "setnumero": "hgss3"
+        "setesteso": "Basic",
+        "setnumero": null
       }
     ]
   ],
@@ -7576,62 +7576,62 @@
       {
         "quantità": 4,
         "nome": "Bebe's Search",
-        "setesteso": "Rising Rivals",
-        "setnumero": "pl2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Pokémon Collector",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Professor Oak's New Theory",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Looker's Investigation",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Palmer's Contribution",
-        "setesteso": "Supreme Victors",
-        "setnumero": "pl3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Rare Candy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Luxury Ball",
-        "setesteso": "Stormfront",
-        "setnumero": "dp7"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Pokémon Communication",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "Broken Time-Space",
-        "setesteso": "Platinum",
-        "setnumero": "pl1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Call Energy",
-        "setesteso": "Majestic Dawn",
-        "setnumero": "dp5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 6,
@@ -7676,38 +7676,38 @@
       {
         "quantità": 4,
         "nome": "Professor Oak's New Theory",
-        "setesteso": "Call of Legends",
-        "setnumero": "col1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Professor Juniper",
-        "setesteso": "Plasma Blast",
-        "setnumero": "bw10"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
         "nome": "N",
-        "setesteso": "Neo Discovery",
-        "setnumero": "neo2"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Junk Arm",
-        "setesteso": "HS—Triumphant",
-        "setnumero": "hgss4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Pokémon Catcher",
-        "setesteso": "Kalos Starter Set",
-        "setnumero": "xy0"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Dual Ball",
-        "setesteso": "Team Magma vs Team Aqua",
-        "setnumero": "ex4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
@@ -7724,14 +7724,14 @@
       {
         "quantità": 2,
         "nome": "Pokégear 3.0",
-        "setesteso": "HeartGold & SoulSilver",
-        "setnumero": "hgss1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
         "nome": "Skyarrow Bridge",
-        "setesteso": "Next Destinies",
-        "setnumero": "bw4"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
@@ -7966,8 +7966,8 @@
       {
         "quantità": 4,
         "nome": "Metal Energy",
-        "setesteso": "Neo Genesis",
-        "setnumero": "neo1"
+        "setesteso": "Special",
+        "setnumero": null
       },
       {
         "quantità": 3,
@@ -9630,8 +9630,8 @@
       {
         "quantità": 7,
         "nome": "Fairy Energy",
-        "setesteso": "Generations",
-        "setnumero": "g1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
@@ -9642,8 +9642,8 @@
       {
         "quantità": 1,
         "nome": "Rainbow Energy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
@@ -9818,14 +9818,14 @@
       {
         "quantità": 5,
         "nome": "Fairy Energy",
-        "setesteso": "Generations",
-        "setnumero": "g1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 4,
         "nome": "Rainbow Energy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
@@ -12560,8 +12560,8 @@
       {
         "quantità": 4,
         "nome": "Rainbow Energy",
-        "setesteso": "POP Series 5",
-        "setnumero": "pop5"
+        "setesteso": "TCG",
+        "setnumero": null
       }
     ]
   ],
@@ -12826,8 +12826,8 @@
       {
         "quantità": 12,
         "nome": "Fairy Energy",
-        "setesteso": "Generations",
-        "setnumero": "g1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
@@ -13774,8 +13774,8 @@
       {
         "quantità": 8,
         "nome": "Metal Energy",
-        "setesteso": "Neo Genesis",
-        "setnumero": "neo1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 3,
@@ -13902,14 +13902,14 @@
       {
         "quantità": 7,
         "nome": "Darkness Energy",
-        "setesteso": "HS—Undaunted",
-        "setnumero": "hgss3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
         "nome": "Metal Energy",
-        "setesteso": "Neo Genesis",
-        "setnumero": "neo1"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
@@ -14032,8 +14032,8 @@
       {
         "quantità": 8,
         "nome": "Darkness Energy",
-        "setesteso": "HS—Undaunted",
-        "setnumero": "hgss3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 2,
@@ -14178,8 +14178,8 @@
       {
         "quantità": 7,
         "nome": "Darkness Energy",
-        "setesteso": "HS—Undaunted",
-        "setnumero": "hgss3"
+        "setesteso": "TCG",
+        "setnumero": null
       },
       {
         "quantità": 1,
@@ -14466,8 +14466,8 @@
       {
         "quantità": 3,
         "nome": "Darkness Energy",
-        "setesteso": "HS—Undaunted",
-        "setnumero": "hgss3"
+        "setesteso": "TCG",
+        "setnumero": null
       }
     ]
   ],

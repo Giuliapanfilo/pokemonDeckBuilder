@@ -3,7 +3,7 @@ import json
 def setIdByName(setnome):
     setnome = setnome.strip().lower()
     aliases = {
-        "base1": ["base set", "tcg", "expansion pack", "basic", "special", ""],
+        "base1": ["base set", "tcg", "expansion pack", "basic", "special", "", "TCG"],
         "base2": ["pokémon jungle"],
         "base5": ["rocket gang"],
         "ecard2":["aquapolis h", "aquapolis"],
