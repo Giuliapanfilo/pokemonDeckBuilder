@@ -6,7 +6,7 @@ with open("data/archetypeDecks.json", "r", encoding="utf-8") as f:
     archetipi = json.load(f)
 
 compendio = set()
-output = {}
+output = []
 
 for nomeArchetipo, mazzi in archetipi.items():
     archetypesCards = {}
@@ -21,8 +21,14 @@ for nomeArchetipo, mazzi in archetipi.items():
             compendio.add(cardId)
             archetypesCards[cardId] = carta["quantità"]
         mazzo[i] = { cardId: carta["quantità"] }
+        output.append([nomeArchetipo, j])
 
-    output[nomeArchetipo] = archetypesCards
+        quantita = dict.fromkeys(compendio, 0) #encoding del mazzo
+        for card in mazzo:
+            for cardId, quantity in card.items():
+                quantita[cardId] = quantity
+
+    #output[nomeArchetipo] = archetypesCards
             
 
 
