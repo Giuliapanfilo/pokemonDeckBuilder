@@ -1,5 +1,5 @@
 import json
-from fetch_card_id import cardIdByDict
+from deckbuilder.fetch_card_id import cardIdByDict
 
 # Carica archetypesDecks.json
 with open("data/archetypeDecks.json", "r", encoding="utf-8") as f:

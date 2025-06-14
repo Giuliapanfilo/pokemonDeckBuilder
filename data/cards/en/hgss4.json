@@ -5999,26 +5999,5 @@
       "small": "https://images.pokemontcg.io/hgss4/102.png",
       "large": "https://images.pokemontcg.io/hgss4/102_hires.png"
     }
-  },
-  {
-    "id": "hgss4-FOUR",
-    "name": "Alph Lithograph",
-    "supertype": "Trainer",
-    "subtypes": [
-      "Item"
-    ],
-    "rules": [
-      "LOOK AT ALL OF YOUR FACE DOWN PRIZE CARDS!"
-    ],
-    "number": "FOUR",
-    "artist": "Milky Isobe",
-    "rarity": "Rare Secret",
-    "legalities": {
-      "unlimited": "Legal"
-    },
-    "images": {
-      "small": "https://images.pokemontcg.io/hgss4/FOUR.png",
-      "large": "https://images.pokemontcg.io/hgss4/FOUR_hires.png"
-    }
   }
 ]
