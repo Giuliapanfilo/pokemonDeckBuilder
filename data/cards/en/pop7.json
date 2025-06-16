@@ -275,9 +275,7 @@
     "attacks": [
       {
         "name": "Silver Wind",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage."
@@ -335,9 +333,7 @@
     "attacks": [
       {
         "name": "Present",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward."
@@ -525,9 +521,7 @@
     "attacks": [
       {
         "name": "Lead",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."

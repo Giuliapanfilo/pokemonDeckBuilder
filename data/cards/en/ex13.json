@@ -5563,7 +5563,7 @@
   },
   {
     "id": "ex13-102",
-    "name": "Gyarados ★ δ",
+    "name": "Gyarados ☆ δ",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic",
@@ -5627,7 +5627,7 @@
   },
   {
     "id": "ex13-103",
-    "name": "Mewtwo ★",
+    "name": "Mewtwo ☆",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic",
@@ -5688,7 +5688,7 @@
   },
   {
     "id": "ex13-104",
-    "name": "Pikachu ★",
+    "name": "Pikachu ☆",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic",

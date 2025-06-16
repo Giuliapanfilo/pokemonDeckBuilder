@@ -5,6 +5,11 @@
     "91"
   ],
   [
+    "Aaron's Collection",
+    "Rising Rivals",
+    "88"
+  ],
+  [
     "Abra",
     "Team Rocket",
     "49"
@@ -78,11 +83,6 @@
     "Alolan Muk",
     "Sun & Moon",
     "58"
-  ],
-  [
-    "Alph Lithograph",
-    "Triumphant",
-    "FOUR"
   ],
   [
     "Ancient Technical Machine Rock",
@@ -175,12 +175,17 @@
     "75"
   ],
   [
+    "Battle Frontier",
+    "Emerald",
+    "75"
+  ],
+  [
     "Battle VIP Pass",
     "Fusion Strike",
     "225"
   ],
   [
-    "Beast Energy ♢",
+    "Beast Energy ◇",
     "Forbidden Light",
     "117"
   ],
@@ -290,7 +295,7 @@
     "95"
   ],
   [
-    "Black Market ♢",
+    "Black Market ◇",
     "Team Up",
     "134"
   ],
@@ -355,6 +360,11 @@
     "145"
   ],
   [
+    "Boost Energy",
+    "POP Series 5",
+    "8"
+  ],
+  [
     "Boost Shake",
     "Evolving Skies",
     "142"
@@ -366,11 +376,6 @@
   ],
   [
     "Boss's Orders",
-    "Paldea Evolved",
-    "172"
-  ],
-  [
-    "Boss's Orders",
     "Rebel Clash",
     "154"
   ],
@@ -378,6 +383,11 @@
     "Boss's Orders",
     "Shining Fates",
     "58"
+  ],
+  [
+    "Boss's Orders (Ghetsis)",
+    "Paldea Evolved",
+    "172"
   ],
   [
     "Bounsweet",
@@ -471,6 +481,11 @@
   ],
   [
     "Castaway",
+    "Crystal Guardians",
+    "72"
+  ],
+  [
+    "Castaway",
     "EX Crystal Guardians",
     "72"
   ],
@@ -478,6 +493,11 @@
     "Celebi",
     "Triumphant",
     "92"
+  ],
+  [
+    "Celio's Network",
+    "Crystal Guardians",
+    "73"
   ],
   [
     "Celio's Network",
@@ -608,6 +628,11 @@
     "Clamperl",
     "EX Hidden Legends",
     "58"
+  ],
+  [
+    "Claw Fossil",
+    "Legend Maker",
+    "78"
   ],
   [
     "Claydol",
@@ -796,6 +821,11 @@
   ],
   [
     "Crystal Shard",
+    "Crystal Guardians",
+    "76"
+  ],
+  [
+    "Crystal Shard",
     "EX Crystal Guardians",
     "76"
   ],
@@ -820,6 +850,11 @@
     "90"
   ],
   [
+    "Cyclone Energy",
+    "Unseen Forces",
+    "99"
+  ],
+  [
     "Cyllene",
     "Astral Radiance",
     "138"
@@ -838,6 +873,16 @@
     "Cynthia's Feelings",
     "Legends Awakened",
     "131"
+  ],
+  [
+    "Cyrus's Conspiracy",
+    "Platinum",
+    "105"
+  ],
+  [
+    "Cyrus's Initiative",
+    "Supreme Victors",
+    "137"
   ],
   [
     "Damage Mover",
@@ -893,6 +938,11 @@
     "Darkness Energy",
     "Black & White",
     "111"
+  ],
+  [
+    "Darkness Energy",
+    "HS—Undaunted",
+    "79"
   ],
   [
     "Darkness Energy",
@@ -955,6 +1005,16 @@
     "88"
   ],
   [
+    "Desert Ruins",
+    "Hidden Legends",
+    "88"
+  ],
+  [
+    "Desert Shaman",
+    "Skyridge",
+    "123"
+  ],
+  [
     "Devolution Spray",
     "Base Set",
     "72"
@@ -975,7 +1035,7 @@
     "122"
   ],
   [
-    "Diancie ♢",
+    "Diancie ◇",
     "Forbidden Light",
     "74"
   ],
@@ -1000,7 +1060,7 @@
     "27"
   ],
   [
-    "Ditto ♢",
+    "Ditto ◇",
     "Lost Thunder",
     "154"
   ],
@@ -1023,6 +1083,11 @@
     "Donphan",
     "Plasma Storm",
     "72"
+  ],
+  [
+    "Double Colorless Energy",
+    "Base",
+    "96"
   ],
   [
     "Double Colorless Energy",
@@ -1085,6 +1150,11 @@
     "87"
   ],
   [
+    "Double Rainbow Energy",
+    "POP Series 5",
+    "4"
+  ],
+  [
     "Dowsing Machine",
     "Plasma Storm",
     "128"
@@ -1143,6 +1213,11 @@
     "Dual Ball",
     "EX Delta Species",
     "89"
+  ],
+  [
+    "Dual Ball",
+    "Team Magma vs Team Aqua",
+    "72"
   ],
   [
     "Dunsparce",
@@ -1385,6 +1460,11 @@
     "173"
   ],
   [
+    "Engineer's Adjustments",
+    "HS—Unleashed",
+    "75"
+  ],
+  [
     "Enhanced Hammer",
     "Dark Explorers",
     "94"
@@ -1452,7 +1532,7 @@
   [
     "Espeon",
     "Aquapolis H",
-    "9"
+    "H9"
   ],
   [
     "Espeon-EX",
@@ -1510,9 +1590,19 @@
     "173"
   ],
   [
+    "Fairy Energy",
+    "Generations",
+    "83"
+  ],
+  [
     "Fairy Garden",
     "XY",
     "117"
+  ],
+  [
+    "Fast Ball",
+    "Skyridge",
+    "124"
   ],
   [
     "Fearow δ",
@@ -2065,7 +2155,7 @@
     "94"
   ],
   [
-    "Heat Factory ♢",
+    "Heat Factory ◇",
     "Lost Thunder",
     "178"
   ],
@@ -2090,9 +2180,14 @@
     "75"
   ],
   [
-    "Hiding D Energy",
+    "Hiding Darkness Energy",
     "Darkness Ablaze",
     "175"
+  ],
+  [
+    "High Pressure System",
+    "POP Series 3",
+    "10"
   ],
   [
     "Hisuian Braviary",
@@ -2305,6 +2400,11 @@
     "89"
   ],
   [
+    "Island Cave",
+    "Hidden Legends",
+    "89"
+  ],
+  [
     "Item Finder",
     "Base Set",
     "74"
@@ -2395,9 +2495,19 @@
     "235"
   ],
   [
+    "Judge",
+    "HS—Unleashed",
+    "78"
+  ],
+  [
     "Jumpluff",
     "HeartGold & SoulSilver",
     "6"
+  ],
+  [
+    "Junk Arm",
+    "HS—Triumphant",
+    "87"
   ],
   [
     "Junk Arm",
@@ -2620,6 +2730,11 @@
     "162"
   ],
   [
+    "Lost World",
+    "Call of Legends",
+    "81"
+  ],
+  [
     "Lotad",
     "EX Deoxys",
     "63"
@@ -2628,6 +2743,11 @@
     "Lotad",
     "EX Sandstorm",
     "66"
+  ],
+  [
+    "Low Pressure System",
+    "POP Series 3",
+    "11"
   ],
   [
     "Lucario GL",
@@ -3060,6 +3180,11 @@
     "54"
   ],
   [
+    "Miasma Valley",
+    "Platinum",
+    "111"
+  ],
+  [
     "Milotic",
     "EX Hidden Legends",
     "12"
@@ -3095,6 +3220,11 @@
     "56"
   ],
   [
+    "Moonlight Stadium",
+    "Great Encounters",
+    "100"
+  ],
+  [
     "Mount Lanakila",
     "Burning Shadows",
     "118"
@@ -3103,6 +3233,11 @@
     "Mr. Briney's Compassion",
     "EX Dragon",
     "87"
+  ],
+  [
+    "Mr. Briney's Compassion",
+    "POP Series 2",
+    "8"
   ],
   [
     "Mr. Mime",
@@ -3128,6 +3263,11 @@
     "Multi Energy",
     "EX Holon Phantoms",
     "96"
+  ],
+  [
+    "Multi Energy",
+    "Emerald",
+    "89"
   ],
   [
     "Multi Energy",
@@ -3165,6 +3305,11 @@
     "59"
   ],
   [
+    "Mysterious Fossil",
+    "Fossil",
+    "62"
+  ],
+  [
     "Mysterious Treasure",
     "Forbidden Light",
     "113"
@@ -3173,6 +3318,11 @@
     "Mystery Energy",
     "Phantom Forces",
     "112"
+  ],
+  [
+    "Mystery Zone",
+    "Skyridge",
+    "137"
   ],
   [
     "N",
@@ -3246,6 +3396,11 @@
   ],
   [
     "Night Maintenance",
+    "POP Series 8",
+    "9"
+  ],
+  [
+    "Night Maintenance",
     "Secret Wonders",
     "120"
   ],
@@ -3308,6 +3463,11 @@
     "Onix",
     "EX Team Rocket Returns",
     "69"
+  ],
+  [
+    "Oracle",
+    "Skyridge",
+    "138"
   ],
   [
     "Oranguru",
@@ -3497,7 +3657,7 @@
   [
     "Piplup",
     "DP Promo",
-    "3"
+    "03"
   ],
   [
     "Piplup",
@@ -3626,6 +3786,11 @@
   ],
   [
     "Pokémon Catcher",
+    "Kalos Starter Set",
+    "36"
+  ],
+  [
+    "Pokémon Catcher",
     "Plasma Blast",
     "83"
   ],
@@ -3680,9 +3845,19 @@
     "192"
   ],
   [
+    "Pokémon Nurse",
+    "Expedition Base Set",
+    "145"
+  ],
+  [
     "Pokémon Ranger",
     "Steam Siege",
     "104"
+  ],
+  [
+    "Pokémon Rescue",
+    "Platinum",
+    "115"
   ],
   [
     "Pokémon Retriever",
@@ -3697,6 +3872,11 @@
   [
     "Pokémon Reversal",
     "EX Unseen Forces",
+    "88"
+  ],
+  [
+    "Pokémon Reversal",
+    "Unseen Forces",
     "88"
   ],
   [
@@ -3775,9 +3955,19 @@
     "93"
   ],
   [
+    "Professor Birch",
+    "Emerald",
+    "82"
+  ],
+  [
     "Professor Elm",
     "Neo Genesis",
     "96"
+  ],
+  [
+    "Professor Elm's Training Method",
+    "Call of Legends",
+    "82"
   ],
   [
     "Professor Elm's Training Method",
@@ -3836,8 +4026,18 @@
   ],
   [
     "Professor Oak's Research",
+    "Dragon Frontiers",
+    "80"
+  ],
+  [
+    "Professor Oak's Research",
     "Expedition",
     "149"
+  ],
+  [
+    "Professor Oak's Visit",
+    "Arceus",
+    "90"
   ],
   [
     "Professor Oak's Visit",
@@ -3871,18 +4071,18 @@
   ],
   [
     "Professor's Research",
-    "Scarlet & Violet",
-    "189"
-  ],
-  [
-    "Professor's Research",
     "Shining Fates",
     "60"
   ],
   [
-    "Professor's Research",
+    "Professor's Research (Professor Magnolia)",
     "Sword & Shield",
     "178"
+  ],
+  [
+    "Professor's Research (Professor Sada)",
+    "Scarlet & Violet",
+    "189"
   ],
   [
     "Psychic Energy",
@@ -3908,6 +4108,11 @@
     "Quick Ball",
     "Fusion Strike",
     "237"
+  ],
+  [
+    "Quick Ball",
+    "Majestic Dawn",
+    "86"
   ],
   [
     "Quick Ball",
@@ -3966,6 +4171,11 @@
   ],
   [
     "Rainbow Energy",
+    "POP Series 5",
+    "9"
+  ],
+  [
+    "Rainbow Energy",
     "Sun & Moon",
     "137"
   ],
@@ -4018,6 +4228,11 @@
     "Rare Candy",
     "Great Encounters",
     "102"
+  ],
+  [
+    "Rare Candy",
+    "POP Series 5",
+    "7"
   ],
   [
     "Rare Candy",
@@ -4146,6 +4361,11 @@
   ],
   [
     "Rescue Energy",
+    "HS—Triumphant",
+    "90"
+  ],
+  [
+    "Rescue Energy",
     "Triumphant",
     "90"
   ],
@@ -4230,9 +4450,19 @@
     "94"
   ],
   [
+    "Root Fossil",
+    "Legend Maker",
+    "80"
+  ],
+  [
     "Rosa",
     "Cosmic Eclipse",
     "204"
+  ],
+  [
+    "Roseanne's Research",
+    "POP Series 8",
+    "11"
   ],
   [
     "Roseanne's Research",
@@ -4268,6 +4498,11 @@
     "Rufflet",
     "Astral Radiance",
     "131"
+  ],
+  [
+    "SP Energy",
+    "Rising Rivals",
+    "101"
   ],
   [
     "Sableye",
@@ -4317,7 +4552,7 @@
   [
     "Scizor",
     "Aquapolis H",
-    "21"
+    "H21"
   ],
   [
     "Scizor",
@@ -4355,6 +4590,11 @@
     "81"
   ],
   [
+    "Scott",
+    "Emerald",
+    "84"
+  ],
+  [
     "Scramble Energy",
     "EX Deoxys",
     "95"
@@ -4363,6 +4603,11 @@
     "Scramble Energy",
     "EX Dragon Frontiers",
     "89"
+  ],
+  [
+    "Scramble Energy",
+    "POP Series 4",
+    "10"
   ],
   [
     "Scramble Switch",
@@ -4413,6 +4658,11 @@
     "Seedot",
     "Flashfire",
     "5"
+  ],
+  [
+    "Seeker",
+    "HS—Triumphant",
+    "88"
   ],
   [
     "Seeker",
@@ -4710,6 +4960,11 @@
     "83"
   ],
   [
+    "Steven's Advice",
+    "Power Keepers",
+    "83"
+  ],
+  [
     "Strength Charm",
     "EX Deoxys",
     "92"
@@ -4798,6 +5053,11 @@
     "Super Scoop Up",
     "Furious Fists",
     "100"
+  ],
+  [
+    "Super Scoop Up",
+    "Shining Legends",
+    "66"
   ],
   [
     "Superior Energy Retrieval",
@@ -4950,9 +5210,24 @@
     "129"
   ],
   [
+    "Team Galactic's Invention G-101 Energy Gain",
+    "Platinum",
+    "116"
+  ],
+  [
+    "Team Galactic's Invention G-103 Power Spray",
+    "Platinum",
+    "117"
+  ],
+  [
     "Team Galactic's Invention G-105 Poké Turn",
     "Platinum",
     "118"
+  ],
+  [
+    "Team Galactic's Invention G-109 SP Radar",
+    "Rising Rivals",
+    "96"
   ],
   [
     "Team Galactic's Wager",
@@ -5236,6 +5511,11 @@
   ],
   [
     "Twins",
+    "HS—Triumphant",
+    "89"
+  ],
+  [
+    "Twins",
     "Triumphant",
     "89"
   ],
@@ -5346,6 +5626,11 @@
   ],
   [
     "VS Seeker",
+    "FireRed & LeafGreen",
+    "100"
+  ],
+  [
+    "VS Seeker",
     "Phantom Forces",
     "109"
   ],
@@ -5385,7 +5670,7 @@
     "15"
   ],
   [
-    "Victini ♢",
+    "Victini ◇",
     "Dragon Majesty",
     "7"
   ],
@@ -5435,6 +5720,11 @@
     "26"
   ],
   [
+    "Volkner's Philosophy",
+    "Rising Rivals",
+    "98"
+  ],
+  [
     "Voltorb",
     "Plasma Freeze",
     "32"
@@ -5451,8 +5741,8 @@
   ],
   [
     "Vulpix",
-    "Platinum SH",
-    "SH6"
+    "Platinum",
+    "102"
   ],
   [
     "Vulpix",
@@ -5490,6 +5780,11 @@
     "15"
   ],
   [
+    "Warp Energy",
+    "Shining Legends",
+    "70"
+  ],
+  [
     "Warp Point",
     "Diamond & Pearl",
     "116"
@@ -5513,6 +5808,11 @@
     "Warp Point",
     "Majestic Dawn",
     "88"
+  ],
+  [
+    "Warp Point",
+    "Team Magma vs Team Aqua",
+    "85"
   ],
   [
     "Wartortle",

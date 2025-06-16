@@ -1,6 +1,6 @@
 [
   {
-    "id": "dpp-DP01",
+    "id": "dpp-01",
     "name": "Turtwig",
     "supertype": "Pokémon",
     "subtypes": [
@@ -17,9 +17,7 @@
     "attacks": [
       {
         "name": "Tackle",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -51,7 +49,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP01",
+    "number": "01",
     "artist": "Masakazu Fukuda",
     "rarity": "Promo",
     "flavorText": "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
@@ -67,7 +65,7 @@
     }
   },
   {
-    "id": "dpp-DP02",
+    "id": "dpp-02",
     "name": "Chimchar",
     "supertype": "Pokémon",
     "subtypes": [
@@ -84,9 +82,7 @@
     "attacks": [
       {
         "name": "Scratch",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -112,7 +108,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP02",
+    "number": "02",
     "artist": "Kagemaru Himeno",
     "rarity": "Promo",
     "flavorText": "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
@@ -128,7 +124,7 @@
     }
   },
   {
-    "id": "dpp-DP03",
+    "id": "dpp-03",
     "name": "Piplup",
     "supertype": "Pokémon",
     "subtypes": [
@@ -145,9 +141,7 @@
     "attacks": [
       {
         "name": "Peck",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -173,7 +167,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP03",
+    "number": "03",
     "artist": "Atsuko Nishida",
     "rarity": "Promo",
     "flavorText": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
@@ -189,7 +183,7 @@
     }
   },
   {
-    "id": "dpp-DP04",
+    "id": "dpp-04",
     "name": "Pachirisu",
     "supertype": "Pokémon",
     "subtypes": [
@@ -236,7 +230,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP04",
+    "number": "04",
     "artist": "Atsuko Nishida",
     "rarity": "Promo",
     "flavorText": "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
@@ -252,7 +246,7 @@
     }
   },
   {
-    "id": "dpp-DP05",
+    "id": "dpp-05",
     "name": "Tropical Wind",
     "supertype": "Trainer",
     "subtypes": [
@@ -261,7 +255,7 @@
     "rules": [
       "Flip a coin. If heads, remove 2 damage counters from each Active Pokémon (remove 1 damage counter if a Pokémon has only 1). If tails, each Active Pokémon is now Asleep."
     ],
-    "number": "DP05",
+    "number": "05",
     "artist": "Sumiyoshi Kizuki",
     "rarity": "Promo",
     "legalities": {
@@ -273,7 +267,7 @@
     }
   },
   {
-    "id": "dpp-DP06",
+    "id": "dpp-06",
     "name": "Buneary",
     "supertype": "Pokémon",
     "subtypes": [
@@ -318,7 +312,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP06",
+    "number": "06",
     "artist": "Kagemaru Himeno",
     "rarity": "Promo",
     "flavorText": "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
@@ -334,7 +328,7 @@
     }
   },
   {
-    "id": "dpp-DP07",
+    "id": "dpp-07",
     "name": "Cranidos",
     "supertype": "Pokémon",
     "subtypes": [
@@ -380,7 +374,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP07",
+    "number": "07",
     "artist": "Mitsuhiro Arita",
     "rarity": "Promo",
     "flavorText": "It lived in jungles around 100 million years ago. Its skull is as hard as iron.",
@@ -396,7 +390,7 @@
     }
   },
   {
-    "id": "dpp-DP08",
+    "id": "dpp-08",
     "name": "Shieldon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -451,7 +445,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP08",
+    "number": "08",
     "artist": "Kouki Saitou",
     "rarity": "Promo",
     "flavorText": "A Pokémon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.",
@@ -467,7 +461,7 @@
     }
   },
   {
-    "id": "dpp-DP09",
+    "id": "dpp-09",
     "name": "Torterra LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -516,7 +510,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "DP09",
+    "number": "09",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -531,7 +525,7 @@
     }
   },
   {
-    "id": "dpp-DP10",
+    "id": "dpp-10",
     "name": "Infernape LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -571,7 +565,7 @@
         "value": "+30"
       }
     ],
-    "number": "DP10",
+    "number": "10",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -586,7 +580,7 @@
     }
   },
   {
-    "id": "dpp-DP11",
+    "id": "dpp-11",
     "name": "Empoleon LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -632,7 +626,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP11",
+    "number": "11",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -647,7 +641,7 @@
     }
   },
   {
-    "id": "dpp-DP12",
+    "id": "dpp-12",
     "name": "Lucario LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -692,7 +686,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP12",
+    "number": "12",
     "artist": "Ryo Ueda",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -707,7 +701,7 @@
     }
   },
   {
-    "id": "dpp-DP13",
+    "id": "dpp-13",
     "name": "Buizel",
     "supertype": "Pokémon",
     "subtypes": [
@@ -742,7 +736,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP13",
+    "number": "13",
     "artist": "Mitsuhiro Arita",
     "rarity": "Promo",
     "flavorText": "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
@@ -758,7 +752,7 @@
     }
   },
   {
-    "id": "dpp-DP14",
+    "id": "dpp-14",
     "name": "Chatot",
     "supertype": "Pokémon",
     "subtypes": [
@@ -805,7 +799,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP14",
+    "number": "14",
     "artist": "Masakazu Fukuda",
     "rarity": "Promo",
     "flavorText": "It can learn and speak human words. If they gather, they all learn the same saying.",
@@ -821,7 +815,7 @@
     }
   },
   {
-    "id": "dpp-DP15",
+    "id": "dpp-15",
     "name": "Shinx",
     "supertype": "Pokémon",
     "subtypes": [
@@ -862,7 +856,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP15",
+    "number": "15",
     "artist": "Kagemaru Himeno",
     "rarity": "Promo",
     "flavorText": "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
@@ -878,7 +872,7 @@
     }
   },
   {
-    "id": "dpp-DP16",
+    "id": "dpp-16",
     "name": "Pikachu",
     "supertype": "Pokémon",
     "subtypes": [
@@ -927,7 +921,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP16",
+    "number": "16",
     "artist": "Sumiyoshi Kizuki",
     "rarity": "Promo",
     "flavorText": "It lives in forests with others. It stores electricity in the pouches on its cheeks.",
@@ -943,7 +937,7 @@
     }
   },
   {
-    "id": "dpp-DP17",
+    "id": "dpp-17",
     "name": "Dialga LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -996,7 +990,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP17",
+    "number": "17",
     "artist": "Ryo Ueda",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1011,7 +1005,7 @@
     }
   },
   {
-    "id": "dpp-DP18",
+    "id": "dpp-18",
     "name": "Palkia LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1058,7 +1052,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "DP18",
+    "number": "18",
     "artist": "Ryo Ueda",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1073,7 +1067,7 @@
     }
   },
   {
-    "id": "dpp-DP19",
+    "id": "dpp-19",
     "name": "Darkrai LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1124,7 +1118,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP19",
+    "number": "19",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1139,7 +1133,7 @@
     }
   },
   {
-    "id": "dpp-DP20",
+    "id": "dpp-20",
     "name": "Magmortar",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1186,7 +1180,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "DP20",
+    "number": "20",
     "artist": "Daisuke Ito",
     "rarity": "Promo",
     "flavorText": "It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters.",
@@ -1202,7 +1196,7 @@
     }
   },
   {
-    "id": "dpp-DP21",
+    "id": "dpp-21",
     "name": "Raichu",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1217,9 +1211,7 @@
     "attacks": [
       {
         "name": "Electromagnetic Induction",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 Lightning Energy cards and attach them to 1 of your Pokémon. Shuffle your deck afterward."
@@ -1251,7 +1243,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP21",
+    "number": "21",
     "artist": "Daisuke Ito",
     "rarity": "Promo",
     "flavorText": "It turns aggressive if it has too much electricity in its body. It discharges power through its tail.",
@@ -1267,7 +1259,7 @@
     }
   },
   {
-    "id": "dpp-DP22",
+    "id": "dpp-22",
     "name": "Mime Jr.",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1306,7 +1298,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP22",
+    "number": "22",
     "artist": "Mitsuhiro Arita",
     "rarity": "Promo",
     "flavorText": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
@@ -1322,7 +1314,7 @@
     }
   },
   {
-    "id": "dpp-DP23",
+    "id": "dpp-23",
     "name": "Glameow",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1367,7 +1359,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP23",
+    "number": "23",
     "artist": "Mitsuhiro Arita",
     "rarity": "Promo",
     "flavorText": "It claws if displeased and purrs when affectionate. Its fickleness if very popular among some.",
@@ -1383,7 +1375,7 @@
     }
   },
   {
-    "id": "dpp-DP24",
+    "id": "dpp-24",
     "name": "Darkrai",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1435,7 +1427,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP24",
+    "number": "24",
     "artist": "Kouki Saitou",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1450,7 +1442,7 @@
     }
   },
   {
-    "id": "dpp-DP25",
+    "id": "dpp-25",
     "name": "Tropical Wind",
     "supertype": "Trainer",
     "subtypes": [
@@ -1459,7 +1451,7 @@
     "rules": [
       "Flip a coin. If heads, remove 2 damage counters from each Active Pokémon (remove 1 damage counter if a Pokémon has only 1). If tails, each Active Pokémon is now Asleep."
     ],
-    "number": "DP25",
+    "number": "25",
     "artist": "Sumiyoshi Kizuki",
     "rarity": "Promo",
     "legalities": {
@@ -1471,7 +1463,7 @@
     }
   },
   {
-    "id": "dpp-DP26",
+    "id": "dpp-26",
     "name": "Dialga",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1521,7 +1513,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP26",
+    "number": "26",
     "artist": "Kazuyuki Kano",
     "rarity": "Promo",
     "flavorText": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
@@ -1537,7 +1529,7 @@
     }
   },
   {
-    "id": "dpp-DP27",
+    "id": "dpp-27",
     "name": "Palkia",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1581,7 +1573,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP27",
+    "number": "27",
     "artist": "Daisuke Ito",
     "rarity": "Promo",
     "flavorText": "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
@@ -1597,7 +1589,7 @@
     }
   },
   {
-    "id": "dpp-DP28",
+    "id": "dpp-28",
     "name": "Mewtwo LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1643,7 +1635,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP28",
+    "number": "28",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1658,7 +1650,7 @@
     }
   },
   {
-    "id": "dpp-DP29",
+    "id": "dpp-29",
     "name": "Rhyperior LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1676,9 +1668,7 @@
     "attacks": [
       {
         "name": "Hard Crush",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "50×",
         "text": "Discard the top 5 cards from your deck. This attack does 50 damage for each Energy card you discarded."
@@ -1714,7 +1704,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "DP29",
+    "number": "29",
     "artist": "Ryo Ueda",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1729,7 +1719,7 @@
     }
   },
   {
-    "id": "dpp-DP30",
+    "id": "dpp-30",
     "name": "Regigigas LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1778,7 +1768,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "DP30",
+    "number": "30",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1793,7 +1783,7 @@
     }
   },
   {
-    "id": "dpp-DP31",
+    "id": "dpp-31",
     "name": "Heatran LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1833,7 +1823,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "DP31",
+    "number": "31",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1848,7 +1838,7 @@
     }
   },
   {
-    "id": "dpp-DP32",
+    "id": "dpp-32",
     "name": "Magnezone",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1901,7 +1891,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP32",
+    "number": "32",
     "artist": "Kent Kanetsuna",
     "rarity": "Promo",
     "flavorText": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
@@ -1917,7 +1907,7 @@
     }
   },
   {
-    "id": "dpp-DP33",
+    "id": "dpp-33",
     "name": "Dusknoir",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1966,7 +1956,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP33",
+    "number": "33",
     "artist": "Kent Kanetsuna",
     "rarity": "Promo",
     "flavorText": "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
@@ -1982,7 +1972,7 @@
     }
   },
   {
-    "id": "dpp-DP34",
+    "id": "dpp-34",
     "name": "Drifblim",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2028,7 +2018,7 @@
         "value": "-20"
       }
     ],
-    "number": "DP34",
+    "number": "34",
     "artist": "Mitsuhiro Arita",
     "rarity": "Promo",
     "flavorText": "It's drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.",
@@ -2044,7 +2034,7 @@
     }
   },
   {
-    "id": "dpp-DP35",
+    "id": "dpp-35",
     "name": "Porygon-Z",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2066,9 +2056,7 @@
     "attacks": [
       {
         "name": "Learning",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a Pokémon LV.X that levels up from 1 of your Pokémon, and put it onto that Pokémon. (This counts as leveling up that Pokémon.) Shuffle your deck afterward."
@@ -2095,7 +2083,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP35",
+    "number": "35",
     "artist": "Kagemaru Himeno",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2110,7 +2098,7 @@
     }
   },
   {
-    "id": "dpp-DP36",
+    "id": "dpp-36",
     "name": "Gliscor",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2161,7 +2149,7 @@
         "value": "-20"
       }
     ],
-    "number": "DP36",
+    "number": "36",
     "artist": "Kagemaru Himeno",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2176,7 +2164,7 @@
     }
   },
   {
-    "id": "dpp-DP37",
+    "id": "dpp-37",
     "name": "Dialga LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2229,7 +2217,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP37",
+    "number": "37",
     "artist": "Ryo Ueda",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2244,7 +2232,7 @@
     }
   },
   {
-    "id": "dpp-DP38",
+    "id": "dpp-38",
     "name": "Giratina LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2298,7 +2286,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "DP38",
+    "number": "38",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2313,7 +2301,7 @@
     }
   },
   {
-    "id": "dpp-DP39",
+    "id": "dpp-39",
     "name": "Shaymin LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2359,7 +2347,7 @@
         "value": "-20"
       }
     ],
-    "number": "DP39",
+    "number": "39",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2374,7 +2362,7 @@
     }
   },
   {
-    "id": "dpp-DP40",
+    "id": "dpp-40",
     "name": "Regigigas",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2423,7 +2411,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "DP40",
+    "number": "40",
     "artist": "Kagemaru Himeno",
     "rarity": "Promo",
     "flavorText": "There is an enduring legend that states this Pokémon towed continents with ropes.",
@@ -2439,7 +2427,7 @@
     }
   },
   {
-    "id": "dpp-DP41",
+    "id": "dpp-41",
     "name": "Toxicroak G",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2481,7 +2469,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP41",
+    "number": "41",
     "artist": "Ryota Saito",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2496,7 +2484,7 @@
     }
   },
   {
-    "id": "dpp-DP42",
+    "id": "dpp-42",
     "name": "Carnivine G",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2545,7 +2533,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP42",
+    "number": "42",
     "artist": "Makoto Imai",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2560,7 +2548,7 @@
     }
   },
   {
-    "id": "dpp-DP43",
+    "id": "dpp-43",
     "name": "Probopass G",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2608,7 +2596,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "DP43",
+    "number": "43",
     "artist": "Ryota Saito",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2623,7 +2611,7 @@
     }
   },
   {
-    "id": "dpp-DP44",
+    "id": "dpp-44",
     "name": "Magnezone",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2675,7 +2663,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP44",
+    "number": "44",
     "artist": "Kagemaru Himeno",
     "rarity": "Promo",
     "flavorText": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
@@ -2691,7 +2679,7 @@
     }
   },
   {
-    "id": "dpp-DP45",
+    "id": "dpp-45",
     "name": "Charizard G LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2747,7 +2735,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "DP45",
+    "number": "45",
     "artist": "Wataru Kawahara",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2762,7 +2750,7 @@
     }
   },
   {
-    "id": "dpp-DP46",
+    "id": "dpp-46",
     "name": "Garchomp C LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2804,7 +2792,7 @@
         "value": "×2"
       }
     ],
-    "number": "DP46",
+    "number": "46",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2819,7 +2807,7 @@
     }
   },
   {
-    "id": "dpp-DP47",
+    "id": "dpp-47",
     "name": "Rayquaza C LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2874,7 +2862,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "DP47",
+    "number": "47",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2889,7 +2877,7 @@
     }
   },
   {
-    "id": "dpp-DP48",
+    "id": "dpp-48",
     "name": "Tropical Wind",
     "supertype": "Trainer",
     "subtypes": [
@@ -2898,7 +2886,7 @@
     "rules": [
       "Flip a coin. If heads, remove 2 damage counters from each Active Pokémon (remove 1 damage counter if a Pokémon has only 1). If tails, each Active Pokémon is now Asleep."
     ],
-    "number": "DP48",
+    "number": "48",
     "artist": "Sumiyoshi Kizuki",
     "rarity": "Promo",
     "legalities": {
@@ -2910,7 +2898,7 @@
     }
   },
   {
-    "id": "dpp-DP49",
+    "id": "dpp-49",
     "name": "Dialga",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2960,7 +2948,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP49",
+    "number": "49",
     "artist": "Kagemaru Himeno",
     "rarity": "Promo",
     "flavorText": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
@@ -2976,7 +2964,7 @@
     }
   },
   {
-    "id": "dpp-DP50",
+    "id": "dpp-50",
     "name": "Arceus",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3015,7 +3003,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP50",
+    "number": "50",
     "artist": "Kunihiko Yuyama",
     "rarity": "Promo",
     "flavorText": "It is said to have emerged from an egg in a place where there was nothing, then shaped the world.",
@@ -3031,7 +3019,7 @@
     }
   },
   {
-    "id": "dpp-DP51",
+    "id": "dpp-51",
     "name": "Cresselia",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3073,7 +3061,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP51",
+    "number": "51",
     "artist": "Wataru Kawahara",
     "rarity": "Promo",
     "flavorText": "On nights around the quarter moon, the aurora from its tail extends and undulates beautifully.",
@@ -3089,7 +3077,7 @@
     }
   },
   {
-    "id": "dpp-DP52",
+    "id": "dpp-52",
     "name": "Darkrai",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3137,7 +3125,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "DP52",
+    "number": "52",
     "artist": "Wataru Kawahara",
     "rarity": "Promo",
     "flavorText": "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
@@ -3153,7 +3141,7 @@
     }
   },
   {
-    "id": "dpp-DP53",
+    "id": "dpp-53",
     "name": "Arceus LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3185,7 +3173,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP53",
+    "number": "53",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3200,7 +3188,7 @@
     }
   },
   {
-    "id": "dpp-DP54",
+    "id": "dpp-54",
     "name": "Beginning Door",
     "supertype": "Trainer",
     "subtypes": [
@@ -3209,7 +3197,7 @@
     "rules": [
       "Search your deck for Arceus, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
     ],
-    "number": "DP54",
+    "number": "54",
     "artist": "Ryo Ueda",
     "rarity": "Promo",
     "legalities": {
@@ -3221,7 +3209,7 @@
     }
   },
   {
-    "id": "dpp-DP55",
+    "id": "dpp-55",
     "name": "Ultimate Zone",
     "supertype": "Trainer",
     "subtypes": [
@@ -3231,7 +3219,7 @@
       "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",
       "During each player's turn, the player may move an Energy card attached to 1 of his or her Benched Pokémon to his or her Active Arceus as often as he or she likes."
     ],
-    "number": "DP55",
+    "number": "55",
     "artist": "Yusuke Ishikawa",
     "rarity": "Promo",
     "legalities": {
@@ -3243,7 +3231,7 @@
     }
   },
   {
-    "id": "dpp-DP56",
+    "id": "dpp-56",
     "name": "Arceus LV.X",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3283,7 +3271,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "DP56",
+    "number": "56",
     "artist": "Ryo Ueda",
     "rarity": "Promo",
     "nationalPokedexNumbers": [

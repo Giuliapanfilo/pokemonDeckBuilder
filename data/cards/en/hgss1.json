@@ -989,9 +989,7 @@
     "attacks": [
       {
         "name": "Eeeeeeek",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Shuffle your hand into your deck, then draw 6 cards. Cleffa is now Asleep."
@@ -1644,9 +1642,7 @@
     "attacks": [
       {
         "name": "Playground",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Each player may search his or her deck for as many Basic Pokémon as he or she likes, put them onto his or her Bench, and shuffle his or her deck afterward. (You put your Pokémon on the Bench first.) Pichu is now Asleep."
@@ -1753,9 +1749,7 @@
     "attacks": [
       {
         "name": "Energy Antics",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Move an Energy card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon. Smoochum is now Asleep."
@@ -1925,9 +1919,7 @@
     "attacks": [
       {
         "name": "Mischievous Punch",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30",
         "text": "This attack's damage isn't affected by Weakness or Resistance. Tyrogue is now Asleep."
@@ -2602,9 +2594,7 @@
     "attacks": [
       {
         "name": "Graffiti",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Igglybuff is now Asleep. During your opponent's next turn, the attack cost of each of the Defending Pokémon's attacks is Colorless more."

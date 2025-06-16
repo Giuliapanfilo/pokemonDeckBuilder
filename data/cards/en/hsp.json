@@ -1,6 +1,6 @@
 [
   {
-    "id": "hsp-HGSS01",
+    "id": "hsp-01",
     "name": "Ho-Oh",
     "supertype": "Pokémon",
     "subtypes": [
@@ -51,7 +51,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "HGSS01",
+    "number": "01",
     "artist": "Takashi Yamaguchi",
     "rarity": "Promo",
     "flavorText": "A legend says that its body glows in seven colors. A rainbow is said to form behind when it flies.",
@@ -67,7 +67,7 @@
     }
   },
   {
-    "id": "hsp-HGSS02",
+    "id": "hsp-02",
     "name": "Lugia",
     "supertype": "Pokémon",
     "subtypes": [
@@ -117,7 +117,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "HGSS02",
+    "number": "02",
     "artist": "Takashi Yamaguchi",
     "rarity": "Promo",
     "flavorText": "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong.",
@@ -133,7 +133,7 @@
     }
   },
   {
-    "id": "hsp-HGSS03",
+    "id": "hsp-03",
     "name": "Pikachu",
     "supertype": "Pokémon",
     "subtypes": [
@@ -185,7 +185,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS03",
+    "number": "03",
     "artist": "Kanako Eo",
     "rarity": "Promo",
     "flavorText": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
@@ -201,7 +201,7 @@
     }
   },
   {
-    "id": "hsp-HGSS04",
+    "id": "hsp-04",
     "name": "Wobbuffet",
     "supertype": "Pokémon",
     "subtypes": [
@@ -242,7 +242,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "HGSS04",
+    "number": "04",
     "artist": "match",
     "rarity": "Promo",
     "flavorText": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
@@ -258,7 +258,7 @@
     }
   },
   {
-    "id": "hsp-HGSS05",
+    "id": "hsp-05",
     "name": "Hoothoot",
     "supertype": "Pokémon",
     "subtypes": [
@@ -305,7 +305,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS05",
+    "number": "05",
     "artist": "Masakazu Fukuda",
     "rarity": "Promo",
     "flavorText": "It has a perfect sense of time. Whatever happens, it keeps rhythm by precisely tilting its head in time.",
@@ -321,7 +321,7 @@
     }
   },
   {
-    "id": "hsp-HGSS06",
+    "id": "hsp-06",
     "name": "Noctowl",
     "supertype": "Pokémon",
     "subtypes": [
@@ -368,7 +368,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS06",
+    "number": "06",
     "artist": "Masakazu Fukuda",
     "rarity": "Promo",
     "flavorText": "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power.",
@@ -384,7 +384,7 @@
     }
   },
   {
-    "id": "hsp-HGSS07",
+    "id": "hsp-07",
     "name": "Feraligatr",
     "supertype": "Pokémon",
     "subtypes": [
@@ -429,7 +429,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "HGSS07",
+    "number": "07",
     "artist": "Kent Kanetsuna",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -444,7 +444,7 @@
     }
   },
   {
-    "id": "hsp-HGSS08",
+    "id": "hsp-08",
     "name": "Meganium",
     "supertype": "Pokémon",
     "subtypes": [
@@ -494,7 +494,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "HGSS08",
+    "number": "08",
     "artist": "Noriko Hotta",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -509,7 +509,7 @@
     }
   },
   {
-    "id": "hsp-HGSS09",
+    "id": "hsp-09",
     "name": "Typhlosion",
     "supertype": "Pokémon",
     "subtypes": [
@@ -552,7 +552,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "HGSS09",
+    "number": "09",
     "artist": "Wataru Kawahara",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -567,7 +567,7 @@
     }
   },
   {
-    "id": "hsp-HGSS10",
+    "id": "hsp-10",
     "name": "Latias",
     "supertype": "Pokémon",
     "subtypes": [
@@ -609,7 +609,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS10",
+    "number": "10",
     "artist": "Wataru Kawahara",
     "rarity": "Promo",
     "flavorText": "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
@@ -625,7 +625,7 @@
     }
   },
   {
-    "id": "hsp-HGSS11",
+    "id": "hsp-11",
     "name": "Latios",
     "supertype": "Pokémon",
     "subtypes": [
@@ -667,7 +667,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "HGSS11",
+    "number": "11",
     "artist": "Wataru Kawahara",
     "rarity": "Promo",
     "flavorText": "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
@@ -683,7 +683,7 @@
     }
   },
   {
-    "id": "hsp-HGSS12",
+    "id": "hsp-12",
     "name": "Cleffa",
     "supertype": "Pokémon",
     "subtypes": [
@@ -706,15 +706,13 @@
     "attacks": [
       {
         "name": "Eeeeeeek",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Shuffle your hand into your deck, then draw 6 cards. Cleffa is now Asleep."
       }
     ],
-    "number": "HGSS12",
+    "number": "12",
     "artist": "Masakazu Fukuda",
     "rarity": "Promo",
     "flavorText": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
@@ -730,7 +728,7 @@
     }
   },
   {
-    "id": "hsp-HGSS13",
+    "id": "hsp-13",
     "name": "Smoochum",
     "supertype": "Pokémon",
     "subtypes": [
@@ -753,15 +751,13 @@
     "attacks": [
       {
         "name": "Energy Antics",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Move an Energy card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon. Smoochum is now Asleep."
       }
     ],
-    "number": "HGSS13",
+    "number": "13",
     "artist": "Midori Harada",
     "rarity": "Promo",
     "flavorText": "Its lips are the most sensitive part of its body. It always uses its lips first to examine things.",
@@ -777,7 +773,7 @@
     }
   },
   {
-    "id": "hsp-HGSS14",
+    "id": "hsp-14",
     "name": "Lapras",
     "supertype": "Pokémon",
     "subtypes": [
@@ -820,7 +816,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "HGSS14",
+    "number": "14",
     "artist": "Masakazu Fukuda",
     "rarity": "Promo",
     "flavorText": "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood.",
@@ -836,7 +832,7 @@
     }
   },
   {
-    "id": "hsp-HGSS15",
+    "id": "hsp-15",
     "name": "Shuckle",
     "supertype": "Pokémon",
     "subtypes": [
@@ -875,7 +871,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS15",
+    "number": "15",
     "artist": "match",
     "rarity": "Promo",
     "flavorText": "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
@@ -891,7 +887,7 @@
     }
   },
   {
-    "id": "hsp-HGSS16",
+    "id": "hsp-16",
     "name": "Plusle",
     "supertype": "Pokémon",
     "subtypes": [
@@ -937,7 +933,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS16",
+    "number": "16",
     "artist": "Kouki Saitou",
     "rarity": "Promo",
     "flavorText": "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
@@ -953,7 +949,7 @@
     }
   },
   {
-    "id": "hsp-HGSS17",
+    "id": "hsp-17",
     "name": "Minun",
     "supertype": "Pokémon",
     "subtypes": [
@@ -999,7 +995,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS17",
+    "number": "17",
     "artist": "Kouki Saitou",
     "rarity": "Promo",
     "flavorText": "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.",
@@ -1015,7 +1011,7 @@
     }
   },
   {
-    "id": "hsp-HGSS18",
+    "id": "hsp-18",
     "name": "Tropical Tidal Wave",
     "supertype": "Trainer",
     "subtypes": [
@@ -1024,7 +1020,7 @@
     "rules": [
       "Flip a coin. If heads, discard all Trainer and Stadium cards your opponent has in play. If tails, discard all Trainer and Stadium cards you have in play."
     ],
-    "number": "HGSS18",
+    "number": "18",
     "artist": "Sumiyoshi Kizuki",
     "rarity": "Promo",
     "legalities": {
@@ -1036,7 +1032,7 @@
     }
   },
   {
-    "id": "hsp-HGSS19",
+    "id": "hsp-19",
     "name": "Raikou",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1075,7 +1071,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS19",
+    "number": "19",
     "artist": "Noriko Hotta",
     "rarity": "Promo",
     "flavorText": "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
@@ -1091,7 +1087,7 @@
     }
   },
   {
-    "id": "hsp-HGSS20",
+    "id": "hsp-20",
     "name": "Entei",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1124,7 +1120,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS20",
+    "number": "20",
     "artist": "Yuri Umemura",
     "rarity": "Promo",
     "flavorText": "Volcanoes erupt when it barks. Unable to contain its sheer power, it races headlong around the land.",
@@ -1140,7 +1136,7 @@
     }
   },
   {
-    "id": "hsp-HGSS21",
+    "id": "hsp-21",
     "name": "Suicune",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1173,7 +1169,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS21",
+    "number": "21",
     "artist": "Hideaki Hakozaki",
     "rarity": "Promo",
     "flavorText": "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
@@ -1189,7 +1185,7 @@
     }
   },
   {
-    "id": "hsp-HGSS22",
+    "id": "hsp-22",
     "name": "Porygon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1233,7 +1229,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS22",
+    "number": "22",
     "artist": "TOKIYA",
     "rarity": "Promo",
     "flavorText": "It is a manmade Pokémon. Since it doesn't breathe, people are eager to try it in any environment..",
@@ -1249,7 +1245,7 @@
     }
   },
   {
-    "id": "hsp-HGSS23",
+    "id": "hsp-23",
     "name": "Porygon2",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1294,7 +1290,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "HGSS23",
+    "number": "23",
     "artist": "TOKIYA",
     "rarity": "Promo",
     "flavorText": "This upgraded version of Porygon is designed for space exploration. It can't fly, though.",
@@ -1310,7 +1306,7 @@
     }
   },
   {
-    "id": "hsp-HGSS24",
+    "id": "hsp-24",
     "name": "Hitmonchan",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1351,7 +1347,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "HGSS24",
+    "number": "24",
     "artist": "Kouki Saitou",
     "rarity": "Promo",
     "flavorText": "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
@@ -1367,7 +1363,7 @@
     }
   },
   {
-    "id": "hsp-HGSS25",
+    "id": "hsp-25",
     "name": "Hitmonlee",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1410,7 +1406,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "HGSS25",
+    "number": "25",
     "artist": "Kouki Saitou",
     "rarity": "Promo",
     "flavorText": "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.",

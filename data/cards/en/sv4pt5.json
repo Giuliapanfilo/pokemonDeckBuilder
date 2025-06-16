@@ -1891,8 +1891,7 @@
     "attacks": [
       {
         "name": "Mimed Games",
-        "cost": [
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Your opponent chooses an attack from 1 of their Pokémon in play. Use the chosen attack as this attack."
@@ -8445,8 +8444,7 @@
     "attacks": [
       {
         "name": "Grasping Draw",
-        "cost": [
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Draw cards until you have 7 cards in your hand."
@@ -8887,8 +8885,7 @@
     "attacks": [
       {
         "name": "Mimed Games",
-        "cost": [
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Your opponent chooses an attack from 1 of their Pokémon in play. Use the chosen attack as this attack."

@@ -1,6 +1,6 @@
 [
   {
-    "id": "bwp-BW01",
+    "id": "bwp-01",
     "name": "Snivy",
     "supertype": "Pokémon",
     "subtypes": [
@@ -41,7 +41,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW01",
+    "number": "01",
     "artist": "Ken Sugimori",
     "rarity": "Promo",
     "flavorText": "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
@@ -58,7 +58,7 @@
     }
   },
   {
-    "id": "bwp-BW02",
+    "id": "bwp-02",
     "name": "Tepig",
     "supertype": "Pokémon",
     "subtypes": [
@@ -94,7 +94,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW02",
+    "number": "02",
     "artist": "Ken Sugimori",
     "rarity": "Promo",
     "flavorText": "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
@@ -111,7 +111,7 @@
     }
   },
   {
-    "id": "bwp-BW03",
+    "id": "bwp-03",
     "name": "Oshawott",
     "supertype": "Pokémon",
     "subtypes": [
@@ -146,7 +146,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW03",
+    "number": "03",
     "artist": "Ken Sugimori",
     "rarity": "Promo",
     "flavorText": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
@@ -163,7 +163,7 @@
     }
   },
   {
-    "id": "bwp-BW004",
+    "id": "bwp-004",
     "name": "Reshiram",
     "supertype": "Pokémon",
     "subtypes": [
@@ -207,7 +207,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW004",
+    "number": "004",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
@@ -224,7 +224,7 @@
     }
   },
   {
-    "id": "bwp-BW005",
+    "id": "bwp-005",
     "name": "Zekrom",
     "supertype": "Pokémon",
     "subtypes": [
@@ -268,7 +268,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW005",
+    "number": "005",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.",
@@ -285,7 +285,7 @@
     }
   },
   {
-    "id": "bwp-BW06",
+    "id": "bwp-06",
     "name": "Snivy",
     "supertype": "Pokémon",
     "subtypes": [
@@ -335,7 +335,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW06",
+    "number": "06",
     "artist": "Shizurow",
     "rarity": "Promo",
     "flavorText": "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
@@ -352,7 +352,7 @@
     }
   },
   {
-    "id": "bwp-BW07",
+    "id": "bwp-07",
     "name": "Tepig",
     "supertype": "Pokémon",
     "subtypes": [
@@ -396,7 +396,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW07",
+    "number": "07",
     "artist": "Shin Nagasawa",
     "rarity": "Promo",
     "flavorText": "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
@@ -413,7 +413,7 @@
     }
   },
   {
-    "id": "bwp-BW08",
+    "id": "bwp-08",
     "name": "Oshawott",
     "supertype": "Pokémon",
     "subtypes": [
@@ -457,7 +457,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW08",
+    "number": "08",
     "artist": "Mitsuhiro Arita",
     "rarity": "Promo",
     "flavorText": "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
@@ -474,7 +474,7 @@
     }
   },
   {
-    "id": "bwp-BW09",
+    "id": "bwp-09",
     "name": "Zoroark",
     "supertype": "Pokémon",
     "subtypes": [
@@ -522,7 +522,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW09",
+    "number": "09",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "flavorText": "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
@@ -539,7 +539,7 @@
     }
   },
   {
-    "id": "bwp-BW10",
+    "id": "bwp-10",
     "name": "Axew",
     "supertype": "Pokémon",
     "subtypes": [
@@ -568,7 +568,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW10",
+    "number": "10",
     "artist": "Masakazu Fukuda",
     "rarity": "Promo",
     "flavorText": "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
@@ -585,7 +585,7 @@
     }
   },
   {
-    "id": "bwp-BW11",
+    "id": "bwp-11",
     "name": "Pansage",
     "supertype": "Pokémon",
     "subtypes": [
@@ -626,7 +626,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW11",
+    "number": "11",
     "artist": "Akira Komayama",
     "rarity": "Promo",
     "flavorText": "It shares the leaf on its head with weary-looking Pokémon. These leaves are know to relieve stress.",
@@ -643,7 +643,7 @@
     }
   },
   {
-    "id": "bwp-BW12",
+    "id": "bwp-12",
     "name": "Zorua",
     "supertype": "Pokémon",
     "subtypes": [
@@ -684,7 +684,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW12",
+    "number": "12",
     "artist": "Tomokazu Komiya",
     "rarity": "Promo",
     "flavorText": "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
@@ -701,7 +701,7 @@
     }
   },
   {
-    "id": "bwp-BW13",
+    "id": "bwp-13",
     "name": "Minccino",
     "supertype": "Pokémon",
     "subtypes": [
@@ -745,7 +745,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW13",
+    "number": "13",
     "artist": "Atsuko Nishida",
     "rarity": "Promo",
     "flavorText": "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
@@ -762,7 +762,7 @@
     }
   },
   {
-    "id": "bwp-BW14",
+    "id": "bwp-14",
     "name": "Pansage",
     "supertype": "Pokémon",
     "subtypes": [
@@ -803,7 +803,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW14",
+    "number": "14",
     "artist": "Akira Komayama",
     "rarity": "Promo",
     "flavorText": "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
@@ -820,7 +820,7 @@
     }
   },
   {
-    "id": "bwp-BW15",
+    "id": "bwp-15",
     "name": "Pidove",
     "supertype": "Pokémon",
     "subtypes": [
@@ -861,7 +861,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW15",
+    "number": "15",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "flavorText": "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
@@ -878,7 +878,7 @@
     }
   },
   {
-    "id": "bwp-BW16",
+    "id": "bwp-16",
     "name": "Axew",
     "supertype": "Pokémon",
     "subtypes": [
@@ -907,7 +907,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW16",
+    "number": "16",
     "artist": "Masakazu Fukuda",
     "rarity": "Promo",
     "flavorText": "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
@@ -924,7 +924,7 @@
     }
   },
   {
-    "id": "bwp-BW17",
+    "id": "bwp-17",
     "name": "Ducklett",
     "supertype": "Pokémon",
     "subtypes": [
@@ -964,7 +964,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW17",
+    "number": "17",
     "artist": "Kagemaru Himeno",
     "rarity": "Promo",
     "flavorText": "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
@@ -981,7 +981,7 @@
     }
   },
   {
-    "id": "bwp-BW18",
+    "id": "bwp-18",
     "name": "Darumaka",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1017,7 +1017,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW18",
+    "number": "18",
     "artist": "Akira Komayama",
     "rarity": "Promo",
     "flavorText": "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
@@ -1034,7 +1034,7 @@
     }
   },
   {
-    "id": "bwp-BW19",
+    "id": "bwp-19",
     "name": "Zoroark",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1083,7 +1083,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW19",
+    "number": "19",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
@@ -1100,7 +1100,7 @@
     }
   },
   {
-    "id": "bwp-BW20",
+    "id": "bwp-20",
     "name": "Serperior",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1146,7 +1146,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW20",
+    "number": "20",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "They raise their heads to intimidate opponents but only give their all when fighting a powerful opponent.",
@@ -1163,7 +1163,7 @@
     }
   },
   {
-    "id": "bwp-BW21",
+    "id": "bwp-21",
     "name": "Emboar",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1208,7 +1208,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "BW21",
+    "number": "21",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
@@ -1225,7 +1225,7 @@
     }
   },
   {
-    "id": "bwp-BW22",
+    "id": "bwp-22",
     "name": "Samurott",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1267,7 +1267,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW22",
+    "number": "22",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
@@ -1284,7 +1284,7 @@
     }
   },
   {
-    "id": "bwp-BW23",
+    "id": "bwp-23",
     "name": "Reshiram",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1328,7 +1328,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW23",
+    "number": "23",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
@@ -1345,7 +1345,7 @@
     }
   },
   {
-    "id": "bwp-BW24",
+    "id": "bwp-24",
     "name": "Zekrom",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1389,7 +1389,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW24",
+    "number": "24",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.",
@@ -1406,7 +1406,7 @@
     }
   },
   {
-    "id": "bwp-BW25",
+    "id": "bwp-25",
     "name": "Scraggy",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1457,7 +1457,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW25",
+    "number": "25",
     "artist": "Akira Komayama",
     "rarity": "Promo",
     "flavorText": "It immediately headbutts anyone that makes eye contact with it. Its skull is massively thick.",
@@ -1474,7 +1474,7 @@
     }
   },
   {
-    "id": "bwp-BW26",
+    "id": "bwp-26",
     "name": "Axew",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1503,7 +1503,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW26",
+    "number": "26",
     "artist": "Akira Komayama",
     "rarity": "Promo",
     "flavorText": "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
@@ -1520,7 +1520,7 @@
     }
   },
   {
-    "id": "bwp-BW27",
+    "id": "bwp-27",
     "name": "Litwick",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1564,7 +1564,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW27",
+    "number": "27",
     "artist": "Atsuko Nishida",
     "rarity": "Promo",
     "flavorText": "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
@@ -1581,7 +1581,7 @@
     }
   },
   {
-    "id": "bwp-BW28",
+    "id": "bwp-28",
     "name": "Tropical Beach",
     "supertype": "Trainer",
     "subtypes": [
@@ -1591,7 +1591,7 @@
       "Once during each player's turn, that player may draw cards until he or she has 7 cards in his or her hand. If he or she does, that player's turn ends.",
       "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
     ],
-    "number": "BW28",
+    "number": "28",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "legalities": {
@@ -1604,7 +1604,7 @@
     }
   },
   {
-    "id": "bwp-BW29",
+    "id": "bwp-29",
     "name": "Victory Cup",
     "supertype": "Trainer",
     "subtypes": [
@@ -1614,7 +1614,7 @@
       "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
       "You may play as many Item cards as you like during your turn (before your attack)."
     ],
-    "number": "BW29",
+    "number": "29",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "legalities": {
@@ -1627,7 +1627,7 @@
     }
   },
   {
-    "id": "bwp-BW30",
+    "id": "bwp-30",
     "name": "Victory Cup",
     "supertype": "Trainer",
     "subtypes": [
@@ -1637,7 +1637,7 @@
       "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
       "You may play as many Item cards as you like during your turn (before your attack)."
     ],
-    "number": "BW30",
+    "number": "30",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "legalities": {
@@ -1650,7 +1650,7 @@
     }
   },
   {
-    "id": "bwp-BW31",
+    "id": "bwp-31",
     "name": "Victory Cup",
     "supertype": "Trainer",
     "subtypes": [
@@ -1660,7 +1660,7 @@
       "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
       "You may play as many Item cards as you like during your turn (before your attack)."
     ],
-    "number": "BW31",
+    "number": "31",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "legalities": {
@@ -1673,7 +1673,7 @@
     }
   },
   {
-    "id": "bwp-BW32",
+    "id": "bwp-32",
     "name": "Victini",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1712,7 +1712,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW32",
+    "number": "32",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
@@ -1729,7 +1729,7 @@
     }
   },
   {
-    "id": "bwp-BW33",
+    "id": "bwp-33",
     "name": "Riolu",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1773,7 +1773,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW33",
+    "number": "33",
     "artist": "sui",
     "rarity": "Promo",
     "flavorText": "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
@@ -1790,7 +1790,7 @@
     }
   },
   {
-    "id": "bwp-BW34",
+    "id": "bwp-34",
     "name": "Luxio",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1836,7 +1836,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW34",
+    "number": "34",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "flavorText": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
@@ -1853,7 +1853,7 @@
     }
   },
   {
-    "id": "bwp-BW35",
+    "id": "bwp-35",
     "name": "Meowth",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1897,7 +1897,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW35",
+    "number": "35",
     "artist": "Sumiyoshi Kizuki",
     "rarity": "Promo",
     "flavorText": "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
@@ -1914,7 +1914,7 @@
     }
   },
   {
-    "id": "bwp-BW36",
+    "id": "bwp-36",
     "name": "Reshiram-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1965,7 +1965,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "BW36",
+    "number": "36",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1981,7 +1981,7 @@
     }
   },
   {
-    "id": "bwp-BW37",
+    "id": "bwp-37",
     "name": "Kyurem-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2032,7 +2032,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "BW37",
+    "number": "37",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2048,7 +2048,7 @@
     }
   },
   {
-    "id": "bwp-BW38",
+    "id": "bwp-38",
     "name": "Zekrom-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2099,7 +2099,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "BW38",
+    "number": "38",
     "artist": "Shizurow",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2115,7 +2115,7 @@
     }
   },
   {
-    "id": "bwp-BW39",
+    "id": "bwp-39",
     "name": "Battle City",
     "supertype": "Trainer",
     "subtypes": [
@@ -2125,7 +2125,7 @@
       "Once during each player's turn, that player may flip a coin. If heads, the player draws a card.",
       "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
     ],
-    "number": "BW39",
+    "number": "39",
     "artist": "Hideaki Hakozaki",
     "rarity": "Promo",
     "legalities": {
@@ -2138,7 +2138,7 @@
     }
   },
   {
-    "id": "bwp-BW40",
+    "id": "bwp-40",
     "name": "Volcarona",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2181,7 +2181,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "BW40",
+    "number": "40",
     "artist": "Shin Nagasawa",
     "rarity": "Promo",
     "flavorText": "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
@@ -2198,7 +2198,7 @@
     }
   },
   {
-    "id": "bwp-BW41",
+    "id": "bwp-41",
     "name": "Thundurus",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2240,7 +2240,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW41",
+    "number": "41",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
@@ -2257,7 +2257,7 @@
     }
   },
   {
-    "id": "bwp-BW42",
+    "id": "bwp-42",
     "name": "Tornadus",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2305,7 +2305,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW42",
+    "number": "42",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
@@ -2322,7 +2322,7 @@
     }
   },
   {
-    "id": "bwp-BW43",
+    "id": "bwp-43",
     "name": "Landorus",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2370,7 +2370,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW43",
+    "number": "43",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "Lands visited by Landorus grant such bountiful crops that it has been hailed as \"The Guardian of the Fields.\"",
@@ -2387,7 +2387,7 @@
     }
   },
   {
-    "id": "bwp-BW44",
+    "id": "bwp-44",
     "name": "Kyurem",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2431,7 +2431,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW44",
+    "number": "44",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "It generates powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
@@ -2448,7 +2448,7 @@
     }
   },
   {
-    "id": "bwp-BW45",
+    "id": "bwp-45",
     "name": "Mewtwo-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2499,7 +2499,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW45",
+    "number": "45",
     "artist": "Toyste Beach",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2515,7 +2515,7 @@
     }
   },
   {
-    "id": "bwp-BW46",
+    "id": "bwp-46",
     "name": "Darkrai-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2566,7 +2566,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW46",
+    "number": "46",
     "artist": "Toyste Beach",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2582,7 +2582,7 @@
     }
   },
   {
-    "id": "bwp-BW47",
+    "id": "bwp-47",
     "name": "Rayquaza-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2630,7 +2630,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW47",
+    "number": "47",
     "artist": "Eske Yoshinob",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2646,7 +2646,7 @@
     }
   },
   {
-    "id": "bwp-BW48",
+    "id": "bwp-48",
     "name": "Altaria",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2687,7 +2687,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW48",
+    "number": "48",
     "artist": "HiRON",
     "rarity": "Promo",
     "flavorText": "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
@@ -2704,7 +2704,7 @@
     }
   },
   {
-    "id": "bwp-BW49",
+    "id": "bwp-49",
     "name": "Lilligant",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2752,7 +2752,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW49",
+    "number": "49",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "flavorText": "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
@@ -2769,7 +2769,7 @@
     }
   },
   {
-    "id": "bwp-BW50",
+    "id": "bwp-50",
     "name": "Tropical Beach",
     "supertype": "Trainer",
     "subtypes": [
@@ -2779,7 +2779,7 @@
       "Once during each player's turn, that player may draw cards until he or she has 7 cards in his or her hand. If he or she does, that player's turn ends.",
       "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
     ],
-    "number": "BW50",
+    "number": "50",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "legalities": {
@@ -2792,7 +2792,7 @@
     }
   },
   {
-    "id": "bwp-BW51",
+    "id": "bwp-51",
     "name": "Crobat",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2836,7 +2836,7 @@
         "value": "-20"
       }
     ],
-    "number": "BW51",
+    "number": "51",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "Having four wings allows it to fly more quickly and quietly so it can sneak up on prey without its noticing.",
@@ -2853,7 +2853,7 @@
     }
   },
   {
-    "id": "bwp-BW52",
+    "id": "bwp-52",
     "name": "Lillipup",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2888,7 +2888,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW52",
+    "number": "52",
     "artist": "Mizue",
     "rarity": "Promo",
     "flavorText": "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees.",
@@ -2905,7 +2905,7 @@
     }
   },
   {
-    "id": "bwp-BW53",
+    "id": "bwp-53",
     "name": "Flygon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2947,7 +2947,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW53",
+    "number": "53",
     "artist": "BERUBURI",
     "rarity": "Promo",
     "flavorText": "Known as \"The Desert Spirit,\" this Pokémon hides in the sandstorms it causes by beating its wings.",
@@ -2964,7 +2964,7 @@
     }
   },
   {
-    "id": "bwp-BW54",
+    "id": "bwp-54",
     "name": "Pikachu",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3009,7 +3009,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW54",
+    "number": "54",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
@@ -3026,7 +3026,7 @@
     }
   },
   {
-    "id": "bwp-BW55",
+    "id": "bwp-55",
     "name": "Elgyem",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3068,7 +3068,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW55",
+    "number": "55",
     "artist": "Mizue",
     "rarity": "Promo",
     "flavorText": "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
@@ -3085,7 +3085,7 @@
     }
   },
   {
-    "id": "bwp-BW56",
+    "id": "bwp-56",
     "name": "Empoleon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3129,7 +3129,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW56",
+    "number": "56",
     "artist": "Shin Nagasawa",
     "rarity": "Promo",
     "flavorText": "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
@@ -3146,7 +3146,7 @@
     }
   },
   {
-    "id": "bwp-BW57",
+    "id": "bwp-57",
     "name": "Haxorus",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3192,7 +3192,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "BW57",
+    "number": "57",
     "artist": "kawayoo",
     "rarity": "Promo",
     "flavorText": "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
@@ -3209,7 +3209,7 @@
     }
   },
   {
-    "id": "bwp-BW58",
+    "id": "bwp-58",
     "name": "Black Kyurem",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3254,7 +3254,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW58",
+    "number": "58",
     "artist": "Shin Nagasawa",
     "rarity": "Promo",
     "flavorText": "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
@@ -3271,7 +3271,7 @@
     }
   },
   {
-    "id": "bwp-BW59",
+    "id": "bwp-59",
     "name": "White Kyurem",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3316,7 +3316,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW59",
+    "number": "59",
     "artist": "Shin Nagasawa",
     "rarity": "Promo",
     "flavorText": "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
@@ -3333,7 +3333,7 @@
     }
   },
   {
-    "id": "bwp-BW60",
+    "id": "bwp-60",
     "name": "Keldeo",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3375,7 +3375,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW60",
+    "number": "60",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
@@ -3392,7 +3392,7 @@
     }
   },
   {
-    "id": "bwp-BW61",
+    "id": "bwp-61",
     "name": "Keldeo-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3437,7 +3437,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW61",
+    "number": "61",
     "artist": "Toyste Beach",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3453,7 +3453,7 @@
     }
   },
   {
-    "id": "bwp-BW62",
+    "id": "bwp-62",
     "name": "Black Kyurem-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3504,7 +3504,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "BW62",
+    "number": "62",
     "artist": "Eske Yoshinob",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3520,7 +3520,7 @@
     }
   },
   {
-    "id": "bwp-BW63",
+    "id": "bwp-63",
     "name": "White Kyurem-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3571,7 +3571,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "BW63",
+    "number": "63",
     "artist": "Eske Yoshinob",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3587,7 +3587,7 @@
     }
   },
   {
-    "id": "bwp-BW64",
+    "id": "bwp-64",
     "name": "Drifblim",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3629,7 +3629,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW64",
+    "number": "64",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "flavorText": "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish.",
@@ -3646,7 +3646,7 @@
     }
   },
   {
-    "id": "bwp-BW65",
+    "id": "bwp-65",
     "name": "Jigglypuff",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3680,7 +3680,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW65",
+    "number": "65",
     "artist": "MAHOU",
     "rarity": "Promo",
     "flavorText": "When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy.",
@@ -3697,7 +3697,7 @@
     }
   },
   {
-    "id": "bwp-BW66",
+    "id": "bwp-66",
     "name": "Ninetales",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3736,7 +3736,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW66",
+    "number": "66",
     "artist": "Hideaki Hakozaki",
     "rarity": "Promo",
     "flavorText": "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years.",
@@ -3753,7 +3753,7 @@
     }
   },
   {
-    "id": "bwp-BW67",
+    "id": "bwp-67",
     "name": "Ampharos",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3797,7 +3797,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW67",
+    "number": "67",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "flavorText": "The tip of its tail shines brightly. In the olden days, people sent signals using the tail's light.",
@@ -3814,7 +3814,7 @@
     }
   },
   {
-    "id": "bwp-BW68",
+    "id": "bwp-68",
     "name": "Meloetta",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3856,7 +3856,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW68",
+    "number": "68",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "flavorText": "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
@@ -3873,7 +3873,7 @@
     }
   },
   {
-    "id": "bwp-BW69",
+    "id": "bwp-69",
     "name": "Meloetta",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3915,7 +3915,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW69",
+    "number": "69",
     "artist": "Shin Nagasawa",
     "rarity": "Promo",
     "flavorText": "Many famous songs have been inspired by the melodies that Meloetta plays.",
@@ -3932,7 +3932,7 @@
     }
   },
   {
-    "id": "bwp-BW70",
+    "id": "bwp-70",
     "name": "Virizion",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3978,7 +3978,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW70",
+    "number": "70",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
@@ -3995,7 +3995,7 @@
     }
   },
   {
-    "id": "bwp-BW71",
+    "id": "bwp-71",
     "name": "Terrakion",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4039,7 +4039,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "BW71",
+    "number": "71",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
@@ -4056,7 +4056,7 @@
     }
   },
   {
-    "id": "bwp-BW72",
+    "id": "bwp-72",
     "name": "Cobalion",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4104,7 +4104,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "BW72",
+    "number": "72",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
@@ -4121,7 +4121,7 @@
     }
   },
   {
-    "id": "bwp-BW73",
+    "id": "bwp-73",
     "name": "Darkrai",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4173,7 +4173,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW73",
+    "number": "73",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
@@ -4190,7 +4190,7 @@
     }
   },
   {
-    "id": "bwp-BW74",
+    "id": "bwp-74",
     "name": "Giratina",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4238,7 +4238,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "BW74",
+    "number": "74",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
@@ -4255,7 +4255,7 @@
     }
   },
   {
-    "id": "bwp-BW75",
+    "id": "bwp-75",
     "name": "Metagross",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4299,7 +4299,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW75",
+    "number": "75",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "With four linked brains, it's more intelligent than a supercomputer, and it uses calculations to analyze foes.",
@@ -4316,7 +4316,7 @@
     }
   },
   {
-    "id": "bwp-BW76",
+    "id": "bwp-76",
     "name": "Electrode",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4356,7 +4356,7 @@
         "value": "×2"
       }
     ],
-    "number": "BW76",
+    "number": "76",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "It is known to drift on winds if it is bloated to bursting with stored electricity.",
@@ -4373,7 +4373,7 @@
     }
   },
   {
-    "id": "bwp-BW77",
+    "id": "bwp-77",
     "name": "Pikachu",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4418,7 +4418,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW77",
+    "number": "77",
     "artist": "Mizue",
     "rarity": "Promo",
     "flavorText": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
@@ -4435,7 +4435,7 @@
     }
   },
   {
-    "id": "bwp-BW78",
+    "id": "bwp-78",
     "name": "Raichu",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4479,7 +4479,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW78",
+    "number": "78",
     "artist": "Mizue",
     "rarity": "Promo",
     "flavorText": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
@@ -4496,7 +4496,7 @@
     }
   },
   {
-    "id": "bwp-BW79",
+    "id": "bwp-79",
     "name": "Landorus",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4548,7 +4548,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW79",
+    "number": "79",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant.",
@@ -4565,7 +4565,7 @@
     }
   },
   {
-    "id": "bwp-BW80",
+    "id": "bwp-80",
     "name": "Druddigon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4609,7 +4609,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW80",
+    "number": "80",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
@@ -4626,7 +4626,7 @@
     }
   },
   {
-    "id": "bwp-BW81",
+    "id": "bwp-81",
     "name": "Thundurus-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4674,7 +4674,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW81",
+    "number": "81",
     "artist": "Eske Yoshinob",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -4690,7 +4690,7 @@
     }
   },
   {
-    "id": "bwp-BW82",
+    "id": "bwp-82",
     "name": "Deoxys-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4735,7 +4735,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW82",
+    "number": "82",
     "artist": "Eske Yoshinob",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -4751,7 +4751,7 @@
     }
   },
   {
-    "id": "bwp-BW83",
+    "id": "bwp-83",
     "name": "Lugia-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4804,7 +4804,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW83",
+    "number": "83",
     "artist": "Toyste Beach",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -4820,7 +4820,7 @@
     }
   },
   {
-    "id": "bwp-BW84",
+    "id": "bwp-84",
     "name": "Porygon-Z",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4862,7 +4862,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW84",
+    "number": "84",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
@@ -4879,7 +4879,7 @@
     }
   },
   {
-    "id": "bwp-BW85",
+    "id": "bwp-85",
     "name": "Lucario",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4921,7 +4921,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW85",
+    "number": "85",
     "artist": "Masakazu Fukuda",
     "rarity": "Promo",
     "flavorText": "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
@@ -4938,7 +4938,7 @@
     }
   },
   {
-    "id": "bwp-BW86",
+    "id": "bwp-86",
     "name": "Genesect",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4984,7 +4984,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW86",
+    "number": "86",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
@@ -5001,7 +5001,7 @@
     }
   },
   {
-    "id": "bwp-BW87",
+    "id": "bwp-87",
     "name": "Leafeon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5049,7 +5049,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW87",
+    "number": "87",
     "artist": "The Pokémon Company Art Team",
     "rarity": "Promo",
     "flavorText": "It basically does not fight. With cells similar to those of plants, it can perform photosynthesis.",
@@ -5066,7 +5066,7 @@
     }
   },
   {
-    "id": "bwp-BW88",
+    "id": "bwp-88",
     "name": "Flareon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5109,7 +5109,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW88",
+    "number": "88",
     "artist": "The Pokémon Company Art Team",
     "rarity": "Promo",
     "flavorText": "Inhaled air is heated in the flame sac in its body to an intense fire over 3,000 degrees Fahrenheit.",
@@ -5126,7 +5126,7 @@
     }
   },
   {
-    "id": "bwp-BW89",
+    "id": "bwp-89",
     "name": "Vaporeon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5170,7 +5170,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW89",
+    "number": "89",
     "artist": "The Pokémon Company Art Team",
     "rarity": "Promo",
     "flavorText": "Its cell composition is similar to water molecules. As a result, it can melt away into water.",
@@ -5187,7 +5187,7 @@
     }
   },
   {
-    "id": "bwp-BW90",
+    "id": "bwp-90",
     "name": "Glaceon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5229,7 +5229,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW90",
+    "number": "90",
     "artist": "The Pokémon Company Art Team",
     "rarity": "Promo",
     "flavorText": "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
@@ -5246,7 +5246,7 @@
     }
   },
   {
-    "id": "bwp-BW91",
+    "id": "bwp-91",
     "name": "Jolteon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5285,7 +5285,7 @@
         "value": "×2"
       }
     ],
-    "number": "BW91",
+    "number": "91",
     "artist": "The Pokémon Company Art Team",
     "rarity": "Promo",
     "flavorText": "If agitated, it uses electricity to straighten out its fur and launch it in small bunches.",
@@ -5302,7 +5302,7 @@
     }
   },
   {
-    "id": "bwp-BW92",
+    "id": "bwp-92",
     "name": "Espeon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5343,7 +5343,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW92",
+    "number": "92",
     "artist": "The Pokémon Company Art Team",
     "rarity": "Promo",
     "flavorText": "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
@@ -5360,7 +5360,7 @@
     }
   },
   {
-    "id": "bwp-BW93",
+    "id": "bwp-93",
     "name": "Umbreon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5411,7 +5411,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW93",
+    "number": "93",
     "artist": "The Pokémon Company Art Team",
     "rarity": "Promo",
     "flavorText": "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
@@ -5428,7 +5428,7 @@
     }
   },
   {
-    "id": "bwp-BW94",
+    "id": "bwp-94",
     "name": "Eevee",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5479,7 +5479,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW94",
+    "number": "94",
     "artist": "The Pokémon Company Art Team",
     "rarity": "Promo",
     "flavorText": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
@@ -5496,7 +5496,7 @@
     }
   },
   {
-    "id": "bwp-BW95",
+    "id": "bwp-95",
     "name": "Champions Festival",
     "supertype": "Trainer",
     "subtypes": [
@@ -5506,7 +5506,7 @@
       "Once during each player's turn, if that player has 6 Pokémon in play, he or she may heal 10 damage from each of his or her Pokémon.",
       "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
     ],
-    "number": "BW95",
+    "number": "95",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "legalities": {
@@ -5519,7 +5519,7 @@
     }
   },
   {
-    "id": "bwp-BW96",
+    "id": "bwp-96",
     "name": "Tornadus-EX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5572,7 +5572,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW96",
+    "number": "96",
     "artist": "Ryo Ueda",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -5588,7 +5588,7 @@
     }
   },
   {
-    "id": "bwp-BW97",
+    "id": "bwp-97",
     "name": "Eevee",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5639,7 +5639,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW97",
+    "number": "97",
     "artist": "Akira Komayama",
     "rarity": "Promo",
     "flavorText": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
@@ -5656,7 +5656,7 @@
     }
   },
   {
-    "id": "bwp-BW98",
+    "id": "bwp-98",
     "name": "Mew",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5694,7 +5694,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "BW98",
+    "number": "98",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "flavorText": "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
@@ -5711,7 +5711,7 @@
     }
   },
   {
-    "id": "bwp-BW99",
+    "id": "bwp-99",
     "name": "Genesect",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5755,7 +5755,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW99",
+    "number": "99",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
@@ -5772,7 +5772,7 @@
     }
   },
   {
-    "id": "bwp-BW100",
+    "id": "bwp-100",
     "name": "N",
     "supertype": "Trainer",
     "subtypes": [
@@ -5782,7 +5782,7 @@
       "Each player shuffles his or her hand into his or her deck. Then, each player draws a card for each of his or her remaining Prize cards.",
       "You may play only 1 Supporter card during your turn (before your attack)."
     ],
-    "number": "BW100",
+    "number": "100",
     "artist": "Yusuke Ohmura",
     "rarity": "Promo",
     "legalities": {
@@ -5795,7 +5795,7 @@
     }
   },
   {
-    "id": "bwp-BW101",
+    "id": "bwp-101",
     "name": "Genesect",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5839,7 +5839,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "BW101",
+    "number": "101",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "flavorText": "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",

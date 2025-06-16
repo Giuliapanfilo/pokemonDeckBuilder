@@ -4249,8 +4249,7 @@
     "attacks": [
       {
         "name": "Delightful Kiss",
-        "cost": [
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 Basic Psychic Energy cards and attach them to 1 of your Benched Pokémon. Then, shuffle your deck."
@@ -7110,8 +7109,7 @@
     "attacks": [
       {
         "name": "Surprise Attack",
-        "cost": [
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30",
         "text": "Flip a coin. If tails, this attack does nothing."
@@ -7164,8 +7162,7 @@
     "attacks": [
       {
         "name": "Trio-Cheehoo",
-        "cost": [
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "120",
         "text": "If you don't have exactly 3 cards in your hand, this attack does nothing."
@@ -11135,8 +11132,7 @@
     "attacks": [
       {
         "name": "Trio-Cheehoo",
-        "cost": [
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "120",
         "text": "If you don't have exactly 3 cards in your hand, this attack does nothing."

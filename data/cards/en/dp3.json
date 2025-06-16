@@ -901,9 +901,7 @@
     "attacks": [
       {
         "name": "Psychic Balance",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "If you have less cards in your hand than your opponent, draw cards until you have the same number of cards as your opponent. (If you have more or the same number of cards in your hand as your opponent, this attack does nothing.)"
@@ -1395,9 +1393,7 @@
     "attacks": [
       {
         "name": "Ghost Head",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Put as many damage counters as you like on Banette. (You can't put more than Banette's remaining HP.) Put that many damage counters on the Defending Pokémon."
@@ -1648,9 +1644,7 @@
     "attacks": [
       {
         "name": "Keen Eye",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward."
@@ -2028,9 +2022,7 @@
     "attacks": [
       {
         "name": "Silver Wind",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage."
@@ -2385,7 +2377,7 @@
   },
   {
     "id": "dp3-39",
-    "name": "Unown [S]",
+    "name": "Unown S",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -2461,9 +2453,7 @@
     "attacks": [
       {
         "name": "Shadow Charge",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 Darkness Energy cards and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward."
@@ -2890,9 +2880,7 @@
     "attacks": [
       {
         "name": "Withdraw",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, prevent all damage done to Cloyster by attacks during your opponent's next turn."
@@ -3402,9 +3390,7 @@
     "attacks": [
       {
         "name": "Healing Milk",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip 2 coins. For each heads, remove 3 damage counters from 1 of your Pokémon."
@@ -4076,9 +4062,7 @@
     "attacks": [
       {
         "name": "Color Pick",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 3 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
@@ -4143,9 +4127,7 @@
     "attacks": [
       {
         "name": "Psykiss",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, choose a Special Energy card attached to 1 of your opponent's Pokémon and have your opponent shuffle that card into his or her deck."
@@ -4178,7 +4160,7 @@
   },
   {
     "id": "dp3-68",
-    "name": "Unown [K]",
+    "name": "Unown K",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -4233,7 +4215,7 @@
   },
   {
     "id": "dp3-69",
-    "name": "Unown [N]",
+    "name": "Unown N",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -4288,7 +4270,7 @@
   },
   {
     "id": "dp3-70",
-    "name": "Unown [O]",
+    "name": "Unown O",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -4343,7 +4325,7 @@
   },
   {
     "id": "dp3-71",
-    "name": "Unown [X]",
+    "name": "Unown X",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -4398,7 +4380,7 @@
   },
   {
     "id": "dp3-72",
-    "name": "Unown [Z]",
+    "name": "Unown Z",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -4733,9 +4715,7 @@
     "attacks": [
       {
         "name": "Shake Vine",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "The Defending Pokémon is now Asleep."
@@ -5035,9 +5015,7 @@
     "attacks": [
       {
         "name": "Gnaw",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -6886,9 +6864,7 @@
     "attacks": [
       {
         "name": "Bubble",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
@@ -6944,9 +6920,7 @@
     "attacks": [
       {
         "name": "Lead",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."

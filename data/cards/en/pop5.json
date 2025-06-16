@@ -325,7 +325,7 @@
   },
   {
     "id": "pop5-9",
-    "name": "δ Rainbow Energy",
+    "name": "Rainbow Energy",
     "supertype": "Energy",
     "subtypes": [
       "Special"
@@ -688,7 +688,7 @@
   },
   {
     "id": "pop5-16",
-    "name": "Espeon ★",
+    "name": "Espeon ☆",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic",
@@ -747,7 +747,7 @@
   },
   {
     "id": "pop5-17",
-    "name": "Umbreon ★",
+    "name": "Umbreon ☆",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic",

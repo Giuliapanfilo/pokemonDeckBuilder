@@ -2614,9 +2614,7 @@
     "attacks": [
       {
         "name": "Astonish",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck."
@@ -2672,9 +2670,7 @@
     "attacks": [
       {
         "name": "Errand-Running",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
@@ -2997,9 +2993,7 @@
     "attacks": [
       {
         "name": "Outlet",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a Lightning Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
@@ -3463,9 +3457,7 @@
     "attacks": [
       {
         "name": "Call for Friends",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a Water Basic Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
@@ -4060,7 +4052,7 @@
   },
   {
     "id": "dp1-65",
-    "name": "Unown [A]",
+    "name": "Unown A",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -4115,7 +4107,7 @@
   },
   {
     "id": "dp1-66",
-    "name": "Unown [B]",
+    "name": "Unown B",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -4170,7 +4162,7 @@
   },
   {
     "id": "dp1-67",
-    "name": "Unown [C]",
+    "name": "Unown C",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -4225,7 +4217,7 @@
   },
   {
     "id": "dp1-68",
-    "name": "Unown [D]",
+    "name": "Unown D",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -4303,9 +4295,7 @@
     "attacks": [
       {
         "name": "Delivery",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Put any 1 card from your discard pile into your hand."
@@ -4421,9 +4411,7 @@
     "attacks": [
       {
         "name": "Fake Tears",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, your opponent can't play any Trainer cards from his or her hand during your opponent's next turn, and any damage done to Bonsly by attacks is reduced by 30 (after applying Weakness and Resistance)."
@@ -4714,9 +4702,7 @@
     "attacks": [
       {
         "name": "Scratch",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -4843,9 +4829,7 @@
     "attacks": [
       {
         "name": "Eeek",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Draw a card."
@@ -5769,9 +5753,7 @@
     "attacks": [
       {
         "name": "Peck",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -6407,9 +6389,7 @@
     "attacks": [
       {
         "name": "Tackle",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""

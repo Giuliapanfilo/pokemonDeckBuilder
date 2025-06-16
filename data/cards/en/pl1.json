@@ -951,9 +951,7 @@
     "attacks": [
       {
         "name": "Growth",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Attach a Grass Energy card from your hand to Shaymin."
@@ -1078,9 +1076,7 @@
     "attacks": [
       {
         "name": "Call for Family",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 basic Pokémon SP and put them onto your Bench. Shuffle your deck afterward."
@@ -1888,9 +1884,7 @@
     "attacks": [
       {
         "name": "Swim",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30",
         "text": "If your opponent has any Water Energy attached to any of his or her Pokémon, you may do 30 damage to any 1 Benched Pokémon instead. (Don't apply Weakness and Resistance for Benched Pokémon.)"
@@ -2255,9 +2249,7 @@
     "attacks": [
       {
         "name": "Love Call",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Choose 1 of your opponent's Pokémon. Search your deck for a Pokémon that is the same type as the Pokémon you chose, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
@@ -2313,9 +2305,7 @@
     "attacks": [
       {
         "name": "Flame Bash",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin until you get tails. Search your deck for a number of basic Fire Energy cards up to the number of heads and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward."
@@ -2428,9 +2418,7 @@
     "attacks": [
       {
         "name": "Energy Blow",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10+",
         "text": "Does 10 damage plus 10 more damage for each Energy attached to Shaymin."
@@ -2820,9 +2808,7 @@
     "attacks": [
       {
         "name": "Ascension",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a card that evolves from Cascoon and put it onto Cascoon. (This counts as evolving Cascoon.) Shuffle your deck afterward."
@@ -3716,9 +3702,7 @@
     "attacks": [
       {
         "name": "Water Vein",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "50×",
         "text": "Reveal the top 5 cards of your deck. Flip a coin for each Energy card you find there. This attack does 50 damage times the number of heads. Shuffle the revealed cards back into your deck."
@@ -3901,9 +3885,7 @@
     "attacks": [
       {
         "name": "Shed Skin",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Remove 4 damage counters from Seviper."
@@ -4040,9 +4022,7 @@
     "attacks": [
       {
         "name": "Ascension",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a card that evolves from Silcoon and put it onto Silcoon. (This counts as evolving Silcoon.) Shuffle your deck afterward."
@@ -4355,9 +4335,7 @@
     "attacks": [
       {
         "name": "Poison Breath",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
@@ -4546,9 +4524,7 @@
     "attacks": [
       {
         "name": "Collect",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Draw a card."
@@ -4677,9 +4653,7 @@
     "attacks": [
       {
         "name": "Call for Family",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
@@ -4800,9 +4774,7 @@
     "attacks": [
       {
         "name": "Division",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for Grimer and put it onto your Bench. Shuffle your deck afterward."
@@ -4868,9 +4840,7 @@
     "attacks": [
       {
         "name": "Hospitality",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. Remove 2 damage counters from the new Defending Pokémon."
@@ -4917,9 +4887,7 @@
     "attacks": [
       {
         "name": "Honcho's Command",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 in any combination of Stadium cards or Trainer cards that has Team Galactic's Invention in its name, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
@@ -5228,9 +5196,7 @@
     "attacks": [
       {
         "name": "Minor Errand-Running",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
@@ -5294,9 +5260,7 @@
     "attacks": [
       {
         "name": "Take Back",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it into your hand."
@@ -5482,9 +5446,7 @@
     "attacks": [
       {
         "name": "Howl",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for Poochyena and put it onto your Bench. Shuffle your deck afterward."
@@ -5548,9 +5510,7 @@
     "attacks": [
       {
         "name": "Headache",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during his or her next turn."
@@ -5671,9 +5631,7 @@
     "attacks": [
       {
         "name": "Future Sight",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Look at the top 5 cards in either player's deck and put them back on top of that player's deck in any order."
@@ -5792,9 +5750,7 @@
     "attacks": [
       {
         "name": "Light Punch",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -5853,9 +5809,7 @@
     "attacks": [
       {
         "name": "Hypnotic Gaze",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "The Defending Pokémon is now Asleep."
@@ -5919,9 +5873,7 @@
     "attacks": [
       {
         "name": "Heal Bell",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Remove 1 damage counter from each of your Pokémon."
@@ -6217,9 +6169,7 @@
     "attacks": [
       {
         "name": "Show Off",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
@@ -6277,9 +6227,7 @@
     "attacks": [
       {
         "name": "Focus Energy",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "During your next turn, Torchic's Fire Shard attack's base damage is 80."
@@ -6465,9 +6413,7 @@
     "attacks": [
       {
         "name": "Reheat",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Discard up to 2 Energy cards from your hand. For each card you discarded, draw 2 cards."
@@ -7639,9 +7585,7 @@
     "attacks": [
       {
         "name": "Roost",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Remove 4 damage counters from Swablu. Swablu can't retreat during your next turn."
@@ -7693,75 +7637,6 @@
     "images": {
       "small": "https://images.pokemontcg.io/pl1/SH5.png",
       "large": "https://images.pokemontcg.io/pl1/SH5_hires.png"
-    }
-  },
-  {
-    "id": "pl1-SH6",
-    "name": "Vulpix",
-    "supertype": "Pokémon",
-    "subtypes": [
-      "Basic"
-    ],
-    "level": "20",
-    "hp": "60",
-    "types": [
-      "Fire"
-    ],
-    "evolvesTo": [
-      "Ninetales"
-    ],
-    "attacks": [
-      {
-        "name": "Find Wildfire",
-        "cost": [
-
-        ],
-        "convertedEnergyCost": 0,
-        "damage": "",
-        "text": "Search your deck for up to 2 Fire Energy cards, show them to your opponent, and put them in your hand. Shuffle your deck afterward."
-      },
-      {
-        "name": "Brushfire",
-        "cost": [
-          "Fire"
-        ],
-        "convertedEnergyCost": 1,
-        "damage": "10",
-        "text": "Does 10 damage to each of your opponent's Benched Grass Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
-      },
-      {
-        "name": "Inflame",
-        "cost": [
-          "Fire",
-          "Colorless"
-        ],
-        "convertedEnergyCost": 2,
-        "damage": "30",
-        "text": "Discard a Fire Energy card from your hand. (If you can't discard a card from your hand, this attack does nothing.)"
-      }
-    ],
-    "weaknesses": [
-      {
-        "type": "Water",
-        "value": "+10"
-      }
-    ],
-    "retreatCost": [
-      "Colorless"
-    ],
-    "convertedRetreatCost": 1,
-    "number": "SH6",
-    "artist": "Mitsuhiro Arita",
-    "rarity": "Rare",
-    "nationalPokedexNumbers": [
-      37
-    ],
-    "legalities": {
-      "unlimited": "Legal"
-    },
-    "images": {
-      "small": "https://images.pokemontcg.io/pl1/SH6.png",
-      "large": "https://images.pokemontcg.io/pl1/SH6_hires.png"
     }
   }
 ]

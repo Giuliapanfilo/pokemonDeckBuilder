@@ -177,9 +177,7 @@
     ],
     "attacks": [
       {
-        "cost": [
-
-        ],
+        "cost": [],
         "name": "Fury Swipes",
         "text": "Flip 3 coins. This attack does 10 damage for each heads.",
         "damage": "10",
@@ -509,9 +507,7 @@
     ],
     "attacks": [
       {
-        "cost": [
-
-        ],
+        "cost": [],
         "name": "Spoil the Fun",
         "text": "If you go second, this attack does 60 more damage during your first turn.",
         "damage": "10+",
@@ -563,9 +559,7 @@
     "evolvesFrom": "Alolan Diglett",
     "attacks": [
       {
-        "cost": [
-
-        ],
+        "cost": [],
         "name": "Gold Rush",
         "text": "Discard any number of Metal Energy cards from your hand. This attack does 30 damage for each card you discarded in this way.",
         "damage": "30",

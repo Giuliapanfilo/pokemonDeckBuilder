@@ -5059,9 +5059,7 @@
     "attacks": [
       {
         "name": "Call for the Boss",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for Alolan Raticate or Alolan Raticate-GX, reveal it, and put it into your hand. Then, shuffle your deck."
@@ -5128,9 +5126,7 @@
     "attacks": [
       {
         "name": "Chuck Away",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "40×",
         "text": "Discard up to 2 cards from your hand. This attack does 40 damage for each card you discarded in this way."
@@ -5148,9 +5144,7 @@
       },
       {
         "name": "Item Maniac-GX",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 6 Item cards, reveal them, and put them into your hand. Then, shuffle your deck. (You can't use more than 1 GX attack in a game.)"

@@ -428,9 +428,7 @@
     "attacks": [
       {
         "name": "Fury Swipes",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10×",
         "text": "Flip 3 coins. This attack does 10 damage for each heads."
@@ -484,9 +482,7 @@
     "attacks": [
       {
         "name": "Spelunk",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Look at the top 3 cards of your deck and put them back in any order."

@@ -1404,9 +1404,7 @@
     "attacks": [
       {
         "name": "Eeeeeeek",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Shuffle your hand into your deck, then draw 6 cards. Cleffa is now Asleep."
@@ -2139,9 +2137,7 @@
     "attacks": [
       {
         "name": "Mischievous Punch",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30",
         "text": "This attack's damage isn't affected by Weakness or Resistance. Tyrogue is now Asleep."
@@ -2756,9 +2752,7 @@
     "attacks": [
       {
         "name": "Play with Fire",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "The Defending Pokémon is now Burned. Magby is now Asleep."
@@ -2800,9 +2794,7 @@
     "attacks": [
       {
         "name": "Sleepy Lost",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Put the top card of your opponent's deck in the Lost Zone. Mime Jr. is now Asleep."

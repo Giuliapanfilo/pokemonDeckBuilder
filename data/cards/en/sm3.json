@@ -1665,9 +1665,7 @@
     "attacks": [
       {
         "name": "Powder Snow",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep."
@@ -5059,9 +5057,7 @@
     "attacks": [
       {
         "name": "Focus Energy",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "During your next turn, this Pokémon's Bite attack's base damage is 60."
@@ -5123,9 +5119,7 @@
     "attacks": [
       {
         "name": "Enhanced Fang",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10+",
         "text": "If this Pokémon has a Pokémon Tool card attached to it, this attack does 50 more damage."
@@ -5191,9 +5185,7 @@
     "attacks": [
       {
         "name": "Division",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for Alolan Grimer and put it onto your Bench. Then, shuffle your deck."
@@ -5285,9 +5277,7 @@
       },
       {
         "name": "Tri Hazard-GX",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)"
@@ -8411,9 +8401,7 @@
       },
       {
         "name": "Tri Hazard-GX",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)"
@@ -9513,9 +9501,7 @@
       },
       {
         "name": "Tri Hazard-GX",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Burned, Paralyzed, and Poisoned. (You can't use more than 1 GX attack in a game.)"
