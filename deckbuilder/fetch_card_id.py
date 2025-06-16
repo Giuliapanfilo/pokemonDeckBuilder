@@ -7,12 +7,13 @@ def setIdByName(setnome):
         "base2": ["pokémon jungle"],
         "base5": ["rocket gang"],
         "ecard2":["aquapolis h", "aquapolis"],
-        "ecard1": ["expedition", "skyridge"], #sky suggerito da copilot
+        "ecard1": ["expedition"], #sky suggerito da copilot
         "basep" : ["wizards promo"],
         "hgss2" : ["unleashed"],
         "hgss4" : ["triumphant"],
         "pl1" : ["platinum sh"],
         "hgss3" : ["undaunted"],
+        "hsp" : ["hgss promo", "HGSS Black Star Promo"],
         # "ex5": ["ex hidden legends", "hidden legends"],
         # "ex2": ["ex sandstorm", "sandstorm"],
         # "ex3": ["ex dragon", "dragon"],
@@ -34,11 +35,11 @@ def setIdByName(setnome):
             return alias
         
     # "dp promo" -> "dpp" per esempio
-    if "promo" == setnome[-5:]:
-        return setnome[:-5].strip() + "p"
-    
+    if setnome[-5:].lower() == "promo":
+        return setnome[:-5].strip().lower() + "p"
+
     # "ex hidden legends" -> "hidden legends"
-    if setnome[:3] in ["ex ", "ex-"]:    
+    if setnome[:3].lower() in ["ex ", "ex-"]:
         setnome = setnome[3:].strip()
     
     # cerca l'id del set in base al nome

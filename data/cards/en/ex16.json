@@ -5253,7 +5253,7 @@
   },
   {
     "id": "ex16-100",
-    "name": "Flareon ★",
+    "name": "Flareon ☆",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic",
@@ -5312,7 +5312,7 @@
   },
   {
     "id": "ex16-101",
-    "name": "Jolteon ★",
+    "name": "Jolteon ☆",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic",
@@ -5377,7 +5377,7 @@
   },
   {
     "id": "ex16-102",
-    "name": "Vaporeon ★",
+    "name": "Vaporeon ☆",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic",

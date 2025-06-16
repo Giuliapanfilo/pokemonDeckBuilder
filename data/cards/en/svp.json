@@ -2242,9 +2242,7 @@
     "attacks": [
       {
         "name": "Grasping Draw",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Draw cards until you have 7 cards in your hand."
@@ -5731,9 +5729,7 @@
     "attacks": [
       {
         "name": "Twinkling Hope",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."

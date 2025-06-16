@@ -1065,9 +1065,7 @@
     "attacks": [
       {
         "name": "Defense Curl",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn."
@@ -1127,9 +1125,7 @@
     "attacks": [
       {
         "name": "Defense Curl",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn."
@@ -1248,9 +1244,7 @@
     "attacks": [
       {
         "name": "Beacon",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
@@ -1309,9 +1303,7 @@
     "attacks": [
       {
         "name": "Beacon",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
@@ -2447,9 +2439,7 @@
     "attacks": [
       {
         "name": "Rock Polish",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "During your next turn, this Pokémon has no Retreat Cost."

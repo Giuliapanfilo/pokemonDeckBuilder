@@ -4089,9 +4089,7 @@
     "attacks": [
       {
         "name": "Zapping Draw",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 1,
         "damage": "30",
         "text": "Draw a card."
@@ -4940,9 +4938,7 @@
     "attacks": [
       {
         "name": "Chiming Commotion",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 1,
         "damage": "",
         "text": "Discard a random card from your opponent's hand."

@@ -599,9 +599,7 @@
     "attacks": [
       {
         "name": "Scratch",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -728,9 +726,7 @@
     "attacks": [
       {
         "name": "Lively",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Remove 2 damage counters from 1 of your Pokémon."
@@ -779,9 +775,7 @@
     "attacks": [
       {
         "name": "Peck",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -898,9 +892,7 @@
     "attacks": [
       {
         "name": "Tackle",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""

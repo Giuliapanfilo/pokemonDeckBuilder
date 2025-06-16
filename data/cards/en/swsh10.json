@@ -80,9 +80,7 @@
     "attacks": [
       {
         "name": "Cheerful Charge",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "You can use this attack only if you go second, and only during your first turn. Choose up to 2 of your Benched Pokémon. For each of those Pokémon, search your deck for a basic Energy card and attach it to that Pokémon. Then, shuffle your deck."
@@ -140,18 +138,14 @@
     "attacks": [
       {
         "name": "Triple Draw",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Draw 3 cards."
       },
       {
         "name": "Irritated Bomb",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "50",
         "text": ""
@@ -954,9 +948,7 @@
     "attacks": [
       {
         "name": "Dance Gracefully",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Draw cards until you have 6 cards in your hand."
@@ -2555,9 +2547,7 @@
     "attacks": [
       {
         "name": "Gather the Crew",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
@@ -3181,9 +3171,7 @@
     "attacks": [
       {
         "name": "Singe",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Your opponent's Active Pokémon is now Burned."
@@ -4241,9 +4229,7 @@
     "attacks": [
       {
         "name": "Defensive Posture",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks."
@@ -5015,9 +5001,7 @@
     "attacks": [
       {
         "name": "Piercing Claw",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30×",
         "text": "This attack does 30 damage for each damage counter on your opponent's Active Pokémon."
@@ -5457,9 +5441,7 @@
     "attacks": [
       {
         "name": "Spiny Rush",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10×",
         "text": "Flip a coin until you get tails. This attack does 10 damage for each heads."
@@ -5509,9 +5491,7 @@
     "attacks": [
       {
         "name": "Tormenting Poison",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 5 damage counters on that Pokémon instead of 1."
@@ -5758,9 +5738,7 @@
     "attacks": [
       {
         "name": "Poison Claws",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Your opponent's Active Pokémon is now Poisoned."
@@ -8163,9 +8141,7 @@
     "attacks": [
       {
         "name": "Psywave",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30×",
         "text": "This attack does 30 damage for each Energy attached to your opponent's Active Pokémon."
@@ -9111,9 +9087,7 @@
     "attacks": [
       {
         "name": "Dance Gracefully",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Draw cards until you have 6 cards in your hand."
@@ -9176,9 +9150,7 @@
     "attacks": [
       {
         "name": "Dance Gracefully",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Draw cards until you have 6 cards in your hand."
@@ -9560,9 +9532,7 @@
     "attacks": [
       {
         "name": "Singe",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Your opponent's Active Pokémon is now Burned."
@@ -9897,9 +9867,7 @@
     "attacks": [
       {
         "name": "Poison Claws",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Your opponent's Active Pokémon is now Poisoned."
@@ -9956,9 +9924,7 @@
     "attacks": [
       {
         "name": "Poison Claws",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Your opponent's Active Pokémon is now Poisoned."

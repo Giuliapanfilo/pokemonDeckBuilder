@@ -229,9 +229,7 @@
     "attacks": [
       {
         "name": "Quick Swim",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance."
@@ -422,9 +420,7 @@
     "attacks": [
       {
         "name": "Crash Chant",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "20×",
         "text": "Choose up to 4 in any combination of Pokémon Tool cards and Technical Machine cards in play (both yours and your opponent's) and discard them. This attack does 20 damage times the number of cards discarded in this way."
@@ -486,9 +482,7 @@
     "attacks": [
       {
         "name": "Slice",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30",
         "text": "Raichu can't use Slice during your next turn."
@@ -930,9 +924,7 @@
     "attacks": [
       {
         "name": "Salty-sweet Pollen",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "20",
         "text": "Remove 2 damage counters from 1 of your Pokémon."
@@ -995,9 +987,7 @@
     "attacks": [
       {
         "name": "Scorpion Grapple",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon can't retreat during your opponent's next turn."
@@ -1066,18 +1056,14 @@
     "attacks": [
       {
         "name": "Delivery",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Put any 1 card from your discard pile into your hand."
       },
       {
         "name": "Lifting",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. For each Basic Pokémon you put onto your Bench, you may search your deck for a basic Energy card and attach it to that Pokémon. Shuffle your deck afterward."
@@ -1267,9 +1253,7 @@
     "attacks": [
       {
         "name": "Tail Revenge",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30×",
         "text": "Does 30 damage times the number of Magikarp in your discard pile."
@@ -2279,9 +2263,7 @@
     "attacks": [
       {
         "name": "Buddy-buddy",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
@@ -2733,9 +2715,7 @@
     "attacks": [
       {
         "name": "Smog",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "The Defending Pokémon is now Poisoned."
@@ -3075,9 +3055,7 @@
     "attacks": [
       {
         "name": "Electric Circuit",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your discard pile for up to 4 Lightning Energy cards, show them to your opponent, and put them into your hand."
@@ -3275,9 +3253,7 @@
     "attacks": [
       {
         "name": "Impersonate",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for a Supporter card and discard it. Shuffle your deck afterward. Then, use the effect of that card as the effect of this attack."
@@ -3795,9 +3771,7 @@
     "attacks": [
       {
         "name": "Nap",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Remove 2 damage counters from Cherubi."
@@ -4120,9 +4094,7 @@
     "attacks": [
       {
         "name": "Aqua Liner",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
@@ -4180,9 +4152,7 @@
     "attacks": [
       {
         "name": "Pitch-Dark",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "You opponent can't play any Trainer cards from his or her hand during your opponent's next turn."
@@ -4374,9 +4344,7 @@
     "attacks": [
       {
         "name": "Sea Spray",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin until you get tails. For each heads, draw a card."
@@ -4494,9 +4462,7 @@
     "attacks": [
       {
         "name": "Ram",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -4561,9 +4527,7 @@
     "attacks": [
       {
         "name": "Lullaby",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "The Defending Pokémon is now Asleep."
@@ -5337,9 +5301,7 @@
     "attacks": [
       {
         "name": "Screech",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "If an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to that Pokémon until the end of your next turn."
@@ -6335,9 +6297,7 @@
     "attacks": [
       {
         "name": "Counting Song",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Put up to 3 damage counters on Duskull. Then, put that many damage counters on the Defending Pokémon."

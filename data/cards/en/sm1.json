@@ -3458,9 +3458,7 @@
     "attacks": [
       {
         "name": "Super Poison Breath",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned."
@@ -4641,9 +4639,7 @@
     "attacks": [
       {
         "name": "Gnaw",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "20",
         "text": ""
@@ -4763,9 +4759,7 @@
     "attacks": [
       {
         "name": "Fury Swipes",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10×",
         "text": "Flip 3 coins. This attack does 10 damage for each heads."
@@ -4818,9 +4812,7 @@
     "attacks": [
       {
         "name": "Taunt",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon."
@@ -5301,9 +5293,7 @@
     "attacks": [
       {
         "name": "Spelunk",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Look at the top 3 cards of your deck and put them back in any order."

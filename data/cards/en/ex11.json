@@ -5966,7 +5966,7 @@
   },
   {
     "id": "ex11-111",
-    "name": "Groudon ★",
+    "name": "Groudon ☆",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic",
@@ -6031,7 +6031,7 @@
   },
   {
     "id": "ex11-112",
-    "name": "Kyogre ★",
+    "name": "Kyogre ☆",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic",
@@ -6096,7 +6096,7 @@
   },
   {
     "id": "ex11-113",
-    "name": "Metagross ★",
+    "name": "Metagross ☆",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic",

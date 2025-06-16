@@ -2317,9 +2317,7 @@
     "attacks": [
       {
         "name": "Gnaw",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -8310,9 +8308,7 @@
     "attacks": [
       {
         "name": "Run Around",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Switch this Pokémon with 1 of your Benched Pokémon."
@@ -8375,9 +8371,7 @@
     "attacks": [
       {
         "name": "Curve Strike",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30",
         "text": "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn."
@@ -8924,9 +8918,7 @@
     "attacks": [
       {
         "name": "Rubbish Blizzard",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10×",
         "text": "This attack does 10 damage for each Pokémon Tool card in your discard pile."

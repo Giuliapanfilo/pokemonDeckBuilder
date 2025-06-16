@@ -6909,7 +6909,7 @@
   },
   {
     "id": "bw6-117",
-    "name": "Blend Energy GrassFirePsychicDarkness",
+    "name": "Blend Energy GFPD",
     "supertype": "Energy",
     "subtypes": [
       "Special"
@@ -6931,7 +6931,7 @@
   },
   {
     "id": "bw6-118",
-    "name": "Blend Energy WaterLightningFightingMetal",
+    "name": "Blend Energy WLFM",
     "supertype": "Energy",
     "subtypes": [
       "Special"

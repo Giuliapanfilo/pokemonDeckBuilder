@@ -5990,8 +5990,7 @@
     "attacks": [
       {
         "name": "Blazing Destruction",
-        "cost": [
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Discard a Stadium in play."
@@ -6051,8 +6050,7 @@
     "attacks": [
       {
         "name": "Proud Fangs",
-        "cost": [
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30+",
         "text": "If your Benched Pokémon have any damage counters on them, this attack does 90 more damage."
@@ -10138,8 +10136,7 @@
     "attacks": [
       {
         "name": "Blazing Destruction",
-        "cost": [
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Discard a Stadium in play."

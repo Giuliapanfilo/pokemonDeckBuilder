@@ -133,9 +133,7 @@
     "attacks": [
       {
         "name": "Reach Over",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
@@ -1454,9 +1452,7 @@
     "attacks": [
       {
         "name": "Pick Out",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Choose 1 face-down Prize card (yours or your opponent's) and put it face up. If that card is a Supporter card, use the effect of that card as the effect of this attack. (That card remains face up for the rest of the game.)"
@@ -1740,7 +1736,7 @@
   },
   {
     "id": "dp4-29",
-    "name": "Unown [H]",
+    "name": "Unown H",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -2176,9 +2172,7 @@
     "attacks": [
       {
         "name": "Present",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward."
@@ -2295,9 +2289,7 @@
     "attacks": [
       {
         "name": "Sweet Temptation",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. This attack does 10 damage to the new Defending Pokémon."
@@ -2416,9 +2408,7 @@
     "attacks": [
       {
         "name": "Greenness",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 Grass Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
@@ -2544,9 +2534,7 @@
     "attacks": [
       {
         "name": "Scary Face",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn."
@@ -2603,9 +2591,7 @@
     "attacks": [
       {
         "name": "Switcheroo",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Move a Pokémon Tool card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon (excluding Pokémon that already has a Pokémon Tool attached to it). (If an effect of this attack is prevented, this attack does nothing.)"
@@ -2910,9 +2896,7 @@
     "attacks": [
       {
         "name": "Guzzle",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Choose up to 2 basic Water Energy cards from your hand and attach them to Pelipper. Remove 2 damage counters for each Energy card attached in this way."
@@ -3098,9 +3082,7 @@
     "attacks": [
       {
         "name": "Primal Calling",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 3 Trainer Cards that have Fossil in their names, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
@@ -3400,7 +3382,7 @@
   },
   {
     "id": "dp4-56",
-    "name": "Unown [F]",
+    "name": "Unown F",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -3455,7 +3437,7 @@
   },
   {
     "id": "dp4-57",
-    "name": "Unown [G]",
+    "name": "Unown G",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -3712,9 +3694,7 @@
     "attacks": [
       {
         "name": "Headbutt",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -4271,9 +4251,7 @@
     "attacks": [
       {
         "name": "Inquire",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Draw a card. If you didn't play any Supporter card from your hand during this turn, draw 2 more cards."
@@ -4440,9 +4418,7 @@
     "attacks": [
       {
         "name": "Stiffen",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "During your opponent's next turn, any damage done to Kakuna by attacks is reduced by 30 (after applying Weakness and Resistance)."
@@ -5413,9 +5389,7 @@
     "attacks": [
       {
         "name": "Peck",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""
@@ -5524,7 +5498,7 @@
   },
   {
     "id": "dp4-91",
-    "name": "Unown [L]",
+    "name": "Unown L",
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -5712,9 +5686,7 @@
     "attacks": [
       {
         "name": "Mumble",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10",
         "text": ""

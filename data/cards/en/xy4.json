@@ -5754,7 +5754,7 @@
   },
   {
     "id": "xy4-92",
-    "name": "Battle Compressor Team Flare Gear",
+    "name": "Battle Compressor",
     "supertype": "Trainer",
     "subtypes": [
       "Item"
@@ -5870,7 +5870,7 @@
   },
   {
     "id": "xy4-97",
-    "name": "Head Ringer Team Flare Hyper Gear",
+    "name": "Head Ringer",
     "supertype": "Trainer",
     "subtypes": [
       "Pokémon Tool F"
@@ -5990,7 +5990,7 @@
   },
   {
     "id": "xy4-102",
-    "name": "Robo Substitute Team Flare Gear",
+    "name": "Robo Substitute",
     "supertype": "Trainer",
     "subtypes": [
       "Item"
@@ -6083,7 +6083,7 @@
   },
   {
     "id": "xy4-106",
-    "name": "Target Whistle Team Flare Gear",
+    "name": "Target Whistle",
     "supertype": "Trainer",
     "subtypes": [
       "Item"

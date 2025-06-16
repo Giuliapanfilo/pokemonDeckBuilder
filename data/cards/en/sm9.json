@@ -2026,9 +2026,7 @@
     "attacks": [
       {
         "name": "Charge",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck."
@@ -2097,9 +2095,7 @@
     "attacks": [
       {
         "name": "Rollout",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30",
         "text": ""
@@ -2167,9 +2163,7 @@
     "attacks": [
       {
         "name": "Electromagnetic Bomb",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "20×",
         "text": "Move any number of Lightning Energy from your Benched Pokémon to this Pokémon. This attack does 20 damage for each Energy card you moved in this way."
@@ -3858,9 +3852,7 @@
     "attacks": [
       {
         "name": "Limbo Limbo",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Search your deck for up to 2 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck."
@@ -7008,9 +7000,7 @@
     "attacks": [
       {
         "name": "Paradise Draw",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "You may discard any number of cards from your hand. Then, draw cards until you have 6 cards in your hand."

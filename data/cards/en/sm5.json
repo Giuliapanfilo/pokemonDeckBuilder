@@ -1596,9 +1596,7 @@
     "attacks": [
       {
         "name": "Fury Swipes",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10×",
         "text": "Flip 3 coins. This attack does 10 damage for each heads."
@@ -1645,9 +1643,7 @@
     "attacks": [
       {
         "name": "Spike Armor",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30",
         "text": "During your opponent's next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put 6 damage counters on the Attacking Pokémon."
@@ -1707,9 +1703,7 @@
     "attacks": [
       {
         "name": "Roar",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon."
@@ -4642,9 +4636,7 @@
     "attacks": [
       {
         "name": "Iron Head",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "10×",
         "text": "Flip a coin until you get tails. This attack does 10 damage for each heads."
@@ -4697,9 +4689,7 @@
     "attacks": [
       {
         "name": "Gold Rush",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "30×",
         "text": "Discard any number of Metal Energy cards from your hand. This attack does 30 damage for each card you discarded in this way."
@@ -5774,9 +5764,7 @@
     "attacks": [
       {
         "name": "Exeggutor's Paradise",
-        "cost": [
-
-        ],
+        "cost": [],
         "convertedEnergyCost": 0,
         "damage": "",
         "text": "For each of your Benched Exeggcute, search your deck for an Alolan Exeggutor or Alolan Exeggutor-GX and put it onto that Exeggcute to evolve it. Then, shuffle your deck."
