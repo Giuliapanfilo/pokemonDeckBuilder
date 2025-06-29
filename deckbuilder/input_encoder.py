@@ -1,6 +1,7 @@
 import json
+import os
 from fetch_card_id import setIdByName
-from deckbuilder.encoding import create_card_index_map  # Importa la funzione esistente
+from encoding import create_card_index_map  # Importa la funzione esistente
 
 def load_input_from_file():
     """
@@ -10,13 +11,13 @@ def load_input_from_file():
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             input_deck = json.load(f)
-        return input_deck
+        return input_deck, file_path
     except FileNotFoundError:
         print(f"Errore: File '{file_path}' non trovato.")
-        return None
+        return None, None
     except json.JSONDecodeError:
         print(f"Errore: Il file '{file_path}' non è un JSON valido.")
-        return None
+        return None, None
 
 def encode_single_deck(deck_name, deck_list, card_index_map, num_cards):
     """
@@ -94,7 +95,7 @@ def encode_single_deck(deck_name, deck_list, card_index_map, num_cards):
                 attributes[key] = round((attributes[key] / total_cards) * 100, 2)
 
     # Aggiungi gli attributi all'inizio del vettore
-    deck_vector = [attributes] + deck_vector
+    deck_vector = list(attributes.values()) + deck_vector
 
     return {deck_name: deck_vector}
 
@@ -116,10 +117,28 @@ def encode_incomplete_deck(input_deck, archetype_cards_file):
             encoded_deck = encode_single_deck(deck_name, deck_list, card_index_map, num_cards)
             return encoded_deck
 
+def save_encoded_deck(encoded_deck, file_path):
+    """
+    Salva il file encodato nella cartella data/inputdecks.
+    """
+    # Crea la cartella inputdecks se non esiste
+    inputdecks_dir = os.path.join("data", "inputdecks")
+    os.makedirs(inputdecks_dir, exist_ok=True)
+
+    # Usa il nome del file JSON per creare il file encodato
+    file_name = os.path.basename(file_path).split(".")[0]
+    encoded_path = os.path.join(inputdecks_dir, f"{file_name}_encoded.json")
+
+    # Salva il file encodato
+    with open(encoded_path, "w", encoding="utf-8") as f:
+        json.dump(encoded_deck, f, indent=2, ensure_ascii=False)
+
+    print(f"File encodato salvato in: {encoded_path}")
+
 # Esempio di utilizzo
 if __name__ == "__main__":
     # Carica il mazzo incompleto da file
-    input_deck = load_input_from_file()
+    input_deck, file_path = load_input_from_file()
     if input_deck:
         # Percorso del file archetypeCards.json
         archetype_cards_file = "data/archetypeCards.json"
@@ -127,5 +146,5 @@ if __name__ == "__main__":
         # Codifica il mazzo incompleto
         encoded_deck = encode_incomplete_deck(input_deck, archetype_cards_file)
 
-        # Mostra il risultato
-        print(json.dumps(encoded_deck, indent=2, ensure_ascii=False))
+        # Salva il risultato
+        save_encoded_deck(encoded_deck, file_path)
