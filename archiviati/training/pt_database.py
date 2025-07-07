@@ -21,7 +21,7 @@ class DeckPairsDataset(Dataset):
 
 # --- esempio rapido di come usarlo ---
 if __name__ == "__main__":
-    dataset = DeckPairsDataset("data/pairs.json")
+    dataset = DeckPairsDataset("training/trainingData/pairs.json")
     print(f"Dataset size: {len(dataset)}")
     v1, v2, lbl = dataset[0]
     print(f"Vector 1 shape: {v1.shape}")

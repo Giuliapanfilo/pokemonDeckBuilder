@@ -60,6 +60,6 @@ if __name__ == "__main__":
     # Salvo i dati nel formato corretto
     pair_data = {"pairs": [[v1, v2, lbl] for (v1, v2), lbl in zip(pairs, labels)]}
 
-    with open("data/pairs.json", "w", encoding="utf-8") as f:
+    with open("training/trainingData/pairs.json", "w", encoding="utf-8") as f:
         json.dump(pair_data, f)
 

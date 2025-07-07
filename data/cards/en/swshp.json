@@ -1,6 +1,6 @@
 [
   {
-    "id": "swshp-001",
+    "id": "swshp-1",
     "name": "Grookey",
     "supertype": "Pokémon",
     "subtypes": [
@@ -35,7 +35,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "001",
+    "number": "1",
     "artist": "kirisAki",
     "rarity": "Promo",
     "flavorText": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
@@ -53,7 +53,7 @@
     }
   },
   {
-    "id": "swshp-002",
+    "id": "swshp-2",
     "name": "Scorbunny",
     "supertype": "Pokémon",
     "subtypes": [
@@ -87,7 +87,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "002",
+    "number": "2",
     "artist": "Hitoshi Ariga",
     "rarity": "Promo",
     "flavorText": "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
@@ -105,7 +105,7 @@
     }
   },
   {
-    "id": "swshp-003",
+    "id": "swshp-3",
     "name": "Sobble",
     "supertype": "Pokémon",
     "subtypes": [
@@ -140,7 +140,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "003",
+    "number": "3",
     "artist": "Mizue",
     "rarity": "Promo",
     "flavorText": "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping.",
@@ -158,7 +158,7 @@
     }
   },
   {
-    "id": "swshp-004",
+    "id": "swshp-4",
     "name": "Meowth V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -208,7 +208,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "004",
+    "number": "4",
     "artist": "aky CG Works",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -225,7 +225,7 @@
     }
   },
   {
-    "id": "swshp-005",
+    "id": "swshp-5",
     "name": "Meowth VMAX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -267,7 +267,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "005",
+    "number": "5",
     "artist": "aky CG Works",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -284,7 +284,7 @@
     }
   },
   {
-    "id": "swshp-006",
+    "id": "swshp-6",
     "name": "Rillaboom",
     "supertype": "Pokémon",
     "subtypes": [
@@ -328,7 +328,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "006",
+    "number": "6",
     "artist": "Kouki Saitou",
     "rarity": "Promo",
     "flavorText": "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.",
@@ -346,7 +346,7 @@
     }
   },
   {
-    "id": "swshp-007",
+    "id": "swshp-7",
     "name": "Frosmoth",
     "supertype": "Pokémon",
     "subtypes": [
@@ -387,7 +387,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "007",
+    "number": "7",
     "artist": "kirisAki",
     "rarity": "Promo",
     "flavorText": "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away.",
@@ -405,7 +405,7 @@
     }
   },
   {
-    "id": "swshp-008",
+    "id": "swshp-8",
     "name": "Galarian Perrserker",
     "supertype": "Pokémon",
     "subtypes": [
@@ -453,7 +453,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "008",
+    "number": "8",
     "artist": "Akira Komayama",
     "rarity": "Promo",
     "flavorText": "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
@@ -471,7 +471,7 @@
     }
   },
   {
-    "id": "swshp-009",
+    "id": "swshp-9",
     "name": "Cinccino",
     "supertype": "Pokémon",
     "subtypes": [
@@ -510,7 +510,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "009",
+    "number": "9",
     "artist": "Shibuzoh.",
     "rarity": "Promo",
     "flavorText": "Its body secrets oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
@@ -528,7 +528,7 @@
     }
   },
   {
-    "id": "swshp-010",
+    "id": "swshp-10",
     "name": "Gossifleur",
     "supertype": "Pokémon",
     "subtypes": [
@@ -562,7 +562,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "010",
+    "number": "10",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "flavorText": "It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly.",
@@ -580,7 +580,7 @@
     }
   },
   {
-    "id": "swshp-011",
+    "id": "swshp-11",
     "name": "Wooloo",
     "supertype": "Pokémon",
     "subtypes": [
@@ -624,7 +624,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "011",
+    "number": "11",
     "artist": "Hitoshi Ariga",
     "rarity": "Promo",
     "flavorText": "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.",
@@ -642,7 +642,7 @@
     }
   },
   {
-    "id": "swshp-012",
+    "id": "swshp-12",
     "name": "Morpeko",
     "supertype": "Pokémon",
     "subtypes": [
@@ -675,7 +675,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "012",
+    "number": "12",
     "artist": "Kagemaru Himeno",
     "rarity": "Promo",
     "flavorText": "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity.",
@@ -693,7 +693,7 @@
     }
   },
   {
-    "id": "swshp-013",
+    "id": "swshp-13",
     "name": "Galarian Ponyta",
     "supertype": "Pokémon",
     "subtypes": [
@@ -743,7 +743,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "013",
+    "number": "13",
     "artist": "kirisAki",
     "rarity": "Promo",
     "flavorText": "Its small horn hides a healing power. With a few rubs from this Pokémon's horn, any slight wound you have will be healed.",
@@ -761,7 +761,7 @@
     }
   },
   {
-    "id": "swshp-014",
+    "id": "swshp-14",
     "name": "Rillaboom V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -810,7 +810,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "014",
+    "number": "14",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -827,7 +827,7 @@
     }
   },
   {
-    "id": "swshp-015",
+    "id": "swshp-15",
     "name": "Cinderace V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -872,7 +872,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "015",
+    "number": "15",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -889,7 +889,7 @@
     }
   },
   {
-    "id": "swshp-016",
+    "id": "swshp-16",
     "name": "Inteleon V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -936,7 +936,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "016",
+    "number": "16",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -953,7 +953,7 @@
     }
   },
   {
-    "id": "swshp-017",
+    "id": "swshp-17",
     "name": "Toxtricity V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1000,7 +1000,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "017",
+    "number": "17",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1017,7 +1017,7 @@
     }
   },
   {
-    "id": "swshp-018",
+    "id": "swshp-18",
     "name": "Zacian V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1068,7 +1068,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "018",
+    "number": "18",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1085,7 +1085,7 @@
     }
   },
   {
-    "id": "swshp-019",
+    "id": "swshp-19",
     "name": "Zamazenta V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1136,7 +1136,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "019",
+    "number": "19",
     "artist": "aky CG Works",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1153,7 +1153,7 @@
     }
   },
   {
-    "id": "swshp-020",
+    "id": "swshp-20",
     "name": "Pikachu",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1199,7 +1199,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "020",
+    "number": "20",
     "artist": "Hideki Ishikawa",
     "rarity": "Promo",
     "flavorText": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
@@ -1217,7 +1217,7 @@
     }
   },
   {
-    "id": "swshp-021",
+    "id": "swshp-21",
     "name": "Polteageist V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1267,7 +1267,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "021",
+    "number": "21",
     "artist": "PLANETA Igarashi",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1284,7 +1284,7 @@
     }
   },
   {
-    "id": "swshp-022",
+    "id": "swshp-22",
     "name": "Flapple",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1324,7 +1324,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "022",
+    "number": "22",
     "artist": "Hitoshi Ariga",
     "rarity": "Promo",
     "flavorText": "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns.",
@@ -1342,7 +1342,7 @@
     }
   },
   {
-    "id": "swshp-023",
+    "id": "swshp-23",
     "name": "Luxray",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1384,7 +1384,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "023",
+    "number": "23",
     "artist": "Megumi Higuchi",
     "rarity": "Promo",
     "flavorText": "Luxray's ability to see through objects comes in handy when it's scouting for danger.",
@@ -1402,7 +1402,7 @@
     }
   },
   {
-    "id": "swshp-024",
+    "id": "swshp-24",
     "name": "Coalossal",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1447,7 +1447,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "024",
+    "number": "24",
     "artist": "Kouki Saitou",
     "rarity": "Promo",
     "flavorText": "It's usually peaceful, but the vandalism of mines enrages it. Offenders will be incinerated with flames that reach 2,700 degrees Fahrenheit.",
@@ -1465,7 +1465,7 @@
     }
   },
   {
-    "id": "swshp-025",
+    "id": "swshp-25",
     "name": "Garbodor",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1507,7 +1507,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "025",
+    "number": "25",
     "artist": "tetsuya koizumi",
     "rarity": "Promo",
     "flavorText": "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten.",
@@ -1525,7 +1525,7 @@
     }
   },
   {
-    "id": "swshp-026",
+    "id": "swshp-26",
     "name": "Mantine",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1566,7 +1566,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "026",
+    "number": "26",
     "artist": "0313",
     "rarity": "Promo",
     "flavorText": "If it builds up enough speed swimming, it can jump out above the waves and glide for over 300 feet.",
@@ -1584,7 +1584,7 @@
     }
   },
   {
-    "id": "swshp-027",
+    "id": "swshp-27",
     "name": "Noctowl",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1634,7 +1634,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "027",
+    "number": "27",
     "artist": "Misa Tsutsui",
     "rarity": "Promo",
     "flavorText": "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power.",
@@ -1652,7 +1652,7 @@
     }
   },
   {
-    "id": "swshp-028",
+    "id": "swshp-28",
     "name": "Duraludon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1704,7 +1704,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "028",
+    "number": "28",
     "artist": "Ryuta Fuse",
     "rarity": "Promo",
     "flavorText": "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily.",
@@ -1722,7 +1722,7 @@
     }
   },
   {
-    "id": "swshp-029",
+    "id": "swshp-29",
     "name": "Rayquaza",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1772,7 +1772,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "029",
+    "number": "29",
     "artist": "so-taro",
     "rarity": "Promo",
     "flavorText": "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it.",
@@ -1790,7 +1790,7 @@
     }
   },
   {
-    "id": "swshp-030",
+    "id": "swshp-30",
     "name": "Copperajah V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1848,7 +1848,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "030",
+    "number": "30",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -1865,7 +1865,7 @@
     }
   },
   {
-    "id": "swshp-031",
+    "id": "swshp-31",
     "name": "Morpeko",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1906,7 +1906,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "031",
+    "number": "31",
     "artist": "Hitoshi Ariga",
     "rarity": "Promo",
     "flavorText": "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity.",
@@ -1924,7 +1924,7 @@
     }
   },
   {
-    "id": "swshp-032",
+    "id": "swshp-32",
     "name": "Snorlax",
     "supertype": "Pokémon",
     "subtypes": [
@@ -1972,7 +1972,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "032",
+    "number": "32",
     "artist": "Tika Matsuno",
     "rarity": "Promo",
     "flavorText": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
@@ -1990,7 +1990,7 @@
     }
   },
   {
-    "id": "swshp-033",
+    "id": "swshp-33",
     "name": "Zacian",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2042,7 +2042,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "033",
+    "number": "33",
     "artist": "Kouki Saitou",
     "rarity": "Promo",
     "flavorText": "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon.",
@@ -2060,7 +2060,7 @@
     }
   },
   {
-    "id": "swshp-034",
+    "id": "swshp-34",
     "name": "Zamazenta",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2108,7 +2108,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "034",
+    "number": "34",
     "artist": "Kouki Saitou",
     "rarity": "Promo",
     "flavorText": "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
@@ -2126,7 +2126,7 @@
     }
   },
   {
-    "id": "swshp-035",
+    "id": "swshp-35",
     "name": "Decidueye",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2167,7 +2167,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "035",
+    "number": "35",
     "artist": "Souichirou Gunjima",
     "rarity": "Promo",
     "flavorText": "As if wielding a bow, it launches the arrow quills hidden among the feathers of its wings. Decidueye's shots never miss.",
@@ -2185,7 +2185,7 @@
     }
   },
   {
-    "id": "swshp-036",
+    "id": "swshp-36",
     "name": "Arctozolt",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2226,7 +2226,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "036",
+    "number": "36",
     "artist": "Hasuno",
     "rarity": "Promo",
     "flavorText": "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around.",
@@ -2244,7 +2244,7 @@
     }
   },
   {
-    "id": "swshp-037",
+    "id": "swshp-37",
     "name": "Hydreigon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2287,7 +2287,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "037",
+    "number": "37",
     "artist": "Taira Akitsu",
     "rarity": "Promo",
     "flavorText": "There are a slew of stories about villages that were destroyed by Hydreigon. It bites anything that moves.",
@@ -2305,7 +2305,7 @@
     }
   },
   {
-    "id": "swshp-038",
+    "id": "swshp-38",
     "name": "Kangaskhan",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2349,7 +2349,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "038",
+    "number": "38",
     "artist": "HYOGONOSUKE",
     "rarity": "Promo",
     "flavorText": "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it.",
@@ -2367,7 +2367,7 @@
     }
   },
   {
-    "id": "swshp-039",
+    "id": "swshp-39",
     "name": "Pikachu",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2412,7 +2412,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "039",
+    "number": "39",
     "artist": "Hitoshi Ariga",
     "rarity": "Promo",
     "flavorText": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
@@ -2430,7 +2430,7 @@
     }
   },
   {
-    "id": "swshp-040",
+    "id": "swshp-40",
     "name": "Hatenna",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2480,7 +2480,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "040",
+    "number": "40",
     "artist": "Misa Tsutsui",
     "rarity": "Promo",
     "flavorText": "Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you.",
@@ -2498,7 +2498,7 @@
     }
   },
   {
-    "id": "swshp-041",
+    "id": "swshp-41",
     "name": "Flareon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2542,7 +2542,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "041",
+    "number": "41",
     "artist": "You Iribi",
     "rarity": "Promo",
     "flavorText": "Once it has stored up enough heat, this Pokémon's body temperature can reach up to 1,700 degrees Fahrenheit.",
@@ -2560,7 +2560,7 @@
     }
   },
   {
-    "id": "swshp-042",
+    "id": "swshp-42",
     "name": "Eevee",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2611,7 +2611,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "042",
+    "number": "42",
     "artist": "You Iribi",
     "rarity": "Promo",
     "flavorText": "It has the ability to alter the composition of its body to suit its surrounding environment.",
@@ -2629,7 +2629,7 @@
     }
   },
   {
-    "id": "swshp-043",
+    "id": "swshp-43",
     "name": "Galarian Sirfetch'd V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2674,7 +2674,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "043",
+    "number": "43",
     "artist": "PLANETA Tsuji",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2691,7 +2691,7 @@
     }
   },
   {
-    "id": "swshp-044",
+    "id": "swshp-44",
     "name": "Eternatus V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2739,7 +2739,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "044",
+    "number": "44",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2756,7 +2756,7 @@
     }
   },
   {
-    "id": "swshp-045",
+    "id": "swshp-45",
     "name": "Eternatus VMAX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2801,7 +2801,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "045",
+    "number": "45",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -2818,7 +2818,7 @@
     }
   },
   {
-    "id": "swshp-046",
+    "id": "swshp-46",
     "name": "Eldegoss",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2859,7 +2859,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "046",
+    "number": "46",
     "artist": "Mina Nakai",
     "rarity": "Promo",
     "flavorText": "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty.",
@@ -2877,7 +2877,7 @@
     }
   },
   {
-    "id": "swshp-047",
+    "id": "swshp-47",
     "name": "Drednaw",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2925,7 +2925,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "047",
+    "number": "47",
     "artist": "Anesaki Dynamic",
     "rarity": "Promo",
     "flavorText": "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down.",
@@ -2943,7 +2943,7 @@
     }
   },
   {
-    "id": "swshp-048",
+    "id": "swshp-48",
     "name": "Centiskorch",
     "supertype": "Pokémon",
     "subtypes": [
@@ -2989,7 +2989,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "048",
+    "number": "48",
     "artist": "nagimiso",
     "rarity": "Promo",
     "flavorText": "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
@@ -3007,7 +3007,7 @@
     }
   },
   {
-    "id": "swshp-049",
+    "id": "swshp-49",
     "name": "Dubwool V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3052,7 +3052,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "049",
+    "number": "49",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3069,7 +3069,7 @@
     }
   },
   {
-    "id": "swshp-050",
+    "id": "swshp-50",
     "name": "Charizard V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3120,7 +3120,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "050",
+    "number": "50",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3137,7 +3137,7 @@
     }
   },
   {
-    "id": "swshp-051",
+    "id": "swshp-51",
     "name": "Lapras",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3173,7 +3173,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "051",
+    "number": "51",
     "artist": "Megumi Higuchi",
     "rarity": "Promo",
     "flavorText": "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
@@ -3191,7 +3191,7 @@
     }
   },
   {
-    "id": "swshp-052",
+    "id": "swshp-52",
     "name": "Gengar",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3239,7 +3239,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "052",
+    "number": "52",
     "artist": "Shibuzoh.",
     "rarity": "Promo",
     "flavorText": "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing.",
@@ -3257,7 +3257,7 @@
     }
   },
   {
-    "id": "swshp-053",
+    "id": "swshp-53",
     "name": "Machamp",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3303,7 +3303,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "053",
+    "number": "53",
     "artist": "SATOSHI NAKAI",
     "rarity": "Promo",
     "flavorText": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
@@ -3321,7 +3321,7 @@
     }
   },
   {
-    "id": "swshp-054",
+    "id": "swshp-54",
     "name": "Coalossal",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3366,7 +3366,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "054",
+    "number": "54",
     "artist": "Shigenori Negishi",
     "rarity": "Promo",
     "flavorText": "It's usually peaceful, but the vandalism of mines enrages it. Offenders will be incinerated with flames that reach 2,700 degrees Fahrenheit.",
@@ -3384,7 +3384,7 @@
     }
   },
   {
-    "id": "swshp-055",
+    "id": "swshp-55",
     "name": "Hatterene V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3438,7 +3438,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "055",
+    "number": "55",
     "artist": "PLANETA Igarashi",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3455,7 +3455,7 @@
     }
   },
   {
-    "id": "swshp-056",
+    "id": "swshp-56",
     "name": "Morpeko V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3502,7 +3502,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "056",
+    "number": "56",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3519,7 +3519,7 @@
     }
   },
   {
-    "id": "swshp-057",
+    "id": "swshp-57",
     "name": "Grimmsnarl V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3566,7 +3566,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "057",
+    "number": "57",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3583,7 +3583,7 @@
     }
   },
   {
-    "id": "swshp-058",
+    "id": "swshp-58",
     "name": "Alcremie",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3625,7 +3625,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "058",
+    "number": "58",
     "artist": "sui",
     "rarity": "Promo",
     "flavorText": "When it trusts a Trainer, it will treat them to berries it's decorated with cream.",
@@ -3643,7 +3643,7 @@
     }
   },
   {
-    "id": "swshp-059",
+    "id": "swshp-59",
     "name": "Galarian Obstagoon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3684,7 +3684,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "059",
+    "number": "59",
     "artist": "Hasuno",
     "rarity": "Promo",
     "flavorText": "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
@@ -3702,7 +3702,7 @@
     }
   },
   {
-    "id": "swshp-060",
+    "id": "swshp-60",
     "name": "Duraludon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3751,7 +3751,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "060",
+    "number": "60",
     "artist": "Kazuma Koda",
     "rarity": "Promo",
     "flavorText": "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily.",
@@ -3769,7 +3769,7 @@
     }
   },
   {
-    "id": "swshp-061",
+    "id": "swshp-61",
     "name": "Pikachu V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3818,7 +3818,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "061",
+    "number": "61",
     "artist": "PLANETA Tsuji",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3835,7 +3835,7 @@
     }
   },
   {
-    "id": "swshp-062",
+    "id": "swshp-62",
     "name": "Pikachu VMAX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3876,7 +3876,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "062",
+    "number": "62",
     "artist": "PLANETA Mochizuki",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3893,7 +3893,7 @@
     }
   },
   {
-    "id": "swshp-063",
+    "id": "swshp-63",
     "name": "Pikachu V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -3941,7 +3941,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "063",
+    "number": "63",
     "artist": "Ryota Murayama",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -3958,7 +3958,7 @@
     }
   },
   {
-    "id": "swshp-064",
+    "id": "swshp-64",
     "name": "Eternatus V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4006,7 +4006,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "064",
+    "number": "64",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -4023,7 +4023,7 @@
     }
   },
   {
-    "id": "swshp-065",
+    "id": "swshp-65",
     "name": "Eevee V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4079,7 +4079,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "065",
+    "number": "65",
     "artist": "Kagemaru Himeno",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -4096,7 +4096,7 @@
     }
   },
   {
-    "id": "swshp-066",
+    "id": "swshp-66",
     "name": "Charizard",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4138,7 +4138,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "066",
+    "number": "66",
     "artist": "NC Empire",
     "rarity": "Promo",
     "flavorText": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
@@ -4156,7 +4156,7 @@
     }
   },
   {
-    "id": "swshp-067",
+    "id": "swshp-67",
     "name": "Donphan",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4202,7 +4202,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 4,
-    "number": "067",
+    "number": "67",
     "artist": "Eri Yamaki",
     "rarity": "Promo",
     "flavorText": "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow.",
@@ -4220,7 +4220,7 @@
     }
   },
   {
-    "id": "swshp-068",
+    "id": "swshp-68",
     "name": "Snorlax",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4263,7 +4263,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "068",
+    "number": "68",
     "artist": "Narumi Sato",
     "rarity": "Promo",
     "flavorText": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
@@ -4281,7 +4281,7 @@
     }
   },
   {
-    "id": "swshp-069",
+    "id": "swshp-69",
     "name": "Lugia",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4332,7 +4332,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "069",
+    "number": "69",
     "artist": "kodama",
     "rarity": "Promo",
     "flavorText": "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
@@ -4350,7 +4350,7 @@
     }
   },
   {
-    "id": "swshp-070",
+    "id": "swshp-70",
     "name": "Grookey",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4384,7 +4384,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "070",
+    "number": "70",
     "artist": "Akira Komayama",
     "rarity": "Promo",
     "flavorText": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
@@ -4402,7 +4402,7 @@
     }
   },
   {
-    "id": "swshp-071",
+    "id": "swshp-71",
     "name": "Scorbunny",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4446,7 +4446,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "071",
+    "number": "71",
     "artist": "Akira Komayama",
     "rarity": "Promo",
     "flavorText": "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
@@ -4464,7 +4464,7 @@
     }
   },
   {
-    "id": "swshp-072",
+    "id": "swshp-72",
     "name": "Vaporeon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4506,7 +4506,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "072",
+    "number": "72",
     "artist": "so-taro",
     "rarity": "Promo",
     "flavorText": "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours.",
@@ -4524,7 +4524,7 @@
     }
   },
   {
-    "id": "swshp-073",
+    "id": "swshp-73",
     "name": "Sobble",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4567,7 +4567,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "073",
+    "number": "73",
     "artist": "Akira Komayama",
     "rarity": "Promo",
     "flavorText": "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attacks won't be able to resist weeping.",
@@ -4585,7 +4585,7 @@
     }
   },
   {
-    "id": "swshp-074",
+    "id": "swshp-74",
     "name": "Special Delivery Pikachu",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4629,7 +4629,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "074",
+    "number": "74",
     "artist": "The Pokémon Company Art Team",
     "rarity": "Promo",
     "flavorText": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
@@ -4647,7 +4647,7 @@
     }
   },
   {
-    "id": "swshp-075",
+    "id": "swshp-75",
     "name": "Special Delivery Charizard",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4692,7 +4692,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "075",
+    "number": "75",
     "artist": "The Pokémon Company Art Team",
     "rarity": "Promo",
     "flavorText": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
@@ -4710,7 +4710,7 @@
     }
   },
   {
-    "id": "swshp-076",
+    "id": "swshp-76",
     "name": "Zacian V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4761,7 +4761,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "076",
+    "number": "76",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -4778,7 +4778,7 @@
     }
   },
   {
-    "id": "swshp-077",
+    "id": "swshp-77",
     "name": "Zamazenta V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4829,7 +4829,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "077",
+    "number": "77",
     "artist": "aky CG Works",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -4846,7 +4846,7 @@
     }
   },
   {
-    "id": "swshp-078",
+    "id": "swshp-78",
     "name": "Orbeetle V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4891,7 +4891,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "078",
+    "number": "78",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -4908,7 +4908,7 @@
     }
   },
   {
-    "id": "swshp-079",
+    "id": "swshp-79",
     "name": "Galarian Mr. Rime",
     "supertype": "Pokémon",
     "subtypes": [
@@ -4950,7 +4950,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "079",
+    "number": "79",
     "artist": "KEIICHIRO ITO",
     "rarity": "Promo",
     "flavorText": "It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements.",
@@ -4968,7 +4968,7 @@
     }
   },
   {
-    "id": "swshp-080",
+    "id": "swshp-80",
     "name": "Dedenne",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5001,7 +5001,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "080",
+    "number": "80",
     "artist": "Yuu Nishida",
     "rarity": "Promo",
     "flavorText": "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity.",
@@ -5019,7 +5019,7 @@
     }
   },
   {
-    "id": "swshp-081",
+    "id": "swshp-81",
     "name": "Polteageist",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5065,7 +5065,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "081",
+    "number": "81",
     "artist": "Misa Tsutsui",
     "rarity": "Promo",
     "flavorText": "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found.",
@@ -5083,7 +5083,7 @@
     }
   },
   {
-    "id": "swshp-082",
+    "id": "swshp-82",
     "name": "Bunnelby",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5118,7 +5118,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "082",
+    "number": "82",
     "artist": "sowsow",
     "rarity": "Promo",
     "flavorText": "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night.",
@@ -5136,7 +5136,7 @@
     }
   },
   {
-    "id": "swshp-083",
+    "id": "swshp-83",
     "name": "Alakazam V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5187,7 +5187,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "083",
+    "number": "83",
     "artist": "Ayaka Yoshida",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -5204,7 +5204,7 @@
     }
   },
   {
-    "id": "swshp-084",
+    "id": "swshp-84",
     "name": "Eldegoss V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5247,7 +5247,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "084",
+    "number": "84",
     "artist": "5ban Graphics",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -5264,7 +5264,7 @@
     }
   },
   {
-    "id": "swshp-085",
+    "id": "swshp-85",
     "name": "Boltund V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5310,7 +5310,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "085",
+    "number": "85",
     "artist": "aky CG Works",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -5327,7 +5327,7 @@
     }
   },
   {
-    "id": "swshp-086",
+    "id": "swshp-86",
     "name": "Cramorant V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5379,7 +5379,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "086",
+    "number": "86",
     "artist": "aky CG Works",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -5396,7 +5396,7 @@
     }
   },
   {
-    "id": "swshp-087",
+    "id": "swshp-87",
     "name": "Eevee VMAX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5444,7 +5444,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "087",
+    "number": "87",
     "artist": "PLANETA Mochizuki",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -5461,7 +5461,7 @@
     }
   },
   {
-    "id": "swshp-088",
+    "id": "swshp-88",
     "name": "Cherrim",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5503,7 +5503,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "088",
+    "number": "88",
     "artist": "Tika Matsuno",
     "rarity": "Promo",
     "flavorText": "The faint scent that emanates from its full blossom entices bug Pokémon to it.",
@@ -5521,7 +5521,7 @@
     }
   },
   {
-    "id": "swshp-089",
+    "id": "swshp-89",
     "name": "Octillery",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5564,7 +5564,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "089",
+    "number": "89",
     "artist": "KIYOTAKA OSHIYAMA",
     "rarity": "Promo",
     "flavorText": "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head.",
@@ -5582,7 +5582,7 @@
     }
   },
   {
-    "id": "swshp-090",
+    "id": "swshp-90",
     "name": "Houndoom",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5624,7 +5624,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 2,
-    "number": "090",
+    "number": "90",
     "artist": "Uta",
     "rarity": "Promo",
     "flavorText": "Identifiable by its eerie howls, people a long time ago thought it was the grim reaper and feared it.",
@@ -5642,7 +5642,7 @@
     }
   },
   {
-    "id": "swshp-091",
+    "id": "swshp-91",
     "name": "Bronzong",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5691,7 +5691,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 3,
-    "number": "091",
+    "number": "91",
     "artist": "Atsushi Furusawa",
     "rarity": "Promo",
     "flavorText": "Many scientists suspect that this Pokémon originated outside the Galar region, based on the patterns on its body.",
@@ -5709,7 +5709,7 @@
     }
   },
   {
-    "id": "swshp-092",
+    "id": "swshp-92",
     "name": "Charmander",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5753,7 +5753,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "092",
+    "number": "92",
     "artist": "Uta",
     "rarity": "Promo",
     "flavorText": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
@@ -5771,7 +5771,7 @@
     }
   },
   {
-    "id": "swshp-093",
+    "id": "swshp-93",
     "name": "Arrokuda",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5815,7 +5815,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "093",
+    "number": "93",
     "artist": "tetsuya koizumi",
     "rarity": "Promo",
     "flavorText": "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw.",
@@ -5833,7 +5833,7 @@
     }
   },
   {
-    "id": "swshp-094",
+    "id": "swshp-94",
     "name": "Jolteon",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5872,7 +5872,7 @@
         "value": "×2"
       }
     ],
-    "number": "094",
+    "number": "94",
     "artist": "Yuu Nishida",
     "rarity": "Promo",
     "flavorText": "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes.",
@@ -5890,7 +5890,7 @@
     }
   },
   {
-    "id": "swshp-095",
+    "id": "swshp-95",
     "name": "Eevee",
     "supertype": "Pokémon",
     "subtypes": [
@@ -5942,7 +5942,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "095",
+    "number": "95",
     "artist": "Naoki Saito",
     "rarity": "Promo",
     "flavorText": "It has the ability to alter the composition of its body to suit its surrounding environment.",
@@ -5960,7 +5960,7 @@
     }
   },
   {
-    "id": "swshp-096",
+    "id": "swshp-96",
     "name": "Dragapult V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -6011,7 +6011,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "096",
+    "number": "96",
     "artist": "aky CG Works",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -6028,7 +6028,7 @@
     }
   },
   {
-    "id": "swshp-097",
+    "id": "swshp-97",
     "name": "Dragapult VMAX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -6079,7 +6079,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "097",
+    "number": "97",
     "artist": "aky CG Works",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -6096,7 +6096,7 @@
     }
   },
   {
-    "id": "swshp-098",
+    "id": "swshp-98",
     "name": "Crobat V",
     "supertype": "Pokémon",
     "subtypes": [
@@ -6139,7 +6139,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "098",
+    "number": "98",
     "artist": "PLANETA Mochizuki",
     "rarity": "Promo",
     "nationalPokedexNumbers": [
@@ -6156,7 +6156,7 @@
     }
   },
   {
-    "id": "swshp-099",
+    "id": "swshp-99",
     "name": "Crobat VMAX",
     "supertype": "Pokémon",
     "subtypes": [
@@ -6203,7 +6203,7 @@
       "Colorless"
     ],
     "convertedRetreatCost": 1,
-    "number": "099",
+    "number": "99",
     "artist": "PLANETA Tsuji",
     "rarity": "Promo",
     "nationalPokedexNumbers": [

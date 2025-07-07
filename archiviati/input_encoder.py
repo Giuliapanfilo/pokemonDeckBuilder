@@ -1,6 +1,6 @@
 import json
 import os
-from fetch_card_id import setIdByName
+from deckbuilder.fetch_card_id import setIdByName
 from encoding import create_card_index_map  # Importa la funzione esistente
 
 def load_input_from_file():
