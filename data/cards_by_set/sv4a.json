@@ -1,0 +1,143 @@
+[
+    {
+        "id": "sv4a-260",
+        "name": "Drifloon",
+        "supertype": "Pokémon",
+        "subtypes": [
+            "Basic"
+            ],
+        "hp": "70",
+        "types": [
+            "Psychic"
+            ],
+        "evolvesTo": [
+            "Drifblim"
+            ],
+        "attacks": [
+            {
+                "name": "Gust",
+                "cost": [
+                "Colorless",
+                "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Balloon Blast",
+                "cost": [
+                "Psychic",
+                "Psychic"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30×",
+                "text": "This attack does 30 damage for each damage counter on this Pokémon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Darkness",
+                "value": "×2"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Fighting",
+                "value": "-30"
+            }
+        ],
+            "retreatCost": [
+            "Colorless"
+        ],
+            "convertedRetreatCost": 1,
+            "number": "155",
+            "artist": "Kyoko Umemoto",
+            "rarity": "Shiny Rare",
+            "flavorText": "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing.",
+            "nationalPokedexNumbers": [
+            425
+        ],
+            "legalities": {
+            "unlimited": "Legal",
+            "standard": "Legal",
+            "expanded": "Legal"
+        },
+            "regulationMark": "G",
+            "images": {
+            "small": "https://images.pokemontcg.io/sv4pt5/155.png",
+            "large": "https://images.pokemontcg.io/sv4pt5/155_hires.png"
+        }
+    },
+    {
+        "id": "sv4a-348",
+        "name": "Gardevoir ex",
+        "supertype": "Pokémon",
+        "subtypes": [
+        "Stage 2",
+        "ex"
+        ],
+        "hp": "310",
+        "types": [
+        "Psychic"
+        ],
+        "evolvesFrom": "Kirlia",
+        "rules": [
+        "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "abilities": [
+        {
+            "type": "Ability",
+            "name": "Psychic Embrace",
+            "text": "As often as you like during your turn, you may attach a Basic Psychic Energy card from your discard pile to 1 of your Psychic Pokémon. If you attached Energy to a Pokémon in this way, put 2 damage counters on that Pokémon. You can't use this Ability on a Pokémon that would be Knocked Out."
+        }
+        ],
+        "attacks": [
+        {
+            "cost": [
+            "Psychic",
+            "Psychic",
+            "Colorless"
+            ],
+            "name": "Miracle Force",
+            "damage": "190",
+            "text": "This Pokémon recovers from all Special Conditions.",
+            "convertedEnergyCost": 3
+        }
+        ],
+        "weaknesses": [
+        {
+            "type": "Darkness",
+            "value": "×2"
+        }
+        ],
+        "resistances": [
+        {
+            "type": "Fighting",
+            "value": "-30"
+        }
+        ],
+        "retreatCost": [
+        "Colorless",
+        "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "86",
+        "artist": "N-DESIGN Inc.",
+        "rarity": "Double Rare",
+        "nationalPokedexNumbers": [
+        282
+        ],
+        "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+        },
+        "regulationMark": "G",
+        "images": {
+        "small": "https://images.pokemontcg.io/sv1/86.png",
+        "large": "https://images.pokemontcg.io/sv1/86_hires.png"
+        },
+        "flavorText": "It has a psychic power that enables it to distort the space around it and see into the future."
+    }
+]
