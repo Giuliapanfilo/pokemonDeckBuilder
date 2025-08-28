@@ -12,6 +12,7 @@ class Energy(Enum):
 	FAIRY = "Fairy"
 	DRAGON = "Dragon"
 
+	@classmethod
 	def from_str(cls, value: str) -> "Energy":
 		for member in cls:
 			if member.value == value:

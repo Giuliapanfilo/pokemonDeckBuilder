@@ -1,0 +1,66 @@
+[
+    {
+        "id": "s11a-37",
+        "name": "Kirlia",
+        "supertype": "Pokémon",
+        "subtypes": [
+        "Stage 1"
+        ],
+        "hp": "80",
+        "types": [
+        "Psychic"
+        ],
+        "evolvesFrom": "Ralts",
+        "evolvesTo": [
+        "Gardevoir",
+        "Gallade"
+        ],
+        "abilities": [
+        {
+            "name": "Refinement",
+            "text": "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards.",
+            "type": "Ability"
+        }
+        ],
+        "attacks": [
+        {
+            "name": "Slap",
+            "cost": [
+            "Psychic",
+            "Colorless"
+            ],
+            "convertedEnergyCost": 2,
+            "damage": "30",
+            "text": ""
+        }
+        ],
+        "weaknesses": [
+        {
+            "type": "Metal",
+            "value": "×2"
+        }
+        ],
+        "retreatCost": [
+        "Colorless",
+        "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "037",
+        "artist": "Taira Akitsu",
+        "rarity": "Promo",
+        "flavorText": "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+        "nationalPokedexNumbers": [
+        281
+        ],
+        "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+        },
+        "regulationMark": "F",
+        "images": {
+        "small": "https://images.pokemontcg.io/swshp/SWSH271.png",
+        "large": "https://images.pokemontcg.io/swshp/SWSH271_hires.png"
+        }
+    }
+]
