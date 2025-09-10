@@ -14,9 +14,9 @@ Per installare i requisiti: pip install -r requirements.txt
 L'implementazione del sistema è illustrata e attuata all'interno di una serie di Jupyter Notebook, in tutte le sue fasi.
 
 ## Struttura della [documentazione](Documentazione_progetto_PanfiloNavolio.pdf)
-1. Introduzione\
-2. Regolamento del PokémonTCG\
-3. Ontologia: Definizione del Dominio\
-4. Dati e Strumenti: Strutture dati e implementazioni delle entità del dominio\
-5. Knowledge Base: Popolamento dei fatti e definizione dei vincoli\
-6. Card Recommender: Clustering e Masked Prediction\
+1. Introduzione
+2. Regolamento del PokémonTCG
+3. Ontologia: Definizione del Dominio
+4. Dati e Strumenti: Strutture dati e implementazioni delle entità del dominio
+5. Knowledge Base: Popolamento dei fatti e definizione dei vincoli
+6. Card Recommender: Clustering e Masked Prediction
