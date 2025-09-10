@@ -1,16 +1,16 @@
 from enum import Enum
 class Energy(Enum):
 	COLORLESS = "Colorless"
-	GRASS = "Grass"
-	FIRE = "Fire"
-	WATER = "Water"
 	LIGHTNING = "Lightning"
-	PSYCHIC = "Psychic"
 	FIGHTING = "Fighting"
 	DARKNESS = "Darkness"
+	PSYCHIC = "Psychic"
+	DRAGON = "Dragon"
+	GRASS = "Grass"
+	WATER = "Water"
 	METAL = "Metal"
 	FAIRY = "Fairy"
-	DRAGON = "Dragon"
+	FIRE = "Fire"
 
 	@classmethod
 	def from_str(cls, value: str) -> "Energy":

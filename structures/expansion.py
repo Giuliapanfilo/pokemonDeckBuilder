@@ -99,18 +99,23 @@ class Expansion:
 
     @classmethod
     def generate_all_ids(cls) -> list[str]:
-        from utils import load_or_build_cache
+        from pathlib import Path
+        # CODICE MOLTO FIGO, non mi va di sovrascriverlo, lo lascio qui
+        # from utils import load_or_build_cache
 
-        def builder() -> list[str]:
-            with open(SETS_PATH, encoding="utf-8") as f:
-                sets_data = json.load(f)
+        # def builder() -> list[str]:
+        #     with open(SETS_PATH, encoding="utf-8") as f:
+        #         sets_data = json.load(f)
 
-            all_ids: list[str] = []
-            for set_dict in sets_data:
-                all_ids.extend(Expansion(set_dict).generate_ids())
-            return all_ids
-
-        return load_or_build_cache("all_ids", builder)
+        #     all_ids: list[str] = []
+        #     for set_dict in sets_data:
+        #         all_ids.extend(Expansion(set_dict).generate_ids())
+        #     return all_ids
+        # return load_or_build_cache("all_ids", builder)
+        encyclopedia_path = Path('cache/cards.json')
+        with open(encyclopedia_path, encoding="utf-8") as f:
+            encyclopedia = json.load(f)
+        return list(encyclopedia.keys())
     
     # ----------  SERIALIZZAZIONE ----------- #
 

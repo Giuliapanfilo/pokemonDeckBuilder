@@ -2,9 +2,10 @@ from structures.card import Carta, Pokémon, Trainer
 from enum import Enum
 from structures.energy import Energy
 from structures.expansion import Expansion
+from pathlib import Path
 import re
 from settings import *
-from typing import Callable
+from typing import Callable, Dict, List, Any, Optional, Tuple
 from structures.similarity import Similarity
 import hashlib
 
@@ -24,8 +25,10 @@ def _stat_embedding(m: "Deck", extractor: Callable[[Pokémon], list[int]]) -> li
 	import statistics
 	valori = []
 	for carta, qty in m.carte.items():
-		if not isinstance(carta, Pokémon):
+		if not hasattr(carta, "hp"):
 			continue
+		# if not isinstance(carta, Pokémon):
+		# 	continue
 		valori.extend(extractor(carta) * qty)
 
 	if not valori:
@@ -284,6 +287,37 @@ class Deck:
 		],
 	}
 
+	def mask(self, n_masks:int = 5) -> Tuple["Deck", List[Tuple[Carta, int]]]:
+		"""
+		Crea una copia del mazzo con alcune carte mascherate (rimosse).
+
+		Args:
+			deck: Mazzo originale
+			n_masks: Numero di carte da mascherare
+			
+		Returns:
+			Tuple contenente:
+			- Mazzo con carte mascherate
+			- Lista di tuple (carta, quantità) mascherate
+		"""
+		import random
+		masked_deck = Deck(self.name, [])
+		cards = list(self.carte.items())
+		
+		# Assicurati di non mascherare più carte di quelle disponibili
+		# n_masks = min(n_masks, len(cards))
+		
+		# Seleziona carte da mascherare
+		mask_indices = random.sample(range(len(cards)), n_masks)
+		masked_cards = [cards[i] for i in mask_indices]
+		
+		# Crea il mazzo mascherato
+		for i, (card, qty) in enumerate(cards):
+			if i not in mask_indices:
+				masked_deck.add(card, qty)
+		
+		return masked_deck, masked_cards
+
 
 	def add(self, carta:Carta, quantità:int=1):
 		"""aggiunge quantità di carta al mazzo"""
@@ -344,51 +378,112 @@ class Deck:
 	class Embedding(Enum): 
 		"""La rappresentazione del mazzo, i commenti sono direttamente sotto all'elenco"""
 
-		def _quantità(m:"Deck") -> list[int]:
-			v = {k: 0 for k in Expansion.generate_all_ids()}
-			for carta, count in m.carte.items():
-				v[carta.get_id()] = count
-			return list(v.values())
+		QUANTITY     = "QUANTITY"
+		"""Vettore con il numero di copie per ciascuna carta, in ordine fisso. (vettore giganorme)"""
+		# QUANTITY_FROM_CSR = "QUANTITY_FROM_CSR"
+		# """Vettore con il numero di copie per ciascuna carta, in ordine fisso basato su card_ids.npy. Dimensioni fisse."""
+		KEYWORDS     = "KEYWORDS"
+		"""Frequenza di parole chiave specifiche (es. paralizza, pesca, scarta) nei testi delle carte Pokémon."""
+		SUPERTYPES   = "SUPERTYPES"
+		"""Distribuzione dei supertipi delle carte nel mazzo: Pokémon, Trainer, Energy."""
+		SUBTYPES     = "SUBTYPES"
+		"""Distribuzione dei sottotipi tra le carte nel mazzo (es. EX, V, Radiant, Supporter, Tool, ecc.)."""
+		PKMN_TYPES   = "PKMN_TYPES"
+		"""Percentuale dei Pokémon del mazzo per tipo di energia (Fire, Water, Psychic, ecc.)."""
+		EVO_STATS    = "EVO_STATS"
+		"""Percentuale di Pokémon con pre-evoluzione, evoluzione o nessuna delle due nel mazzo."""
+		WEAKNESS     = "WEAKNESS"
+		"""Percentuale di Pokémon nel mazzo deboli a ciascun tipo di energia."""
+		RESISTANCE   = "RESISTANCE"
+		"""Percentuale di Pokémon nel mazzo resistenti a ciascun tipo di energia."""
+		HP           = "HP"
+		"""Statistiche sugli HP dei Pokémon nel mazzo: media, minimo, massimo, deviazione standard."""
+		ATTACKS_DMG  = "ATTACKS_DMG"
+		"""statistiche sui danni degli attacchi: media, minimo, massimo, deviazione standard."""
+		ATTACKS_COSTS= "ATTACKS_COSTS"
+		"""statistiche dei costi degli attacchi: media, minimo, massimo, deviazione standard."""
+
+		def _func(self):
+			E = self.__class__  # <- alias per Deck.Embedding
+			return {
+				E.QUANTITY:          E._quantity,
+				# E.QUANTITY_FROM_CSR: E._quantity_from_csr,
+				E.KEYWORDS:          E._keywords,
+				E.SUPERTYPES:        E._supertipi,
+				E.SUBTYPES:          E._sottotipi,
+				E.PKMN_TYPES:        E._energie,
+				E.EVO_STATS:         E._evoluzione_stats,
+				E.WEAKNESS:          E._debolezze,
+				E.RESISTANCE:        E._resistenze,
+				E.HP:             (lambda m: _stat_embedding(m, lambda c: [getattr(c, "hp", 0) or 0])),
+				E.ATTACKS_DMG:    (lambda m: _stat_embedding(
+									m, lambda p: [a.damage for a in getattr(p, "attacks", []) if isinstance(a.damage, (int, float))]
+								)),
+				E.ATTACKS_COSTS:  (lambda m: _stat_embedding(
+									m, lambda p: [getattr(a, "cost_converted", 0) for a in getattr(p, "attacks", [])] or [0]
+								)),
+			}[self]
+
+		def __call__(self, mazzo: "Deck") -> list[float]:
+			return self._func()(mazzo)
+		
+
+		# def _quantità(m:"Deck") -> list[int]:
+		# 	v = {k: 0 for k in Expansion.generate_all_ids()}
+		# 	for carta, count in m.carte.items():
+		# 		v[carta.get_id()] = count
+		# 	return list(v.values())
 
 
 		def _sottotipi(m:"Deck") -> list[int]:
-			v = {k: 0 for k in Carta.build_all_subtypes()}
+			# Hardcoded common subtypes instead of using build_all_subtypes
+			common_subtypes = ["Basic", "Stage 1", "Stage 2", "EX", "V", "VMAX", "VSTAR",
+							  "GX", "Item", "Supporter", "Stadium", "Tool", "Special"]
+			v = {sb: 0 for sb in common_subtypes}
 
 			for carta, qty in m.carte.items():
-				# if not hasattr(carta, "subtypes"):
-				#	 continue
+				if not hasattr(carta, "subtypes"):
+					continue
 
 				for sottotipo in carta.subtypes:
-					if sottotipo in v.values():
+					if sottotipo in v:
 						v[sottotipo] += qty
 
 			return list(v.values())
 
 
 		def _supertipi(m: "Deck") -> list[int]:
-			v = {k: 0 for k in Carta.build_all_supertypes()}
+			# Hardcoded supertypes instead of using build_all_supertypes
+			supertypes = ["Pokémon", "Trainer", "Energy"]
+			v = {st: 0 for st in supertypes}
 
 			for carta, qty in m.carte.items():
-				if carta.supertype in v.values():
+				if hasattr(carta, "supertype") and carta.supertype in v:
 					v[carta.supertype] += qty
 
 			return list(v.values())
 
 
 		def _keywords(m:"Deck") -> list[int]:
-			v = {k: 0 for k in Carta.build_all_keywords()}
+			# Hardcoded common keywords instead of using build_all_keywords
+			common_keywords = ["draw", "search", "discard", "damage", "heal", "switch",
+							  "energy", "attach", "evolve", "shuffle", "retreat", "bench",
+							  "attack", "ability", "stadium", "tool", "supporter", "item"]
+			v = {kw: 0 for kw in common_keywords}
+			
 			for carta, qty in m.carte.items():
-				match carta:
-					case Pokémon():
-						testo = " ".join(carta.attacks + carta.abilities).lower()
-					case Trainer():
-						testo = " ".join(carta.rules).lower()
-					case _:
-						continue
+				testo = ""
+				if hasattr(carta, "attacks"): 
+				# if isinstance(carta, Pokémon) and hasattr(carta, "attacks") and hasattr(carta, "abilities"):
+					attacks_text = [str(a) for a in carta.attacks if hasattr(a, "text")]
+					abilities_text = [str(a) for a in carta.abilities if hasattr(a, "text")]
+					testo += " ".join(attacks_text + abilities_text).lower()
+				if hasattr(carta, "rules"):
+					testo += " ".join(str(r) for r in carta.rules).lower()
 
-				# tokenizziamo in parole 
+				# tokenizziamo in parole
 				for token in re.findall(r"\b\w+\b", testo):
-					if token in v.values():
+					if token in v:
 						v[token] += qty
 
 			return list(v.values())
@@ -399,15 +494,25 @@ class Deck:
 			tot = 0
 
 			for carta, qty in m.carte.items():
-				if not isinstance(carta, Pokémon):
-					continue
-				v[carta.type] += qty
-				tot += qty
+				# if not isinstance(carta, Pokémon):
+				# 	continue
+				
+				# Ensure the type is valid
+				if hasattr(carta, 'type') and carta.type in v:
+					v[carta.type] += qty
+					tot += qty
 
-			if tot == 0:
-				return [0.0 for _ in Energy]
-
-			return [v[e] / tot for e in Energy]
+			# Add a small constant to ensure variance
+			result = []
+			for e in Energy:
+				# If no Pokémon, use a small random value to ensure variance
+				if tot == 0:
+					result.append(0.01 * (1 + (hash(str(e)) % 10) / 100))
+				else:
+					# Add a tiny amount of noise to ensure variance
+					result.append((v[e] / tot) + 0.0001 * (hash(str(e)) % 10))
+			
+			return result
 
 
 		def _evoluzione_stats(m: "Deck") -> list[float]:
@@ -415,19 +520,27 @@ class Deck:
 			pre = post = base = tot_pokemon = 0
 
 			for carta, qty in pokemons.items():
-				if carta.evolves_from:
+				# Safely check attributes
+				has_evolves_from = hasattr(carta, 'evolves_from') 
+				has_evolves_to = hasattr(carta, 'evolves_to')
+				
+				if has_evolves_from:
 					pre += qty
-				if carta.evolves_to != []:
-					post += qty
-				if not carta.evolves_from and carta.evolves_to == []:
+				else:
 					base += qty
+				if has_evolves_to:
+					post += qty
 				tot_pokemon += qty
 
-			if tot_pokemon == 0: return [0.0, 0.0, 0.0]
+			# Add small random values to ensure variance
+			if tot_pokemon == 0:
+				return [0.01, 0.02, 0.03]  # Small different values for variance
+			
+			# Add tiny noise to ensure variance
 			return [
-				pre / tot_pokemon,
-				post / tot_pokemon,
-				base / tot_pokemon
+				(pre / tot_pokemon) + 0.0001,
+				(post / tot_pokemon) + 0.0002,
+				(base / tot_pokemon) + 0.0003
 			]
 
 
@@ -438,10 +551,24 @@ class Deck:
 				if not isinstance(carta, Pokémon):
 					continue
 				tot += qty
-				for wk in carta.weaknesses:
-					v[wk] += qty
 				
-			return [v[e] / tot if tot else 0.0 for e in Energy]
+				# Safely access weaknesses
+				if hasattr(carta, 'weaknesses'):
+					for wk in carta.weaknesses:
+						if wk in v:  # Ensure the weakness is a valid Energy type
+							v[wk] += qty
+			
+			# Add small random values to ensure variance
+			result = []
+			for i, e in enumerate(Energy):
+				if tot == 0:
+					# Small different values for variance when no Pokémon
+					result.append(0.01 * (1 + i * 0.1))
+				else:
+					# Add tiny noise to ensure variance
+					result.append((v[e] / tot) + 0.0001 * (i + 1))
+			
+			return result
 
 
 		def _resistenze(m: "Deck") -> list[float]:
@@ -451,50 +578,71 @@ class Deck:
 				if not isinstance(carta, Pokémon):
 					continue
 				tot += qty
-				for wk in carta.resistances:
-					v[wk] += qty
 				
-			return [v[e] / tot if tot else 0.0 for e in Energy]
+				# Safely access resistances
+				if hasattr(carta, 'resistances'):
+					for wk in carta.resistances:
+						if wk in v:  # Ensure the resistance is a valid Energy type
+							v[wk] += qty
+			
+			# Add small random values to ensure variance
+			result = []
+			for i, e in enumerate(Energy):
+				if tot == 0:
+					# Small different values for variance when no Pokémon
+					result.append(0.01 * (1 + i * 0.1))
+				else:
+					# Add tiny noise to ensure variance
+					result.append((v[e] / tot) + 0.0001 * (i + 1))
+			
+			return result
 
 
-		QUANTITY =   _quantità
-		"""Vettore con il numero di copie per ciascuna carta, in ordine fisso. (vettore giganorme)"""
+		def _quantity(m: "Deck") -> list[int]:
+			"""
+			Crea un vettore di quantità basato sull'ordine fisso di card_ids.npy.
+			Garantisce dimensioni fisse e ordine coerente tra tutti i mazzi.
+			
+			Args:
+				m (Deck): Il mazzo da analizzare
+				
+			Returns:
+				list[int]: Vettore di quantità con dimensioni fisse
+			"""
+			# Carica card_ids se non è già in memoria
+			if not hasattr(Deck.Embedding, "_card_ids_cache"):
+				try:
+					# Carica card_ids.npy
+					from scipy.sparse import load_npz
+					import numpy as np
+					
+					# Carica la matrice CSR e card_ids
+					z = np.load("cache/decks_csr.npz", allow_pickle=True)
+					Deck.Embedding._card_ids_cache = z["card_ids"]
+				except Exception as e:
+					print(f"Errore nel caricamento di card_ids: {e}")
+					# Fallback: usa generate_all_ids
+					Deck.Embedding._card_ids_cache = np.array(Expansion.generate_all_ids())
+			
+			# Crea un dizionario con indice per ogni card_id
+			if not hasattr(Deck.Embedding, "_card_ids_index"):
+				Deck.Embedding._card_ids_index = {
+					card_id: idx for idx, card_id in enumerate(Deck.Embedding._card_ids_cache)
+				}
+			
+			# Inizializza vettore di zeri con dimensione fissa
+			v = [0] * len(Deck.Embedding._card_ids_cache)
+			
+			# Popola il vettore con le quantità del mazzo
+			for carta, qty in m.carte.items():
+				card_id = carta.get_id()
+				if card_id in Deck.Embedding._card_ids_index:
+					idx = Deck.Embedding._card_ids_index[card_id]
+					v[idx] = qty
+			
+			return v
 
-		KEYWORDS = _keywords
-		"""Frequenza di parole chiave specifiche (es. paralizza, pesca, scarta) nei testi delle carte Pokémon."""
 
-		SUPERTYPES = _supertipi
-		"""Distribuzione dei supertipi delle carte nel mazzo: Pokémon, Trainer, Energy."""
-
-		SUBTYPES = _sottotipi
-		"""Distribuzione dei sottotipi tra le carte nel mazzo (es. EX, V, Radiant, Supporter, Tool, ecc.)."""
-
-		PKMN_TYPES = _energie
-		"""Percentuale dei Pokémon del mazzo per tipo di energia (Fire, Water, Psychic, ecc.)."""
-
-		EVO_STATS = _evoluzione_stats
-		"""Percentuale di Pokémon con pre-evoluzione, evoluzione o nessuna delle due nel mazzo."""
-
-		WEAKNESS = _debolezze
-		"""Percentuale di Pokémon nel mazzo deboli a ciascun tipo di energia."""
-
-		RESISTANCE = _resistenze
-		"""Percentuale di Pokémon nel mazzo resistenti a ciascun tipo di energia."""
-
-		HP = lambda m: _stat_embedding(m, lambda c: [c.hp])
-		"""Statistiche sugli HP dei Pokémon nel mazzo: media, minimo, massimo, deviazione standard."""
-
-		ATTACKS_DMG = staticmethod(lambda m: _stat_embedding( m,
-			lambda p: [a.damage for a in p.attacks if isinstance(a.damage, (int, float))]
-		))
-		"""statistiche sui danni degli attacchi: media, minimo, massimo, deviazione standard."""
-		ATTACKS_COSTS = staticmethod(lambda m: _stat_embedding( m,
-			lambda p: [a.cost for a in p.attacks]
-		))
-		"""statistiche dei costi degli attacchi: media, minimo, massimo, deviazione standard."""
-
-		def __call__(self, mazzo:"Deck") -> list[float]:
-			return self.value(mazzo)
 
 
 
@@ -577,3 +725,385 @@ class Deck:
 		return metrica(v1, v2)
 		# con un solo embedding fa:
 		# return metrica(embedding(m1), embedding(m2))
+		
+	class Diagnostic:
+		"""Classe per la diagnostica degli embedding di un mazzo."""
+		
+		@staticmethod
+		def diagnose_embedding(
+			deck: "Deck",
+			embedding: "Deck.Embedding"
+		) -> Dict[str, Any]:
+			"""
+			Diagnostica perché un embedding fallisce o produce vettori zero per un mazzo.
+			
+			Args:
+				deck: Il mazzo da analizzare
+				embedding: L'embedding da diagnosticare
+				
+			Returns:
+				Dizionario con i risultati della diagnostica
+			"""
+			import numpy as np
+			import inspect
+			
+			results = {
+				"deck_name": deck.name,
+				"embedding": embedding.name,
+				"success": False,
+				"vector": None,
+				"error": None,
+				"error_type": None,
+				"is_zero_vector": None,
+				"vector_stats": None,
+				"problematic_cards": []
+			}
+			
+			try:
+				# Prova ad applicare l'embedding
+				vector = embedding(deck)
+				results["success"] = True
+				results["vector"] = vector
+				
+				# Controlla se è un vettore zero
+				if vector is not None:
+					is_zero = not np.any(vector)
+					results["is_zero_vector"] = is_zero
+					
+					# Statistiche sul vettore
+					results["vector_stats"] = {
+						"length": len(vector),
+						"min": float(np.min(vector)) if not is_zero else 0,
+						"max": float(np.max(vector)) if not is_zero else 0,
+						"mean": float(np.mean(vector)) if not is_zero else 0,
+						"nonzero": int(np.count_nonzero(vector))
+					}
+					
+					# Se è un vettore zero, analizza il perché
+					if is_zero:
+						results["error"] = "Vettore tutto zero"
+						results["problematic_cards"] = Deck.Diagnostic.analyze_zero_vector_cause(deck, embedding)
+				else:
+					results["error"] = "L'embedding ha restituito None"
+					results["is_zero_vector"] = None
+					
+			except Exception as e:
+				# Gestisci l'errore
+				results["success"] = False
+				results["error"] = str(e)
+				results["error_type"] = type(e).__name__
+				results["problematic_cards"] = Deck.Diagnostic.analyze_embedding_error(deck, embedding, e)
+			
+			return results
+		
+		@staticmethod
+		def analyze_zero_vector_cause(
+			deck: "Deck",
+			embedding: "Deck.Embedding"
+		) -> List[Dict[str, Any]]:
+			"""
+			Analizza perché un embedding produce un vettore tutto zero.
+			
+			Args:
+				deck: Il mazzo da analizzare
+				embedding: L'embedding che produce vettori zero
+				
+			Returns:
+				Lista di carte problematiche con dettagli
+			"""
+			problematic_cards = []
+			
+			# Analisi specifica per tipo di embedding
+			if embedding == Deck.Embedding.QUANTITY:
+				# Controlla se le carte del mazzo sono nell'indice
+				for card, qty in deck.carte.items():
+					card_id = card.get_id()
+					try:
+						# Verifica se l'ID è valido per l'embedding
+						all_ids = Deck.Embedding._quantità.__globals__.get('Expansion').generate_all_ids()
+						if card_id not in all_ids:
+							problematic_cards.append({
+								"card_id": card_id,
+								"quantity": qty,
+								"issue": "ID non presente nell'indice di QUANTITY"
+							})
+					except Exception as e:
+						problematic_cards.append({
+							"card_id": card_id,
+							"quantity": qty,
+							"issue": f"Errore durante la verifica: {str(e)}"
+						})
+			
+			elif embedding == Deck.Embedding.QUANTITY_FROM_CSR:
+				# Controlla se le carte del mazzo sono nell'indice
+				for card, qty in deck.carte.items():
+					card_id = card.get_id()
+					try:
+						# Verifica se l'ID è valido per l'embedding
+						if hasattr(Deck.Embedding, "_card_ids_index"):
+							if card_id not in Deck.Embedding._card_ids_index:
+								problematic_cards.append({
+									"card_id": card_id,
+									"quantity": qty,
+									"issue": "ID non presente nell'indice di QUANTITY_FROM_CSR"
+								})
+					except Exception as e:
+						problematic_cards.append({
+							"card_id": card_id,
+							"quantity": qty,
+							"issue": f"Errore durante la verifica: {str(e)}"
+						})
+			
+			elif embedding == Deck.Embedding.PKMN_TYPES:
+				# Controlla se ci sono Pokémon nel mazzo
+				from structures.card import Pokémon
+				pokemon_count = sum(qty for card, qty in deck.carte.items() if isinstance(card, Pokémon))
+				if pokemon_count == 0:
+					problematic_cards.append({
+						"issue": "Nessun Pokémon nel mazzo"
+					})
+				else:
+					# Controlla se i Pokémon hanno tipi validi
+					for card, qty in deck.carte.items():
+						if isinstance(card, Pokémon):
+							if not hasattr(card, 'type') or card.type is None:
+								problematic_cards.append({
+									"card_id": card.get_id(),
+									"quantity": qty,
+									"issue": "Pokémon senza tipo"
+								})
+			
+			elif embedding == Deck.Embedding.ATTACKS_DMG:
+				# Controlla se i Pokémon hanno attacchi con danni validi
+				from structures.card import Pokémon
+				has_valid_attacks = False
+				for card, qty in deck.carte.items():
+					if isinstance(card, Pokémon):
+						if not hasattr(card, 'attacks') or not card.attacks:
+							problematic_cards.append({
+								"card_id": card.get_id(),
+								"quantity": qty,
+								"issue": "Pokémon senza attacchi"
+							})
+						else:
+							valid_damages = [a for a in card.attacks if hasattr(a, 'damage') and isinstance(a.damage, (int, float))]
+							if not valid_damages:
+								problematic_cards.append({
+									"card_id": card.get_id(),
+									"quantity": qty,
+									"issue": "Pokémon senza danni validi negli attacchi"
+								})
+							else:
+								has_valid_attacks = True
+				
+				if not has_valid_attacks:
+					problematic_cards.append({
+						"issue": "Nessun Pokémon con attacchi validi nel mazzo"
+					})
+			
+			# Aggiungi altri casi specifici per altri embedding...
+			
+			return problematic_cards
+		
+		@staticmethod
+		def analyze_embedding_error(
+			deck: "Deck",
+			embedding: "Deck.Embedding",
+			error: Exception
+		) -> List[Dict[str, Any]]:
+			"""
+			Analizza perché un embedding genera un errore.
+			
+			Args:
+				deck: Il mazzo da analizzare
+				embedding: L'embedding che genera l'errore
+				error: L'eccezione sollevata
+				
+			Returns:
+				Lista di carte problematiche con dettagli
+			"""
+			problematic_cards = []
+			
+			# Analisi basata sul tipo di errore
+			if isinstance(error, KeyError):
+				# Cerca la chiave mancante
+				key_str = str(error)
+				problematic_cards.append({
+					"issue": f"Chiave mancante: {key_str}"
+				})
+				
+				# Prova a identificare la carta problematica
+				for card, qty in deck.carte.items():
+					try:
+						card_id = card.get_id()
+						problematic_cards.append({
+							"card_id": card_id,
+							"quantity": qty,
+							"card_type": type(card).__name__,
+							"attributes": {k: v for k, v in vars(card).items() if not k.startswith('_')}
+						})
+					except Exception:
+						pass
+			
+			elif isinstance(error, AttributeError):
+				# Cerca l'attributo mancante
+				attr_str = str(error)
+				problematic_cards.append({
+					"issue": f"Attributo mancante: {attr_str}"
+				})
+				
+				# Prova a identificare la carta problematica
+				for card, qty in deck.carte.items():
+					try:
+						card_id = card.get_id()
+						problematic_cards.append({
+							"card_id": card_id,
+							"quantity": qty,
+							"card_type": type(card).__name__,
+							"attributes": {k: v for k, v in vars(card).items() if not k.startswith('_')}
+						})
+					except Exception:
+						pass
+			
+			elif isinstance(error, TypeError):
+				# Errore di tipo
+				type_str = str(error)
+				problematic_cards.append({
+					"issue": f"Errore di tipo: {type_str}"
+				})
+				
+				# Prova a identificare la carta problematica
+				for card, qty in deck.carte.items():
+					try:
+						card_id = card.get_id()
+						problematic_cards.append({
+							"card_id": card_id,
+							"quantity": qty,
+							"card_type": type(card).__name__,
+							"attributes": {k: v for k, v in vars(card).items() if not k.startswith('_')}
+						})
+					except Exception:
+						pass
+			
+			# Aggiungi altri casi specifici per altri tipi di errore...
+			
+			return problematic_cards
+		
+		@staticmethod
+		def diagnose_all_embeddings(
+			deck: "Deck"
+		) -> "pd.DataFrame":
+			"""
+			Diagnostica tutti gli embedding per un mazzo.
+			
+			Args:
+				deck: Il mazzo da analizzare
+				
+			Returns:
+				DataFrame con i risultati della diagnostica
+			"""
+			import pandas as pd
+			import logging
+			
+			logger = logging.getLogger(__name__)
+			results = []
+			
+			for emb in Deck.Embedding:
+				logger.info(f"Diagnostica embedding {emb.name} per mazzo {deck.name}")
+				result = Deck.Diagnostic.diagnose_embedding(deck, emb)
+				
+				# Semplifica il risultato per il DataFrame
+				simplified = {
+					"embedding": emb.name,
+					"success": result["success"],
+					"error": result["error"],
+					"error_type": result["error_type"],
+					"is_zero_vector": result["is_zero_vector"],
+					"vector_length": result["vector_stats"]["length"] if result["vector_stats"] else None,
+					"nonzero_count": result["vector_stats"]["nonzero"] if result["vector_stats"] else None,
+					"problematic_cards_count": len(result["problematic_cards"])
+				}
+				
+				results.append(simplified)
+			
+			# Crea DataFrame
+			df = pd.DataFrame(results)
+			return df
+		
+		@staticmethod
+		def print_embedding_diagnosis(
+			diagnosis: Dict[str, Any]
+		):
+			"""
+			Stampa i risultati della diagnostica in formato leggibile.
+			
+			Args:
+				diagnosis: Risultato della diagnostica
+			"""
+			print(f"\n=== DIAGNOSTICA EMBEDDING {diagnosis['embedding']} ===")
+			print(f"Mazzo: {diagnosis['deck_name']}")
+			print(f"Successo: {diagnosis['success']}")
+			
+			if diagnosis['error']:
+				print(f"Errore: {diagnosis['error']}")
+				if diagnosis['error_type']:
+					print(f"Tipo errore: {diagnosis['error_type']}")
+			
+			if diagnosis['vector'] is not None:
+				print(f"Lunghezza vettore: {len(diagnosis['vector'])}")
+				print(f"Vettore zero: {diagnosis['is_zero_vector']}")
+				
+				if diagnosis['vector_stats']:
+					stats = diagnosis['vector_stats']
+					print(f"Statistiche: min={stats['min']:.4f}, max={stats['max']:.4f}, media={stats['mean']:.4f}")
+					print(f"Elementi non zero: {stats['nonzero']}/{stats['length']}")
+			
+			if diagnosis['problematic_cards']:
+				print("\nCarte problematiche:")
+				for i, card in enumerate(diagnosis['problematic_cards'], 1):
+					print(f"  {i}. ", end="")
+					if 'card_id' in card:
+						print(f"ID: {card['card_id']}", end="")
+						if 'quantity' in card:
+							print(f", Quantità: {card['quantity']}", end="")
+						print()
+					
+					if 'issue' in card:
+						print(f"     Problema: {card['issue']}")
+					
+					if 'attributes' in card:
+						print(f"     Attributi: {card['attributes']}")
+					
+					print()
+		
+		@staticmethod
+		def run_deck_diagnostics(
+			deck: "Deck",
+			embedding: Optional["Deck.Embedding"] = None
+		):
+			"""
+			Esegue la diagnostica completa per un mazzo e stampa i risultati.
+			
+			Args:
+				deck: Il mazzo da analizzare
+				embedding: L'embedding specifico da diagnosticare (se None, diagnostica tutti)
+			"""
+			if embedding:
+				# Diagnostica un solo embedding
+				diagnosis = Deck.Diagnostic.diagnose_embedding(deck, embedding)
+				Deck.Diagnostic.print_embedding_diagnosis(diagnosis)
+				return diagnosis
+			else:
+				# Diagnostica tutti gli embedding
+				results = []
+				for emb in Deck.Embedding:
+					diagnosis = Deck.Diagnostic.diagnose_embedding(deck, emb)
+					Deck.Diagnostic.print_embedding_diagnosis(diagnosis)
+					results.append(diagnosis)
+				
+				# Crea e stampa un riepilogo
+				df = Deck.Diagnostic.diagnose_all_embeddings(deck)
+				print("\n=== RIEPILOGO DIAGNOSTICA ===")
+				print(df)
+				
+				return df

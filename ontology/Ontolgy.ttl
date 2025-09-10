@@ -1,0 +1,814 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix pkmnTCG: <http://example.org/pkmnTCG#> .
+@prefix bgo: <https://raw.githubusercontent.com/McGiogen/board-game-ontology/master/boardgame.owl#> .
+
+@base <http://example.org/pkmnTCG#> .
+
+#################################################################
+#    Class: Card
+#################################################################
+
+###  http://example.org/pkmnTCG#Card
+pkmnTCG:Card owl:equivalentClass bgo:Card ;
+             rdfs:comment "Una carta Pokémon, Trainer o Energia, mappata al concetto generico di Card della BGO."@it ;
+             rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Card_(TCG_GB)> .
+
+
+###  Sottoclassi di Card
+pkmnTCG:EnergyCard rdf:type owl:Class ;
+                   rdfs:subClassOf pkmnTCG:Card ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty pkmnTCG:represents ;
+                                     owl:allValuesFrom pkmnTCG:Energy
+                                   ] ;
+                   rdfs:comment "Una carta che fornisce energia."@en ;
+                   rdfs:label "Energy Card"@en ;
+                   rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Energy_card_(TCG)> .
+
+
+pkmnTCG:PokemonCard rdf:type owl:Class ;
+                    rdfs:subClassOf pkmnTCG:Card ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty pkmnTCG:represents ;
+                                      owl:allValuesFrom pkmnTCG:Pokemon
+                                    ] ;
+                    rdfs:comment "Una carta che rappresenta un Pokémon."@en ;
+                    rdfs:label "Pokémon Card"@en ;
+                    rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Card_(TCG_GB)#Pok%C3%A9mon_card> .
+
+
+pkmnTCG:TrainerCard rdf:type owl:Class ;
+                    rdfs:subClassOf pkmnTCG:Card ;
+                    rdfs:comment "Carte Allenatore del GCC Pokémon (Supporter, Item, Stadium, ecc.)."@it ;
+                    rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Trainer_card_(TCG)> .
+
+
+###  Proprietà collegate a Card
+pkmnTCG:hasSet rdf:type owl:ObjectProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain pkmnTCG:Card ;
+               rdfs:range pkmnTCG:Set ;
+               rdfs:comment "Ogni carta appartiene esattamente a un solo Set."@it ;
+               
+               rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions> .
+
+
+pkmnTCG:inZone rdf:type owl:ObjectProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain pkmnTCG:Card ;
+               rdfs:range pkmnTCG:Zone ;
+               rdfs:comment "Indica la zona di gioco in cui la carta è presente (es. DeckZone, HandZone, BenchZone...)."@it ;
+               rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Zone_(TCG)> .
+
+
+pkmnTCG:hasCollectionNumber rdf:type owl:DatatypeProperty ,
+                                     owl:FunctionalProperty ;
+                            rdfs:domain pkmnTCG:Card ;
+                            rdfs:range xsd:nonNegativeInteger ;
+                            rdfs:comment "Numero progressivo di collezione (es. 12/190). Intero."@it .
+
+
+pkmnTCG:hasDescription rdf:type owl:DatatypeProperty ,
+                                owl:FunctionalProperty ;
+                       rdfs:domain pkmnTCG:Card ;
+                       rdfs:range xsd:string ;
+                       rdfs:comment "Descrizione testuale della carta. (vincolo: esattamente 1, vedi le query SPARQL sotto)."@it .
+
+
+pkmnTCG:hasID rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain pkmnTCG:Card ;
+              rdfs:range xsd:string ;
+              rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/ID_Card> .
+
+
+pkmnTCG:hasRule rdf:type owl:DatatypeProperty ;
+                rdfs:domain pkmnTCG:Card ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Regole speciali/notes applicabili alla carta. Multi-valued."@it ;
+                rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Rule_Box_(TCG)> .
+
+
+pkmnTCG:hasSubType rdf:type owl:DatatypeProperty ;
+                   rdfs:domain pkmnTCG:Card ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "Sottotipi della carta (es. 'Stage 1', 'Rapid Strike', 'V'...). Può essere multi-valued."@it ;
+                   rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Card_(TCG_GB)#Card_types> .
+
+
+pkmnTCG:hasName rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+    rdfs:domain [ rdf:type owl:Class ;
+                  owl:unionOf ( pkmnTCG:Zone
+                                pkmnTCG:Card ) ] ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nome della risorsa (sia Zone che Carte possono avere un nome)."@it ;
+    rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Zone_(TCG)#List_of_Zones> .
+
+
+pkmnTCG:hasEffect rdf:type owl:DatatypeProperty ;
+    rdfs:domain [ rdf:type owl:Class ;
+                  owl:unionOf ( pkmnTCG:TrainerCard
+                                pkmnTCG:EnergyCard ) ] ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Effetto della carta Allenatore o Energia (testo che ne descrive l'azione). Vincolo: almeno 1 effetto."@it .
+
+
+pkmnTCG:hasAbility rdf:type owl:ObjectProperty ;
+                   rdfs:domain pkmnTCG:PokemonCard ;
+                   rdfs:range pkmnTCG:Ability ;
+                   rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Ability_(TCG)> .
+
+
+pkmnTCG:hasAttachedCard rdfs:subPropertyOf bgo:contains ;
+                        rdfs:domain pkmnTCG:PokemonCard ;
+                        rdfs:range pkmnTCG:Card ;
+                        rdfs:comment "Carte (energie, strumenti, evoluzioni) attaccate a un Pokémon, mappate come 'contains' nella BGO."@it .
+
+
+pkmnTCG:hasAttack rdf:type owl:ObjectProperty ;
+                  rdfs:domain pkmnTCG:PokemonCard ;
+                  rdfs:range pkmnTCG:Attack ;
+                  rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Attack_(TCG)> .
+
+
+pkmnTCG:hasEnergy rdf:type owl:ObjectProperty ;
+                  rdfs:domain pkmnTCG:PokemonCard ;
+                  rdfs:range pkmnTCG:Energy ;
+                  rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Type_(TCG)> .
+
+
+pkmnTCG:hasPreEvolution rdf:type owl:ObjectProperty ;
+                        rdfs:domain pkmnTCG:Pokemon ;
+                        rdfs:range pkmnTCG:Pokemon ;
+                        rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Evolution#In_the_TCG> .
+
+
+pkmnTCG:hasResistanceTo rdf:type owl:ObjectProperty ;
+                        rdfs:domain pkmnTCG:PokemonCard ;
+                        rdfs:range pkmnTCG:Energy ;
+                        rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Type_(TCG)> .
+
+
+pkmnTCG:hasRetreatCost rdf:type owl:ObjectProperty ,
+                                owl:FunctionalProperty ;
+                       rdfs:domain pkmnTCG:PokemonCard ;
+                       rdfs:range pkmnTCG:Cost ;
+                       rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Retreat_Cost_(TCG)> .
+
+
+pkmnTCG:hasStatus rdf:type owl:ObjectProperty ;
+                  rdfs:domain pkmnTCG:PokemonCard ;
+                  rdfs:range pkmnTCG:Status ;
+                  rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Special_Condition_(TCG)> .
+
+
+pkmnTCG:hasWeaknessTo rdf:type owl:ObjectProperty ;
+                      rdfs:domain pkmnTCG:PokemonCard ;
+                      rdfs:range pkmnTCG:Energy ;
+                      rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Type_(TCG)> .
+
+
+pkmnTCG:represents rdf:type owl:ObjectProperty ;
+    rdfs:domain pkmnTCG:Card ;
+    rdfs:range [
+        owl:unionOf ( pkmnTCG:Pokemon pkmnTCG:Energy )
+    ] .
+
+
+pkmnTCG:hasDamageCounters rdf:type owl:DatatypeProperty ;
+                          rdfs:domain pkmnTCG:PokemonCard ;
+                          rdfs:range xsd:nonNegativeInteger ;
+                          rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/HP_(TCG)#Overview> .
+
+
+pkmnTCG:hasHP rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain pkmnTCG:PokemonCard ;
+              rdfs:range xsd:nonNegativeInteger ;
+              rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/HP#In_the_TCG> .
+
+
+pkmnTCG:playedOnTurn rdf:type owl:ObjectProperty ;
+    rdfs:domain pkmnTCG:Card ;
+    rdfs:range pkmnTCG:Turn ;
+    rdfs:comment "Il turno in cui la carta è stata giocata."@it .
+
+
+#################################################################
+#    Class: Deck
+#################################################################
+
+###  http://example.org/pkmnTCG#Deck
+pkmnTCG:Deck rdf:type owl:Class ;
+    rdfs:subClassOf bgo:Deck ;
+    rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Deck_(TCG_GB)> ;
+    rdfs:comment "Un mazzo di carte Pokémon, con entry individuali mappate a bgo:Card tramite catena di proprietà."@it .
+
+
+###  Sottoclassi di Deck
+pkmnTCG:DeckEntry rdf:type owl:Class ;
+                  rdfs:comment "Una riga della lista di un mazzo: una carta con la sua quantità."@it ;
+                  rdfs:label "Deck Entry"@en .
+
+
+###  Proprietà collegate a Deck
+pkmnTCG:hasDeckEntry rdf:type owl:ObjectProperty ;
+                     rdfs:domain pkmnTCG:Deck ;
+                     rdfs:range pkmnTCG:DeckEntry .
+
+
+pkmnTCG:entryCard rdf:type owl:ObjectProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain pkmnTCG:DeckEntry ;
+                  rdfs:range pkmnTCG:Card .
+
+
+pkmnTCG:hasArchetype rdf:type owl:DatatypeProperty ;
+                     rdfs:domain pkmnTCG:Deck ;
+                     rdfs:range xsd:string .
+
+
+pkmnTCG:entryQuantity rdf:type owl:DatatypeProperty ,
+                               owl:FunctionalProperty ;
+                      rdfs:domain pkmnTCG:DeckEntry ;
+                      rdfs:range xsd:positiveInteger .
+
+
+#################################################################
+#    Class: Zone
+#################################################################
+
+###  http://example.org/pkmnTCG#Zone
+pkmnTCG:Zone rdf:type owl:Class ;
+             rdfs:comment "Zone di gioco del TCG Pokémon (Active, Bench, Deck, Hand, Prize, Discard, Game Zone)."@it ;
+             rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Zone_(TCG)> .
+
+
+###  Proprietà collegate a Zone
+pkmnTCG:hasCard rdf:type owl:ObjectProperty ;
+                rdfs:domain pkmnTCG:Zone ;
+                rdfs:range pkmnTCG:Card ;
+                rdfs:comment "Carte presenti nella zona."@it .
+
+
+pkmnTCG:hasMaxCards rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain pkmnTCG:Zone ;
+                    rdfs:range xsd:positiveInteger ;
+                    rdfs:comment "Numero massimo di carte contenibili nella zona."@it ;
+                    rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Zone_(TCG)> .
+
+
+# Nota: la proprietà hasName è già definita con dominio unito (Zone ∪ Card).
+# Qui viene richiamata per comodità, così da essere visibile anche accanto a Zone.
+
+pkmnTCG:Zone rdfs:comment "Le Zone possiedono anch'esse la proprietà hasName (già definita con dominio unificato con le Carte)."@it .
+
+
+pkmnTCG:isInGame rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain pkmnTCG:Zone ;
+                 rdfs:range xsd:boolean ;
+                 rdfs:comment "Indica se la zona è parte del campo di gioco attivo."@it ;
+                 rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Zone_(TCG)> .
+
+
+###  Individui di Zone
+pkmnTCG:ActiveZone rdf:type owl:NamedIndividual , pkmnTCG:Zone ;
+                   rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Zone_(TCG)#Active_Spot> , bgo:Board ;
+                   pkmnTCG:hasMaxCards 1 ;
+                   pkmnTCG:hasName "Active Zone"@en ;
+                   pkmnTCG:isInGame true ;
+                   rdfs:comment "La zona attiva dove un Pokémon può avere carte attaccate e agire."@it .
+
+
+pkmnTCG:BenchZone rdf:type owl:NamedIndividual , pkmnTCG:Zone ;
+                  rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Zone_(TCG)#Bench> , bgo:Board ;
+                  pkmnTCG:hasMaxCards 5 ;
+                  pkmnTCG:hasName "Bench Zone"@en ;
+                  pkmnTCG:isInGame true ;
+                  rdfs:comment "La panchina dei Pokémon, considerata parte del Board in BGO."@it .
+
+
+pkmnTCG:DeckZone rdf:type owl:NamedIndividual , pkmnTCG:Zone ;
+                 rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Deck_(TCG_GB)> , bgo:Deck ;
+                 pkmnTCG:hasMaxCards 60 ;
+                 pkmnTCG:hasName "Deck Zone"@en ;
+                 pkmnTCG:isInGame false ;
+                 rdfs:comment "La zona del mazzo da cui i giocatori pescano le carte."@it .
+
+
+pkmnTCG:DiscardZone rdf:type owl:NamedIndividual , pkmnTCG:Zone ;
+                    rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Zone_(TCG)#Discard_Pile> ;
+                    pkmnTCG:hasName "Discard Zone"@en ;
+                    pkmnTCG:isInGame false ;
+                    rdfs:comment "La pila degli scarti del giocatore."@it .
+
+
+pkmnTCG:GameZone rdf:type owl:NamedIndividual , pkmnTCG:Zone ;
+                 rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Zone_(TCG)> , bgo:Board ;
+                 pkmnTCG:hasName "Game Zone"@en ;
+                 pkmnTCG:isInGame true ;
+                 rdfs:comment "Zona per carte non Pokémon sul campo (stadi, tool, ecc.)."@it .
+
+
+pkmnTCG:HandZone rdf:type owl:NamedIndividual , pkmnTCG:Zone ;
+                 rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Zone_(TCG)#Hand> ;
+                 pkmnTCG:hasName "Hand Zone"@en ;
+                 pkmnTCG:isInGame false ;
+                 rdfs:comment "La mano del giocatore, con carte non ancora giocate."@it .
+
+
+pkmnTCG:PrizeZone rdf:type owl:NamedIndividual , pkmnTCG:Zone ;
+                  rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Zone_(TCG)#Prize_card> ;
+                  pkmnTCG:hasMaxCards 6 ;
+                  pkmnTCG:hasName "Prize Zone"@en ;
+                  pkmnTCG:isInGame false ;
+                  rdfs:comment "Zona in cui sono poste le carte premio da conquistare."@it .
+
+#################################################################
+#    Class: Turn
+#################################################################
+
+###  http://example.org/pkmnTCG#Turn
+pkmnTCG:Turn rdf:type owl:Class ;
+             rdfs:comment "Turno di gioco nel TCG Pokémon."@it ;
+             rdfs:label "Turn"@en ;
+             rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game#Turns> .
+
+
+###  Proprietà collegate a Turn
+pkmnTCG:hasActivePlayer rdf:type owl:ObjectProperty ;
+                        rdfs:domain pkmnTCG:Turn ;
+                        rdfs:range pkmnTCG:Player ;
+                        rdfs:comment "Indica quale giocatore è attivo durante il turno."@it .
+
+
+pkmnTCG:turnNumber rdf:type owl:DatatypeProperty ;
+                   rdfs:domain pkmnTCG:Turn ;
+                   rdfs:range xsd:nonNegativeInteger ;
+                   rdfs:comment "Numero del turno."@it .
+
+
+#################################################################
+#    Class: Attack
+#################################################################
+
+###  http://example.org/pkmnTCG#Attack
+pkmnTCG:Attack rdf:type owl:Class ;
+               rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Attack_(TCG)> .
+
+
+###  Proprietà collegate a Attack
+pkmnTCG:attackCost rdf:type owl:ObjectProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain pkmnTCG:Attack ;
+                   rdfs:range pkmnTCG:Cost ;
+                   rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Attack_(TCG)#Cost> .
+
+
+pkmnTCG:attackDamage rdf:type owl:DatatypeProperty ;
+                     rdfs:domain pkmnTCG:Attack ;
+                     rdfs:range xsd:int ;
+                     rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Attack_(TCG)#Damage> .
+
+
+pkmnTCG:attackEffect rdf:type owl:DatatypeProperty ;
+                     rdfs:domain pkmnTCG:Attack ;
+                     rdfs:range xsd:string ;
+                     rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Attack_(TCG)#Text> .
+
+
+pkmnTCG:attackName rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain pkmnTCG:Attack ;
+                   rdfs:range xsd:string ;
+                   rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Attack_(TCG)#Name> .
+
+
+#################################################################
+#    Class: Ability
+#################################################################
+
+###  http://example.org/pkmnTCG#Ability
+pkmnTCG:Ability rdf:type owl:Class ;
+                rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Ability_(TCG)> .
+
+
+###  Proprietà collegate a Ability
+pkmnTCG:abilityEffect rdf:type owl:DatatypeProperty ;
+                      rdfs:domain pkmnTCG:Ability ;
+                      rdfs:range xsd:string ;
+                      rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Ability#Ability-related_effects> .
+
+
+pkmnTCG:abilityName rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain pkmnTCG:Ability ;
+                    rdfs:range xsd:string ;
+                    rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Ability#Ability-related_effects> .
+
+
+#################################################################
+#    Class: Cost
+#################################################################
+
+###  http://example.org/pkmnTCG#Cost
+pkmnTCG:Cost rdf:type owl:Class ;
+             rdfs:comment "Un costo espresso in termini di energie."@it ;
+             rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Attack_(TCG)#Cost> .
+
+
+###  Proprietà collegate a Cost
+pkmnTCG:hasRequiredEnergy rdf:type owl:ObjectProperty ;
+                          rdfs:domain pkmnTCG:Cost ;
+                          rdfs:range pkmnTCG:Energy ;
+                          rdfs:comment "Energie richieste per il costo."@it ;
+                          rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Attack_(TCG)#Cost> .
+
+
+pkmnTCG:costQuantity rdf:type owl:DatatypeProperty ;
+                     rdfs:domain pkmnTCG:Cost ;
+                     rdfs:range xsd:nonNegativeInteger ;
+                     rdfs:comment "Quantità di energie di quel tipo richieste."@it ;
+                     rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Attack_(TCG)#Cost> .
+
+
+#################################################################
+#    Class: GameAction
+#################################################################
+
+###  http://example.org/pkmnTCG#GameAction
+pkmnTCG:GameAction rdf:type owl:Class ;
+                   rdfs:comment "Azione che può essere compiuta durante il turno di un giocatore."@it ;
+                   rdfs:label "Game Action"@en ;
+                   rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game#How_to_play> .
+
+
+###  Sottoclassi di GameAction
+pkmnTCG:AttackAction rdf:type owl:Class ;
+                     rdfs:subClassOf pkmnTCG:GameAction ;
+                     rdfs:seeAlso bgo:Move ;
+                     rdfs:comment "Azioni di attacco di un Pokémon."@it ;
+                     rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game#Turns> .
+
+
+pkmnTCG:DiscardAction rdf:type owl:Class ;
+                      rdfs:subClassOf pkmnTCG:GameAction ;
+                      rdfs:comment "Azioni di scarto di carte."@it ;
+                      rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game#Turns> .
+
+
+pkmnTCG:DrawAction rdf:type owl:Class ;
+                   rdfs:subClassOf pkmnTCG:GameAction ;
+                   rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game#Turns> ;
+                   rdfs:seeAlso bgo:Random_Draw ;
+                   rdfs:comment "Azione di pesca nel TCG Pokémon, collegata all'azione generica di pesca definita in BGO."@it .
+
+
+pkmnTCG:EvolvePokemonAction rdf:type owl:Class ;
+                            rdfs:subClassOf pkmnTCG:PlayCardAction ;
+                            rdfs:seeAlso bgo:Move ;
+                            rdfs:comment "Azioni di evoluzione di un Pokémon."@it ;
+                            rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game#Turns> .
+
+
+pkmnTCG:PlayAbilityAction rdf:type owl:Class ;
+                          rdfs:subClassOf pkmnTCG:PlayCardAction ;
+                          rdfs:seeAlso bgo:Move ;
+                          rdfs:comment "Azioni di gioco che attivano abilità dei Pokémon."@it ;
+                          rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game#Turns> .
+
+
+pkmnTCG:PlayCardAction rdf:type owl:Class ;
+                       rdfs:subClassOf pkmnTCG:GameAction ;
+                       rdfs:seeAlso bgo:Move ;
+                       rdfs:comment "Azioni di gioco che giocano una carta (Pokémon, Strumento, Energia)."@it ;
+                       rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game#Turns> .
+
+
+pkmnTCG:RetreatPokemonAction rdf:type owl:Class ;
+                             rdfs:subClassOf pkmnTCG:GameAction ;
+                             rdfs:seeAlso bgo:Move ;
+                             rdfs:comment "Azioni di ritirata dei Pokémon, mappate a concetti di Move/Action generica in BGO."@it ;
+                             rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game#Turns> .
+
+
+###  Proprietà collegate a GameAction
+pkmnTCG:performedBy rdf:type owl:ObjectProperty ;
+    rdfs:domain pkmnTCG:GameAction ;
+    rdfs:range pkmnTCG:Player ;
+    rdfs:comment "Indica il giocatore che ha eseguito un'azione."@it .
+
+
+pkmnTCG:hasTurn rdf:type owl:ObjectProperty ;
+               rdfs:domain pkmnTCG:GameAction ;
+               rdfs:range pkmnTCG:Turn ;
+               rdfs:comment "Collega un'azione di gioco al turno in cui è stata eseguita."@it .
+
+
+pkmnTCG:hasSourcePokemon rdf:type owl:ObjectProperty ;
+    rdfs:domain pkmnTCG:PlayAbilityAction ;
+    rdfs:range pkmnTCG:PokemonCard ;
+    rdfs:comment "Indica il Pokémon che ha eseguito l'abilità."@it .
+
+
+pkmnTCG:affects rdf:type owl:ObjectProperty ;
+    rdfs:domain pkmnTCG:GameAction ;
+    rdfs:range owl:Thing ;
+    rdfs:comment "La risorsa su cui un'azione di gioco ha effetto (può essere una carta, un'abilità, un attacco, ecc.)."@it .
+
+
+pkmnTCG:targetsPokemon rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf pkmnTCG:affects ;
+    rdfs:domain pkmnTCG:AttackAction ;
+    rdfs:range pkmnTCG:PokemonCard ;
+    rdfs:comment "Indica il Pokémon bersaglio di un'azione di attacco."@it .
+
+
+pkmnTCG:targetsCard rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf pkmnTCG:affects ;
+    rdfs:domain pkmnTCG:DiscardAction ;
+    rdfs:range pkmnTCG:Card ;
+    rdfs:comment "Indica la carta specifica bersaglio di un'azione di scarto."@it .
+
+
+pkmnTCG:drawsFromZone rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf pkmnTCG:affects ;
+    rdfs:domain pkmnTCG:DrawAction ;
+    rdfs:range pkmnTCG:DeckZone ;
+    rdfs:comment "Indica la zona (il mazzo) da cui un'azione pesca le carte."@it .
+
+
+pkmnTCG:evolvesPokemon rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf pkmnTCG:affects ;
+    rdfs:domain pkmnTCG:EvolvePokemonAction ;
+    rdfs:range pkmnTCG:PokemonCard ;
+    rdfs:comment "Indica il Pokémon specifico che viene fatto evolvere."@it .
+
+
+pkmnTCG:playsToZone rdf:type owl:ObjectProperty ;
+    rdfs:domain pkmnTCG:PlayCardAction ;
+    rdfs:range pkmnTCG:Zone ;
+    rdfs:comment "Indica la zona di destinazione in cui una carta viene giocata."@it .
+
+
+#################################################################
+#    Classe: Energy
+#################################################################
+
+###  http://example.org/pkmnTCG#Energy
+pkmnTCG:Energy rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Class ;
+                                     owl:oneOf ( pkmnTCG:Colorless
+                                                 pkmnTCG:Darkness
+                                                 pkmnTCG:Dragon
+                                                 pkmnTCG:Fairy
+                                                 pkmnTCG:Fighting
+                                                 pkmnTCG:Fire
+                                                 pkmnTCG:Grass
+                                                 pkmnTCG:Lightning
+                                                 pkmnTCG:Metal
+                                                 pkmnTCG:Psychic
+                                                 pkmnTCG:Water
+                                               )
+                                   ] ;
+               rdfs:comment "Tipi di energia"@it ;
+               rdfs:label "Energy"@en ;
+               rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Type_(TCG)> .
+
+###  Schema di concetti per le energie
+pkmnTCG:EnergyConceptScheme a skos:ConceptScheme ;
+    rdfs:label "Tipi di Energia del GCC Pokémon"@it ;
+    skos:definition "Uno schema di concetti per i tipi di energia nel Gioco di Carte Collezionabili Pokémon."@it .
+
+
+###  Individui di Energy
+pkmnTCG:Colorless rdf:type owl:NamedIndividual ,
+                           pkmnTCG:Energy ,
+                           skos:Concept ;
+                  rdfs:label "Colorless"@en ;
+                  rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Colorless_Energy_(TCG)> ;
+                  skos:inScheme pkmnTCG:EnergyConceptScheme .
+
+
+pkmnTCG:Darkness rdf:type owl:NamedIndividual ,
+                          pkmnTCG:Energy ,
+                          skos:Concept ;
+                 rdfs:label "Darkness"@en ;
+                 rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Darkness_Energy_(TCG)> ;
+                 skos:inScheme pkmnTCG:EnergyConceptScheme .
+
+
+pkmnTCG:Dragon rdf:type owl:NamedIndividual ,
+                        pkmnTCG:Energy ,
+                        skos:Concept ;
+               rdfs:label "Dragon"@en ;
+               rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Dragon_Energy_card_(TCG)> ;
+               skos:inScheme pkmnTCG:EnergyConceptScheme .
+
+
+pkmnTCG:Fairy rdf:type owl:NamedIndividual ,
+                       pkmnTCG:Energy ,
+                       skos:Concept ;
+              rdfs:label "Fairy"@en ;
+              rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Fairy_Energy_(TCG)> ;
+              skos:inScheme pkmnTCG:EnergyConceptScheme .
+
+
+pkmnTCG:Fighting rdf:type owl:NamedIndividual ,
+                          pkmnTCG:Energy ,
+                          skos:Concept ;
+                 rdfs:label "Fighting"@en ;
+                 rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Fighting_Energy_(TCG)> ;
+                 skos:inScheme pkmnTCG:EnergyConceptScheme .
+
+
+pkmnTCG:Fire rdf:type owl:NamedIndividual ,
+                      pkmnTCG:Energy ,
+                      skos:Concept ;
+             rdfs:label "Fire"@en ;
+             rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Fire_Energy_(TCG)> ;
+             skos:inScheme pkmnTCG:EnergyConceptScheme .
+
+
+pkmnTCG:Grass rdf:type owl:NamedIndividual ,
+                       pkmnTCG:Energy ,
+                       skos:Concept ;
+              rdfs:label "Grass"@en ;
+              rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Grass_Energy_(TCG)> ;
+              skos:inScheme pkmnTCG:EnergyConceptScheme .
+
+
+pkmnTCG:Lightning rdf:type owl:NamedIndividual ,
+                           pkmnTCG:Energy ,
+                           skos:Concept ;
+                  rdfs:label "Lightning"@en ;
+                  rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Lightning_Energy_(TCG)> ;
+                  skos:inScheme pkmnTCG:EnergyConceptScheme .
+
+
+pkmnTCG:Metal rdf:type owl:NamedIndividual ,
+                       pkmnTCG:Energy ,
+                       skos:Concept ;
+              rdfs:label "Metal"@en ;
+              rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Metal_Energy_(TCG)> ;
+              skos:inScheme pkmnTCG:EnergyConceptScheme .
+
+
+pkmnTCG:Psychic rdf:type owl:NamedIndividual ,
+                         pkmnTCG:Energy ,
+                         skos:Concept ;
+                rdfs:label "Psychic"@en ;
+                rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Psychic_Energy_(TCG)> ;
+                skos:inScheme pkmnTCG:EnergyConceptScheme .
+
+
+pkmnTCG:Water rdf:type owl:NamedIndividual ,
+                       pkmnTCG:Energy ,
+                       skos:Concept ;
+              rdfs:label "Water"@en ;
+              rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Water_Energy_(TCG)> ;
+              skos:inScheme pkmnTCG:EnergyConceptScheme .
+
+
+#################################################################
+#    Class: Player
+#################################################################
+
+###  http://example.org/pkmnTCG#Player
+pkmnTCG:Player rdfs:subClassOf bgo:Player ;
+               rdfs:comment "Il giocatore nel TCG Pokémon, mappato al concetto generico di Player della BGO."@it .
+
+
+###  Proprietà collegate a Player
+pkmnTCG:hasZone rdf:type owl:ObjectProperty ;
+                rdfs:domain pkmnTCG:Player ;
+                rdfs:range pkmnTCG:Zone .
+
+
+#################################################################
+#    Class: Pokemon
+#################################################################
+
+###  http://example.org/pkmnTCG#Pokemon
+pkmnTCG:Pokemon rdf:type owl:Class ;
+                rdfs:comment "Un'entità concettuale, come Charizard, che può avere più carte rappresentative."@it ;
+                rdfs:label "Pokémon entity"@en ;
+                rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_(TCG)> .
+
+
+#################################################################
+#    Class: Set
+#################################################################
+
+###  http://example.org/pkmnTCG#Set
+pkmnTCG:Set rdf:type owl:Class ;
+            rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Trading_Card_Game#International_sets> .
+
+
+#################################################################
+#    Class: Status
+#################################################################
+
+###  http://example.org/pkmnTCG#Status
+pkmnTCG:Status rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Class ;
+                                     owl:oneOf ( pkmnTCG:Asleep
+                                                 pkmnTCG:Burned
+                                                 pkmnTCG:Confused
+                                                 pkmnTCG:Paralyzed
+                                                 pkmnTCG:Poisoned
+                                               )
+                                   ] ;
+               rdfs:comment "Pokémon status conditions in the TCG."@en ;
+               rdfs:label "Status Condition"@en ;
+               rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Special_Condition_(TCG)> .
+
+
+###  Individui di Status
+pkmnTCG:Asleep rdf:type owl:NamedIndividual ,
+                        pkmnTCG:Status ;
+               rdfs:label "Asleep"@en ;
+               rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Sleep_(status_condition)#In_the_TCG> .
+
+
+pkmnTCG:Burned rdf:type owl:NamedIndividual ,
+                        pkmnTCG:Status ;
+               rdfs:label "Burned"@en ;
+               rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Burn_(status_condition)#In_the_TCG> .
+
+
+pkmnTCG:Confused rdf:type owl:NamedIndividual ,
+                          pkmnTCG:Status ;
+                 rdfs:label "Confused"@en ;
+                 rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Special_Condition_(TCG)#Confused> .
+
+
+pkmnTCG:Paralyzed rdf:type owl:NamedIndividual ,
+                           pkmnTCG:Status ;
+                  rdfs:label "Paralyzed"@en ;
+                  rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Paralysis_(status_condition)#In_the_TCG> .
+
+
+pkmnTCG:Poisoned rdf:type owl:NamedIndividual ,
+                          pkmnTCG:Status ;
+                 rdfs:label "Poisoned"@en ;
+                 rdfs:seeAlso <https://bulbapedia.bulbagarden.net/wiki/Poison_(status_condition)#In_the_TCG> .
+
+
+#################################################################
+#    General Axioms
+#################################################################
+
+
+# Una property chain che realizza Deck -> Entry -> Card
+pkmnTCG:hasCardInDeck a owl:ObjectProperty ;
+  rdfs:subPropertyOf bgo:hasCard ;
+  owl:propertyChainAxiom ( pkmnTCG:hasDeckEntry pkmnTCG:entryCard ) ;
+  rdfs:comment "Se un Deck ha una DeckEntry e quella DeckEntry ha una entryCard, allora il Deck haCard quella carta."@it .
+
+
+#################################################################
+#    Classi di inferenza
+#################################################################
+
+
+pkmnTCG:hasBasicPokemon rdf:type owl:Class ;
+                      rdfs:subClassOf pkmnTCG:Deck ;
+                      rdfs:comment "Una classe che raggruppa tutti i mazzi che contengono almeno un Pokémon Base."@it .
+
+pkmnTCG:hasValidEffect rdf:type owl:Class ;
+                      rdfs:subClassOf pkmnTCG:TrainerCard ;
+                      rdfs:comment "Una classe che raggruppa tutte le carte Trainer che hanno un effetto valido."@it .
+
+pkmnTCG:InvalidBasicEnergyCard rdf:type owl:Class ;
+                               rdfs:subClassOf pkmnTCG:EnergyCard ;
+                               rdfs:comment "Una classe che raggruppa le carte Energia di tipo Base che violano la regola di non avere effetti."@it .
+
+pkmnTCG:InvalidEvolvePokemonAction rdf:type owl:Class ;
+                                   rdfs:subClassOf pkmnTCG:EvolvePokemonAction ;
+                                   rdfs:comment "Una classe che raggruppa le azioni di evoluzione che sono considerate non valide."@it .
+
+pkmnTCG:ValidPlayAbilityAction rdf:type owl:Class ;
+                               rdfs:subClassOf pkmnTCG:PlayAbilityAction ;
+                               rdfs:comment "Una classe che raggruppa le azioni di abilità che sono considerate valide."@it .
+
+pkmnTCG:InvalidGameAction rdf:type owl:Class ;
+                         rdfs:subClassOf pkmnTCG:GameAction ;
+                         rdfs:comment "Una classe che raggruppa le azioni di gioco che non sono state eseguite dal giocatore attivo."@it .
+
+pkmnTCG:PokemonInInvalidZone rdf:type owl:Class ;
+                             rdfs:subClassOf pkmnTCG:PokemonCard ;
+                             rdfs:comment "Una classe che raggruppa i Pokémon che hanno carte attaccate in una zona non di gioco."@it .
+
+pkmnTCG:InvalidPlayStadiumAction rdf:type owl:Class ;
+                                 rdfs:subClassOf pkmnTCG:PlayCardAction ;
+                                 rdfs:comment "Una classe che raggruppa le azioni di gioco di una carta Stadio in una zona diversa dalla GameZone."@it .
+

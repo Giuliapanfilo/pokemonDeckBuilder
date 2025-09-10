@@ -1,0 +1,13 @@
+{
+	"prefixes": {
+		"pkmnTCG": "http://example.org/pkmnTCG#",
+		"swrlb":   "http://www.w3.org/2003/11/swrlb#"
+	},
+	"rules": [
+		{
+			"id": "playability_valid",
+			"label": "PlayAbility valida se il Pokémon è InGame e possiede l’abilità",
+			"rule": "pkmnTCG:PlayAbilityAction(?act) ^ pkmnTCG:hasSourcePokemon(?act, ?p) ^ pkmnTCG:affects(?act, ?ability) ^ pkmnTCG:hasAbility(?p, ?ability) ^ pkmnTCG:InGameCard(?p) -> pkmnTCG:ValidPlayAbilityAction(?act)"
+		}
+	]
+}

@@ -1,0 +1,329 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix pkmnTCG: <http://example.org/pkmnTCG#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#
+# Vincoli sui mazzi (Deck)
+#
+
+# 1. Ogni mazzo deve avere esattamente 60 carte.
+pkmnTCG:DeckCardCountShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:Deck ;
+    sh:message "Ogni mazzo deve avere esattamente 60 carte."@it ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:select """
+            SELECT $this
+            WHERE {
+                $this pkmnTCG:hasDeckEntry ?entry .
+                ?entry pkmnTCG:entryQuantity ?qty .
+            }
+            GROUP BY $this
+            HAVING (SUM(?qty) != 60)
+        """
+    ] .
+
+# 2. Non più di 4 copie per nome di carta (eccetto Basic Energy).
+pkmnTCG:DeckCardCopyCountShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:Deck ;
+    sh:message "Non più di 4 copie per carta (eccetto le energie base)."@it ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:select """
+            SELECT $this ?cardName
+            WHERE {
+                $this pkmnTCG:hasDeckEntry ?entry .
+                ?entry pkmnTCG:entryCard ?card ;
+                       pkmnTCG:entryQuantity ?qty .
+                ?card pkmnTCG:hasName ?cardName .
+                FILTER NOT EXISTS {
+                    ?card a pkmnTCG:EnergyCard ;
+                          pkmnTCG:hasSubType "Basic" .
+                }
+            }
+            GROUP BY $this ?cardName
+            HAVING (SUM(?qty) > 4)
+        """
+    ] .
+
+# 3. L'esistenza di un Pokémon evoluto richiede la presenza della sua pre-evoluzione.
+pkmnTCG:EvolutionChainShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:Deck ;
+    sh:message "Ogni Pokémon evoluto presente nel mazzo deve avere anche la sua pre-evoluzione per garantire la giocabilità."@it ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:select """
+            SELECT $this ?evolvedPokemon
+            WHERE {
+                $this pkmnTCG:hasDeckEntry ?entry .
+                ?entry pkmnTCG:entryCard ?evolvedCard .
+                ?evolvedCard pkmnTCG:represents ?evolvedPokemon .
+
+                ?evolvedPokemon a pkmnTCG:Pokemon ;
+                                pkmnTCG:hasPreEvolution ?preEvolution .
+
+                FILTER NOT EXISTS {
+                    $this pkmnTCG:hasDeckEntry ?preEntry .
+                    ?preEntry pkmnTCG:entryCard ?preCard .
+                    ?preCard pkmnTCG:represents ?preEvolution .
+                }
+            }
+        """
+    ] .
+
+#Variante catena evolutiva
+pkmnTCG:EvolutionChainShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:Deck ;
+    sh:message "Ogni Pokémon evoluto presente nel mazzo deve includere tutte le sue pre-evoluzioni (Stage 1 e/o Base) nella stessa lista."@it ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:select """
+            SELECT $this ?evolvedPokemon ?missingAncestor
+            WHERE {
+              # Consideriamo le carte nel mazzo corrente
+              $this pkmnTCG:hasDeckEntry ?entry .
+              ?entry pkmnTCG:entryCard ?card .
+              ?card  pkmnTCG:represents ?evolvedPokemon .
+              ?evolvedPokemon a pkmnTCG:Pokemon .
+
+              # Prendiamo TUTTI gli antenati evolutivi (uno o più passi indietro)
+              # Se il Pokémon è Basic (senza pre-evoluzione) questa riga non matcha.
+              ?evolvedPokemon pkmnTCG:hasPreEvolution ?missingAncestor .
+              ?missingAncestor a pkmnTCG:Pokemon .
+
+              FILTER NOT EXISTS {
+                $this pkmnTCG:hasDeckEntry ?preEntry .
+                ?preEntry pkmnTCG:entryCard ?preCard .
+                ?preCard  pkmnTCG:represents ?missingAncestor .
+              }
+            }
+        """
+    ] .
+
+#
+# Vincoli sulle carte (Card)
+#
+
+# 4. EnergyCard non-Basic: devono avere almeno 1 effetto
+pkmnTCG:NonBasicEnergyCardEffectShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:EnergyCard ;
+    sh:message "Le EnergyCard non-Basic devono avere almeno 1 effetto."@it ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:select """
+            SELECT $this
+            WHERE {
+                $this a pkmnTCG:EnergyCard .
+                FILTER NOT EXISTS { $this pkmnTCG:hasSubType "Basic" }
+                FILTER NOT EXISTS { $this pkmnTCG:hasEffect ?effect }
+            }
+        """
+    ] .
+
+#
+# Vincoli dinamici sul gioco (Game State)
+#
+
+# 5. Massimo 1 carta Stadio nella GameZone globale.
+pkmnTCG:GameZoneStadiumShape
+    a sh:NodeShape ;
+    sh:targetNode pkmnTCG:GameZone ;
+    sh:message "Ci può essere al massimo 1 carta Stadio nella GameZone. Le carte trovate sono: {$c1}, {$c2}."@it ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:select """
+            SELECT ?c1 ?c2
+            WHERE {
+              ?c1 a pkmnTCG:TrainerCard ;
+                  pkmnTCG:hasSubType "Stadium" .
+              ?c2 a pkmnTCG:TrainerCard ;
+                  pkmnTCG:hasSubType "Stadium" .
+              pkmnTCG:GameZone pkmnTCG:hasCard ?c1, ?c2 .
+              FILTER(?c1 != ?c2)
+            }
+        """
+    ] .
+
+# 6. PlayCardAction: max 1 carta Energy/Stadium/Supporter per turno.
+pkmnTCG:PlayCardLimitShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:PlayCardAction ;
+    sh:message "Massimo 1 carta di tipo Energia, Stadio o Supporter per turno e per giocatore."@it ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:select """
+            SELECT ?this WHERE {
+              ?this a pkmnTCG:PlayCardAction ;
+                    pkmnTCG:Turn ?Turn ;
+                    pkmnTCG:affects ?card ;
+                    pkmnTCG:performedBy ?player .
+              ?card a pkmnTCG:Card .
+
+              { ?card a pkmnTCG:EnergyCard . BIND("Energy" AS ?cat) }
+              UNION
+              { ?card a pkmnTCG:TrainerCard ; pkmnTCG:hasSubType "Stadium" . BIND("Stadium" AS ?cat) }
+              UNION
+              { ?card a pkmnTCG:TrainerCard ; pkmnTCG:hasSubType "Supporter" . BIND("Supporter" AS ?cat) }
+
+              FILTER EXISTS {
+                SELECT ?Turn ?player ?cat (COUNT(?a) AS ?n)
+                WHERE {
+                  ?a a pkmnTCG:PlayCardAction ;
+                    pkmnTCG:Turn ?Turn ;
+                    pkmnTCG:affects ?c ;
+                    pkmnTCG:performedBy ?player .
+                  ?c a pkmnTCG:Card .
+                  { ?c a pkmnTCG:EnergyCard . BIND("Energy" AS ?cat) }
+                  UNION
+                  { ?c a pkmnTCG:TrainerCard ; pkmnTCG:hasSubType "Stadium" . BIND("Stadium" AS ?cat) }
+                  UNION
+                  { ?c a pkmnTCG:TrainerCard ; pkmnTCG:hasSubType "Supporter" . BIND("Supporter" AS ?cat) }
+                }
+                GROUP BY ?Turn ?player ?cat
+                HAVING (?n > 1)
+              }
+            }
+        """
+    ] .
+
+
+# 7a. Ritirata: massimo una per turno
+pkmnTCG:RetreatOncePerTurnShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:RetreatPokemonAction ;
+    sh:message "Errore: non puoi ritirare più di una volta per turno."@it ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:select """
+            SELECT ?turn
+            WHERE {
+                ?action a pkmnTCG:RetreatPokemonAction ;
+                        pkmnTCG:Turn ?Turn .
+            }
+            GROUP BY ?turn
+            HAVING(COUNT(?action) > 1)
+        """
+    ] .
+
+
+# 7b. Ritirata: energie non sufficienti
+pkmnTCG:RetreatEnergyCostShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:RetreatPokemonAction ;
+    sh:message "Errore: energie non sufficienti per pagare il costo di ritirata."@it ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:select """
+            SELECT $this
+            WHERE {
+                $this pkmnTCG:affects ?pokemon .
+                ?pokemon pkmnTCG:hasRetreatCost ?cost .
+
+                {
+                    SELECT (COUNT(?energy) AS ?attachedEnergy)
+                    WHERE {
+                        ?pokemon pkmnTCG:hasAttachedCard ?energy .
+                        ?energy a pkmnTCG:EnergyCard .
+                    }
+                }
+
+                {
+                    SELECT (SUM(?needed) AS ?totalCost)
+                    WHERE {
+                        ?cost pkmnTCG:costQuantity ?needed .
+                    }
+                }
+                FILTER(?attachedEnergy < ?totalCost)
+            }
+        """
+    ] .
+
+
+# 8. PlayAbility: non usare la stessa abilità più di una volta per turno
+pkmnTCG:PlayAbilityOncePerTurnShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:PlayAbilityAction ;
+    sh:message "Errore: questa abilità è già stata usata in questo turno."@it ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:select """
+            SELECT ?Turn ?ability
+            WHERE {
+                $this pkmnTCG:Turn ?Turn ;
+                      pkmnTCG:affects ?ability .
+            }
+            GROUP BY ?Turn ?ability
+            HAVING (COUNT($this) > 1)
+        """
+    ] .
+
+
+# 9. AttackAction: il Pokémon non ha abbastanza energie per usare l'attacco
+pkmnTCG:AttackActionShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:AttackAction ;
+    sh:message "Il Pokémon non ha abbastanza energie per usare l'attacco."@it ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:select """
+            SELECT $this
+            WHERE {
+                $this pkmnTCG:affects ?pokemon ;
+                      pkmnTCG:affects ?attack .
+                ?pokemon a pkmnTCG:PokemonCard .
+                ?attack a pkmnTCG:Attack ;
+                        pkmnTCG:attackCost ?cost .
+
+                {
+                    SELECT (COUNT(?energy) AS ?attachedEnergy)
+                    WHERE {
+                        ?pokemon pkmnTCG:hasAttachedCard ?energy .
+                        ?energy a pkmnTCG:EnergyCard .
+                    }
+                }
+
+                {
+                    SELECT (SUM(?needed) AS ?totalCost)
+                    WHERE {
+                        ?cost pkmnTCG:costQuantity ?needed .
+                    }
+                }
+                FILTER(?attachedEnergy < ?totalCost)
+            }
+        """
+    ] .
+
+
+# 10. Ogni AttackAction deve avere almeno un bersaglio.
+pkmnTCG:AttackActionTargetShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:AttackAction ;
+    sh:message "Un'azione di attacco deve avere almeno un Pokémon come bersaglio."@it ;
+    sh:property [
+        sh:path pkmnTCG:targetsPokemon ;
+        sh:minCount 1 ;
+    ] .
+
+
+# 11. Ogni DiscardAction deve specificare almeno una carta da scartare dalla HandZone.
+pkmnTCG:DiscardActionTargetShape
+    a sh:NodeShape ;
+    sh:targetClass pkmnTCG:DiscardAction ;
+    sh:message "Un'azione di scarto deve avere come bersaglio almeno una carta, e tale carta deve trovarsi nella mano del giocatore (HandZone)."@it ;
+    sh:property [
+        sh:path pkmnTCG:targetsCard ;
+        sh:minCount 1 ;
+
+        # Questo vincolo si applica a ogni carta trovata tramite con sh:path
+        sh:node [
+            sh:property [
+                sh:path pkmnTCG:inZone ;
+                sh:hasValue pkmnTCG:HandZone ;
+            ]
+        ]
+    ] .

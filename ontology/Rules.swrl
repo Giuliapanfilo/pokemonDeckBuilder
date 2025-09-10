@@ -1,0 +1,147 @@
+@prefix pkmnTCG: <http://example.org/pkmnTCG#> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
+
+#################################################################
+# 3. Almeno 1 Pokémon Base per mazzo.
+#
+# Spiegazione:
+# Questo vincolo SHACL verifica l'esistenza di almeno un Pokémon
+# di base all'interno del mazzo. 
+#
+# Logica della regola:
+# SE un individuo (?d) è un mazzo (pkmnTCG:Deck)
+# E ha una riga (?e) con una carta (?c)
+# E quella carta è un Pokémon (?c, pkmnTCG:PokemonCard)
+# E quel Pokémon ha il sottotipo "Basic"
+# ALLORA inferisci che il mazzo ha almeno un Pokémon di base.
+#################################################################
+pkmnTCG:Deck(?d)
+^ pkmnTCG:hasDeckEntry(?d, ?e)
+^ pkmnTCG:entryCard(?e, ?c)
+^ pkmnTCG:PokemonCard(?c)
+^ pkmnTCG:hasSubType(?c, "Basic")
+-> pkmnTCG:hasBasicPokemon(?d)
+
+
+#################################################################
+# 6. Ogni TrainerCard deve avere almeno 1 hasEffect.
+#
+# Spiegazione:
+# La regola qui sotto inferisce che una carta Trainer
+# ha un effetto valido se la proprietà "hasEffect" è presente.
+#
+# Logica della regola:
+# SE una carta (?c) è una TrainerCard E ha un effetto (?e),
+# ALLORA inferisci che quella carta ha un effetto valido.
+#################################################################
+pkmnTCG:TrainerCard(?c) 
+^ pkmnTCG:hasEffect(?c, ?e) 
+-> pkmnTCG:hasValidEffect(?c)
+
+
+#################################################################
+# 7a. EnergyCard di tipo Basic: non devono avere effetti.
+#
+# Logica della regola:
+# SE una carta (?c) è una EnergyCard E ha il sottotipo "Basic"
+# E ha un effetto (?e)
+# ALLORA inferisci che la carta è un'istanza della classe
+# "InvalidBasicEnergyCard".
+#################################################################
+pkmnTCG:EnergyCard(?c) 
+^ pkmnTCG:hasSubType(?c, "Basic") 
+^ pkmnTCG:hasEffect(?c, ?e) 
+-> pkmnTCG:InvalidBasicEnergyCard(?c)
+
+
+#################################################################
+# 12. EvolvePokemonAction: un Pokémon non può evolversi nello
+# stesso turno in cui è stato giocato.
+#
+# Logica della regola:
+# SE un'azione (?a) è di tipo "EvolvePokemonAction"
+# E riguarda un Pokémon (?p)
+# E l'azione si svolge nel turno (?et)
+# E il Pokémon è stato giocato nel turno (?pt)
+# E i due turni sono uguali
+# ALLORA inferisci che l'azione è non valida.
+#################################################################
+pkmnTCG:EvolvePokemonAction(?a)
+^ pkmnTCG:evolvesPokemon(?a, ?p)
+^ pkmnTCG:Turn(?a, ?et)
+^ pkmnTCG:playedOnTurn(?p, ?pt)
+^ swrlb:equal(?et, ?pt)
+-> pkmnTCG:InvalidEvolvePokemonAction(?a)
+
+
+#################################################################
+# 14b. PlayAbility: il Pokémon deve essere in gioco e avere l’abilità
+#
+# Logica della regola:
+# SE un'azione (?a) è di tipo "PlayAbilityAction"
+# E riguarda un'abilità (?ab)
+# E proviene da un Pokémon (?p)
+# E il Pokémon ha l'abilità (?ab)
+# E il Pokémon si trova in una zona (?z)
+# E quella zona è una zona di gioco (isInGame = true)
+# ALLORA inferisci che l'azione è un'istanza della classe "ValidPlayAbilityAction".
+#################################################################
+pkmnTCG:PlayAbilityAction(?a)
+^ pkmnTCG:affects(?a, ?ab)
+^ pkmnTCG:hasSourcePokemon(?a, ?p)
+^ pkmnTCG:hasAbility(?p, ?ab)
+^ pkmnTCG:inZone(?p, ?z)
+^ pkmnTCG:isInGame(?z, "true"^^xsd:boolean)
+-> pkmnTCG:ValidPlayAbilityAction(?a)
+
+
+#################################################################
+# 16. GameAction: deve essere eseguita solo durante il proprio turno.
+#
+# Logica della regola (corretta):
+# SE un'azione (?a) è di tipo "GameAction"
+# E ha una relazione "hasTurn" con un turno (?t)
+# E il giocatore che l'ha eseguita (?p) non è uguale al giocatore
+# attivo del turno (?ap)
+# ALLORA inferisci che l'azione è non valida.
+#################################################################
+pkmnTCG:GameAction(?a)
+^ pkmnTCG:hasTurn(?a, ?t)
+^ pkmnTCG:performedBy(?a, ?p)
+^ pkmnTCG:hasActivePlayer(?t, ?ap)
+^ swrlb:notEqual(?p, ?ap)
+-> pkmnTCG:InvalidGameAction(?a)
+
+
+#################################################################
+# 17. Pokémon con carte attaccate solo in zone attive.
+#
+# Logica della regola:
+# SE un Pokémon (?p) ha una carta attaccata (?c)
+# E non è vero che il Pokémon si trova in una zona che è nel gioco
+# ALLORA inferisci che il Pokémon ha una violazione.
+#################################################################
+pkmnTCG:PokemonCard(?p)
+^ pkmnTCG:hasAttachedCard(?p, ?c)
+^ not(
+    pkmnTCG:inZone(?p, ?z)
+    ^ pkmnTCG:isInGame(?z, "true"^^xsd:boolean)
+  )
+-> pkmnTCG:PokemonInInvalidZone(?p)
+
+#################################################################
+# 19. Le carte Stadio devono essere giocate nella GameZone.
+#
+# Logica della regola:
+# SE un'azione (?a) è di tipo "PlayCardAction"
+# E la carta giocata (?c) è una TrainerCard di tipo Stadio
+# E la zona di destinazione (?z) non è la GameZone
+# ALLORA inferisci che l'azione è non valida.
+#################################################################
+pkmnTCG:PlayCardAction(?a)
+^ pkmnTCG:affects(?a, ?c)
+^ pkmnTCG:hasSubType(?c, "Stadium")
+^ pkmnTCG:playsToZone(?a, ?z)
+^ swrlb:notEqual(?z, pkmnTCG:GameZone)
+-> pkmnTCG:InvalidPlayStadiumAction(?a)
